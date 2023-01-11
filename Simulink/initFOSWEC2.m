@@ -3,12 +3,17 @@ clear; clc; close all
 %% Set model parameters
 disp('*** Setting model parameters')
 Ts = 0.001;
+period = 1; % period for sine wave
 
 %% Define file and model names
 appName = 'FOSWEC2app.mlapp';
 mdlName = 'FOSWEC2';
 buildDir = fullfile('C:','SimulinkBuild');
 tgName = 'performance3';
+
+%% Physical constants
+aftKt = 0.9636; % from report and pendulum branch of FOSWEC2Update git
+bowKt = 0.9438; 
 
 mdlInfo = Simulink.MDLInfo(mdlName);
 mdlVersion = mdlInfo.ModelVersion;
@@ -20,6 +25,7 @@ open_system(mdlName);
 %% Load input signals
 disp('*** Load Input Command Signals ***')
 load('utils/commandSignals.mat');
+commandSigs = modifySine(commandSigs,period);
 waveform = commandSigs;
 set_param(mdlName,'ExternalInput','waveform');
 
@@ -37,3 +43,19 @@ slbuild(mdlName)
 %% Open the app
 disp('*** Start user app ***')
 run(appName)
+
+
+
+function commandSigs = modifySine(commandSigs,period)
+
+sineDuration = 180;
+initLength = 10;
+fs = 1000;
+amp = 1;  % Leave this at 1 and change in App
+t = 1/fs:1/fs:sineDuration;
+sine = amp .* sin(2*pi./period*t);
+sine = [zeros(1,fs*initLength) sine];
+t = 1/fs:1/fs:length(sine)/fs;
+sig.Sine = timeseries(sine,t);
+commandSigs = commandSigs.setElement(2,sig.Sine,'Sine');
+end
