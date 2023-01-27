@@ -2,6 +2,7 @@ clear; clc; close all
 
 %% Set model parameters
 disp('*** Setting model parameters')
+load('FOSWECparameters.mat');
 Ts = 0.001;
 period = 1; % period for sine wave
 
@@ -9,11 +10,12 @@ period = 1; % period for sine wave
 appName = 'FOSWEC2app.mlapp';
 mdlName = 'FOSWEC2';
 buildDir = fullfile('C:','SimulinkBuild');
-tgName = 'performance3';
+tgName = 'performance2';
 
-%% Physical constants
-aftKt = 0.9636; % from report and pendulum branch of FOSWEC2Update git
-bowKt = 0.9438; 
+%% === load excel gains =======================================
+gainTstep = 1.875*20; % time between change in gains (s) (Represents the wave period times 20 waves)
+ExcelGains = readtable('utils/ExcelGains/dampOnly_20230124.xlsx');  % read from excel spreadsheet gain values
+ExcelGains = table2array(ExcelGains);
 
 mdlInfo = Simulink.MDLInfo(mdlName);
 mdlVersion = mdlInfo.ModelVersion;

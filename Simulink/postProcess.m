@@ -1,4 +1,4 @@
-tgName = 'performance3';
+tgName = 'performance2';
 buildDir = fullfile('C:','SimulinkBuild');
 mdlName = 'FOSWEC2';
 
