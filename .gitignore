@@ -5,5 +5,10 @@ Simulink/*.cpp
 Simulink/*.asv
 Simulink/*.mldatx
 Simulink/*.mat
+Simulink/IMUParser*
+Simulink/rtwmakecfg.m
 Simulink/utils/*.mat
 Simulink/utils/*.asv
+Simulink/utils/IMUParser*
+Simulink/utils/ecat_config_xml_0.cpp
+Simulink/utils/rtwmakecfg.m
