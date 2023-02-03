@@ -1,6 +1,7 @@
 clear; clc; close all
 
 %% Set model parameters
+addpath(genpath('utils'))
 disp('*** Setting model parameters')
 load('FOSWECparameters.mat');
 Ts = 0.001;
