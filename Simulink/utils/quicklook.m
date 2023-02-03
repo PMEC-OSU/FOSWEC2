@@ -77,36 +77,6 @@ xlabel('time(s)')
 title('Bow')
 sgtitle('Motor Power')
 
-% figure
-% subplot(221)
-% plot(output.time,output.flap.aftLoadCell(:,1:3))
-% ylabel('F(N)')
-% title('Aft')
-% legend('Fx','Fy','Fz')
-% 
-% subplot(222)
-% plot(output.time,output.flap.aftLoadCell(:,4:6))
-% ylabel('\tau(Nm)')
-% title('Aft')
-% legend('\taux','\tauy','\tauz')
-
-figure
-subplot(211)
-plot(output.time,output.flap.bowLoadCell(:,1:3))
-ylabel('F(N)')
-title('Bow')
-legend('Fx','Fy','Fz')
-grid on
-
-subplot(212)
-plot(output.time,output.flap.bowLoadCell(:,4:6))
-ylabel('\tau(Nm)')
-title('Bow')
-legend('\taux','\tauy','\tauz')
-grid on
-sgtitle('Bow load cell forces and torques')
-
-
 figure
 subplot(211)
 plot(output.time,output.flap.aftFlap_rad)
@@ -147,3 +117,27 @@ ylabel('pressure(Pa)')
 legend('Aft Port','Aft Starbord','Bow Port','Bow Starboard','Chassis')
 sgtitle('Pressures')
 
+
+figure
+subplot(211)
+plot(output.time,output.flap.bowFx)
+hold on
+plot(output.time,output.flap.bowFy)
+plot(output.time,output.flap.bowFz)
+
+ylabel('F(N)')
+title('Bow')
+legend('Fx','Fy','Fz')
+grid on
+
+subplot(212)
+plot(output.time,output.flap.bowTx)
+hold on
+plot(output.time,output.flap.bowTy)
+plot(output.time,output.flap.bowTz)
+
+ylabel('\tau(Nm)')
+title('Bow')
+legend('\taux','\tauy','\tauz')
+grid on
+sgtitle('Bow load cell forces and torques')
