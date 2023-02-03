@@ -77,31 +77,34 @@ xlabel('time(s)')
 title('Bow')
 sgtitle('Motor Power')
 
+% figure
+% subplot(221)
+% plot(output.time,output.flap.aftLoadCell(:,1:3))
+% ylabel('F(N)')
+% title('Aft')
+% legend('Fx','Fy','Fz')
+% 
+% subplot(222)
+% plot(output.time,output.flap.aftLoadCell(:,4:6))
+% ylabel('\tau(Nm)')
+% title('Aft')
+% legend('\taux','\tauy','\tauz')
+
 figure
-subplot(221)
-plot(output.time,output.flap.aftLoadCell(:,1:3))
-ylabel('F(N)')
-title('Aft')
-legend('Fx','Fy','Fz')
-
-subplot(222)
-plot(output.time,output.flap.aftLoadCell(:,4:6))
-ylabel('\tau(Nm)')
-title('Aft')
-legend('\taux','\tauy','\tauz')
-
-subplot(223)
+subplot(211)
 plot(output.time,output.flap.bowLoadCell(:,1:3))
 ylabel('F(N)')
 title('Bow')
 legend('Fx','Fy','Fz')
+grid on
 
-subplot(224)
+subplot(212)
 plot(output.time,output.flap.bowLoadCell(:,4:6))
 ylabel('\tau(Nm)')
 title('Bow')
 legend('\taux','\tauy','\tauz')
-sgtitle('Load cell forces and torques')
+grid on
+sgtitle('Bow load cell forces and torques')
 
 
 figure
