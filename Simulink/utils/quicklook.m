@@ -64,6 +64,15 @@ title('Bow')
 sgtitle('Motor Angular Velocity')
 
 figure
+plot(output.time,output.motor.aftBus_V)
+hold on
+plot(output.time,output.motor.bowBus_V)
+ylabel('Bus (V)')
+xlabel('time(s)')
+title('Bus Voltage')
+legend('Aft','Bow')
+
+figure
 subplot(211)
 plot(output.time,output.motor.aftMotor_W)
 ylabel('P(W)')
