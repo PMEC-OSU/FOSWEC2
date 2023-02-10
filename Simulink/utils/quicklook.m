@@ -49,19 +49,15 @@ xlabel('time(s)')
 title('Bow')
 sgtitle('Motor Position')
 
-figure
-subplot(211)
-plot(output.time,output.motor.aftMotor_radpers)
-ylabel('\omega(rad/sec)')
-title('Aft')
 
-subplot(212)
-plot(output.time,output.motor.bowMotor_radpers)
+figure
+plot(output.time,output.motor.aftBus_V)
 hold on
-ylabel('\omega(rad/sec)')
+plot(output.time,output.motor.bowBus_V)
+ylabel('Bus (V)')
 xlabel('time(s)')
-title('Bow')
-sgtitle('Motor Angular Velocity')
+title('Bus Voltage')
+legend('Aft','Bow')
 
 figure
 subplot(211)
@@ -141,3 +137,22 @@ title('Bow')
 legend('\taux','\tauy','\tauz')
 grid on
 sgtitle('Bow load cell forces and torques')
+
+figure
+subplot(211)
+plot(output.time,output.motor.aftMotor_radpers)
+hold on
+plot(output.time,output.motor.aftMotorFilt_radpers)
+
+ylabel('\omega(rad/sec)')
+title('Aft')
+
+subplot(212)
+plot(output.time,output.motor.bowMotor_radpers)
+hold on
+plot(output.time,output.motor.bowMotorFilt_radpers)
+ylim([-20 20])
+ylabel('\omega(rad/sec)')
+xlabel('time(s)')
+title('Bow')
+sgtitle('Motor Angular Velocity')
