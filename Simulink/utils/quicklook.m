@@ -3,14 +3,14 @@ close all
 
 figure
 subplot(211)
-plot(output.time,output.motor.aftMeas_A)
+plot(output.time,output.motor.aftCurrent_A)
 hold on
 plot(output.time,output.target.aftTarget_A)
 ylabel('I(A)')
 title('Aft')
 
 subplot(212)
-plot(output.time,output.motor.bowMeas_A)
+plot(output.time,output.motor.bowCurrent_A)
 hold on
 plot(output.time,output.target.bowTarget_A)
 ylabel('I(A)')
@@ -20,14 +20,14 @@ sgtitle('Current')
 
 figure
 subplot(211)
-plot(output.time,output.motor.aftMeas_Nm)
+plot(output.time,output.motor.aftTorque_Nm)
 hold on
 plot(output.time,output.target.aftTarget_Nm)
 ylabel('\tau(Nm)')
 title('Aft')
 
 subplot(212)
-plot(output.time,output.motor.bowMeas_Nm)
+plot(output.time,output.motor.bowTorque_Nm)
 hold on
 plot(output.time,output.target.bowTarget_Nm)
 ylabel('\tau(Nm)')
@@ -37,12 +37,12 @@ sgtitle('Motor Torque')
 
 figure
 subplot(211)
-plot(output.time,output.motor.aftMotor_rad)
+plot(output.time,output.motor.aftRotation_rad)
 ylabel('\theta(rad)')
 title('Aft')
 
 subplot(212)
-plot(output.time,output.motor.bowMotor_rad)
+plot(output.time,output.motor.bowRotation_rad)
 hold on
 ylabel('\theta(rad)')
 xlabel('time(s)')
@@ -61,12 +61,12 @@ legend('Aft','Bow')
 
 figure
 subplot(211)
-plot(output.time,output.motor.aftMotor_W)
+plot(output.time,output.motor.aftPower_W)
 ylabel('P(W)')
 title('Aft')
 
 subplot(212)
-plot(output.time,output.motor.bowMotor_W)
+plot(output.time,output.motor.bowPower_W)
 hold on
 ylabel('P(W)')
 xlabel('time(s)')
@@ -140,17 +140,18 @@ sgtitle('Bow load cell forces and torques')
 
 figure
 subplot(211)
-plot(output.time,output.motor.aftMotor_radpers)
+plot(output.time,output.motor.aftRotVelPos_radpers)
 hold on
-plot(output.time,output.motor.aftMotorFilt_radpers)
+plot(output.time,output.motor.aftRotVelFilt_radpers)
 
 ylabel('\omega(rad/sec)')
 title('Aft')
 
 subplot(212)
-plot(output.time,output.motor.bowMotor_radpers)
+plot(output.time,output.motor.bowRotVelPos_radpers)
 hold on
-plot(output.time,output.motor.bowMotorFilt_radpers)
+plot(output.time,output.motor.bowRotVelFilt_radpers)
+% plot(output.time,output.motor.bowRotVel_radpers)
 ylim([-20 20])
 ylabel('\omega(rad/sec)')
 xlabel('time(s)')
