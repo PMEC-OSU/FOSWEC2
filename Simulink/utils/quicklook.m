@@ -143,6 +143,7 @@ subplot(211)
 plot(output.time,output.motor.aftRotVelPos_radpers)
 hold on
 plot(output.time,output.motor.aftRotVelFilt_radpers)
+plot(output.time,output.motor.aftRotVel_radpers)
 
 ylabel('\omega(rad/sec)')
 title('Aft')
@@ -151,7 +152,7 @@ subplot(212)
 plot(output.time,output.motor.bowRotVelPos_radpers)
 hold on
 plot(output.time,output.motor.bowRotVelFilt_radpers)
-% plot(output.time,output.motor.bowRotVel_radpers)
+plot(output.time,output.motor.bowRotVel_radpers)
 ylim([-20 20])
 ylabel('\omega(rad/sec)')
 xlabel('time(s)')
