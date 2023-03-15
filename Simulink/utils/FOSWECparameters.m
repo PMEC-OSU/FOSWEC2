@@ -6,7 +6,7 @@ Ts = 0.001;
 addpath('ATI_loadcells\')
 CalFileBow = parseXML('ATI_loadcells/FT30648.cal');
 % this needs to change when we get load cell back!!!!
-CalFileAft = parseXML('ATI_loadcells/FT30648.cal');
+CalFileAft = parseXML('ATI_loadcells/FT17382.cal');
 
 bow.LCmatrix = zeros(6);
 bow.LCmatrix = str2num(CalFileBow.FTSensor.Calibration.UserAxis.values);

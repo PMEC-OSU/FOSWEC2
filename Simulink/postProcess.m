@@ -67,6 +67,13 @@ output.timestamp.LocalTime = temp;
 projectName = app.ProjectEditField.Value;
 expname = app.ExperimentEditField.Value;
 trialnumber = app.TrialSpinner.Value;
+tet = app.TETsEditField.Value;
+
+output.projectName = projectName;
+output.expname = expname;
+output.trialnumber = trialnumber;
+output.tet = tet;
+
 
 trialname = ['\Trial',num2str(trialnumber,'%02d')];
 
