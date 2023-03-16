@@ -10,7 +10,7 @@ period = 1; % period for sine wave
 %% Define file and model names
 appName = 'FOSWEC2app.mlapp';
 mdlName = 'FOSWEC2';
-buildDir = fullfile('C:','SimulinkBuild');
+buildDir = fullfile('C:','simulink_build');
 tgName = 'performance2';
 
 %% === load excel gains =======================================
