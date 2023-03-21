@@ -106,7 +106,7 @@ plot(output.time,output.pressure.pressAftPort_Pa)
 hold on
 plot(output.time,output.pressure.pressAftStbd_Pa)
 plot(output.time,output.pressure.pressBowPort_Pa)
-plot(output.time,output.pressure.pressBowStbd_Pa)
+plot(output.time,output.pressure.pressBowStbd_PaMiniDAQ)
 plot(output.time,output.pressure.pressChassis_Pa)
 xlabel('time(s)')
 ylabel('pressure(Pa)')
