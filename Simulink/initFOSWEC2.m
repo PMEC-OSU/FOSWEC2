@@ -5,7 +5,7 @@ addpath(genpath('utils'))
 disp('*** Setting model parameters')
 load('FOSWECparameters.mat');
 Ts = 0.001;
-period = 1; % period for sine wave
+period = 3.75; % period for sine wave
 
 %% Define file and model names
 appName = 'FOSWEC2app.mlapp';
@@ -57,7 +57,10 @@ fs = 1000;
 amp = 1;  % Leave this at 1 and change in App
 t = 1/fs:1/fs:sineDuration;
 sine = amp .* sin(2*pi./period*t);
-sine = [zeros(1,fs*initLength) sine];
+r = 40/t(end);
+r_win = tukeywin(length(t),r)';
+sine = sine.*r_win;
+sine = [zeros(1,fs*initLength) sine zeros(1,fs*initLength)];
 t = 1/fs:1/fs:length(sine)/fs;
 sig.Sine = timeseries(sine,t);
 commandSigs = commandSigs.setElement(2,sig.Sine,'Sine');

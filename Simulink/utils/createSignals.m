@@ -50,11 +50,14 @@ sig.Ramp = timeseries(ramp,t);
 
 %% ---------------Sine---------------------------------
 period = 3; % period for sine wave
-sineDuration = 50;
+sineDuration = 60;
 initLength = 10;
 t = 1/fs:1/fs:sineDuration;
 sine = amp .* sin(2*pi./period*t);
-sine = [zeros(1,fs*initLength) sine];
+r = 40/t(end);
+r_win = tukeywin(length(t),r)';
+sine = sine.*r_win;
+sine = [zeros(1,fs*initLength) sine zeros(1,fs*initLength)];
 t = 1/fs:1/fs:length(sine)/fs;
 sig.Sine = timeseries(sine,t);
 
