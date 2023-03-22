@@ -38,10 +38,16 @@ for i = 1:N_ph
     end
 
 end
+r = 40/t_vec(end);
+r_win = tukeywin(length(t_vec),r)';
+sig1 = sig1.*r_win;
+sig2 = sig2.*r_win;
+sig3 = sig3.*r_win;
 
-sig1n = [zeros(1,fs*initLength) sig1];
-sig2n = [zeros(1,fs*initLength) sig2];
-sig3n = [zeros(1,fs*initLength) sig3];
+
+sig1n = [zeros(1,fs*initLength) sig1 zeros(1,fs*initLength)];
+sig2n = [zeros(1,fs*initLength) sig2 zeros(1,fs*initLength)];
+sig3n = [zeros(1,fs*initLength) sig3 zeros(1,fs*initLength)];
 tnew = 0:dt:length(sig1n)*dt-dt;
 
 sig.WN1 = timeseries(sig1n,tnew);
