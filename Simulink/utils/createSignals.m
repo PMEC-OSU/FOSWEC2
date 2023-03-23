@@ -5,9 +5,10 @@ clear; clc; close all
 fmin = 0.05; % min frequency for multisine
 fmax = 1;    % max frequency for multisine
 fs = 1000;
-rLen = 600;  %% length of created signal (s) for multisine
+rLen = 300;  %% length of created signal (s) for multisine
+nRepeats = 5;
 
-sig = whiteNoiseGen(fs,fmin,fmax,rLen);
+sig = whiteNoiseGen(fs,fmin,fmax,rLen,nRepeats);
 
 %% ------------Chirp-----------------------------------
 f0 = 1/20;
