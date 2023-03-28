@@ -14,8 +14,8 @@ buildDir = fullfile('C:','simulink_build');
 tgName = 'performance2';
 
 %% === load excel gains =======================================
-gainTstep = 3.89*20; % time between change in gains (s) (Represents the wave period times 20 waves)
-ExcelGains = readtable('utils/ExcelGains/dampOnly_20230324.xlsx');  % read from excel spreadsheet gain values
+gainTstep = 1.55*20; % time between change in gains (s) (Represents the wave period times 20 waves)
+ExcelGains = readtable('utils/ExcelGains/dampOnly_20230327_2.xlsx');  % read from excel spreadsheet gain values
 ExcelGains = table2array(ExcelGains);
 
 mdlInfo = Simulink.MDLInfo(mdlName);

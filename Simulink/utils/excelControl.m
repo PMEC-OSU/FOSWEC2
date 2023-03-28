@@ -15,4 +15,4 @@ rr = PIlim(2,:)-PIlim(1,:);
 ofst = PIlim(1,:);
 lhs = lhs.*rr + ofst;
 
-writematrix(lhs,['ExcelGains/','dampOnly_',dateStr,'.xlsx']);
+writematrix(lhs,['ExcelGains/','dampOnly_',dateStr,'_2.xlsx']);
