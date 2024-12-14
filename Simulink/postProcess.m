@@ -1,4 +1,4 @@
-tgName = 'performance2';
+tgName = 'performance3';
 buildDir = fullfile('C:','SimulinkBuild');
 mdlName = 'FOSWEC2';
 
@@ -7,7 +7,8 @@ matFileName = 'simdata.mat';
 dateDir = datestr(now,'yyyymmdd');
 timeDir = datestr(now,'HHMMss');
 sharename = 'Z:';
-year = datestr(now,'yyyy');
+year = '2025';
+% year = datestr(now,'yyyy');
 projname = app.ProjectEditField.Value;
 
 tg = slrealtime(tgName);

@@ -3,7 +3,7 @@ clear; clc; close all
 %% Set model parameters
 addpath(genpath('utils'))
 disp('*** Setting model parameters')
-load('FOSWECparameters.mat');
+% load('FOSWECparameters.mat');
 Ts = 0.001;
 period = 3.75; % period for sine wave
 
@@ -11,7 +11,7 @@ period = 3.75; % period for sine wave
 appName = 'FOSWEC2app.mlapp';
 mdlName = 'FOSWEC2';
 buildDir = fullfile('C:','simulink_build');
-tgName = 'performance2';
+tgName = 'performance3';
 
 %% === load excel gains =======================================
 gainTstep = 1.55*20; % time between change in gains (s) (Represents the wave period times 20 waves)
