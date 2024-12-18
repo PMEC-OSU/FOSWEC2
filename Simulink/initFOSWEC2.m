@@ -3,7 +3,7 @@ clear; clc; close all
 %% Set model parameters
 addpath(genpath('utils'))
 disp('*** Setting model parameters')
-% load('FOSWECparameters.mat');
+load('FOSWECparameters.mat');
 Ts = 0.001;
 period = 3.75; % period for sine wave
 
@@ -26,16 +26,19 @@ disp('*** Open Simulink Model ***')
 open_system(mdlName);
 
 %% Load input signals
-disp('*** Load Input Command Signals ***')
-load('utils/commandSignals.mat');
-commandSigs = modifySine(commandSigs,period);
-waveform = commandSigs;
-set_param(mdlName,'ExternalInput','waveform');
+load('refSigs.mat')
+% disp('*** Load Input Command Signals ***')
+% load('utils/commandSignals.mat');
+% commandSigs = modifySine(commandSigs,period);
+% waveform = commandSigs;
+% set_param(mdlName,'ExternalInput','waveform');
+
 
 %% Load the model
 disp('*** Load and Build Simulink Model ***')
 set_param(mdlName,'LoadExternalInput','on');
 set_param(mdlName,'StopTime','Inf');
+tg = slrealtime();
 load_system(mdlName)
 set_param(mdlName,'RTWVerbose','off')
 
