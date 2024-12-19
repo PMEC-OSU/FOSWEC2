@@ -27,11 +27,7 @@ open_system(mdlName);
 
 %% Load input signals
 load('refSigs.mat')
-% disp('*** Load Input Command Signals ***')
-% load('utils/commandSignals.mat');
-% commandSigs = modifySine(commandSigs,period);
-% waveform = commandSigs;
-% set_param(mdlName,'ExternalInput','waveform');
+
 
 
 %% Load the model

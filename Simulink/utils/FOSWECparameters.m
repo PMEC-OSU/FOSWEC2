@@ -1,6 +1,8 @@
 %% Generate all constants needed for FOSWEC model
 clear; clc; close all
 
+tgName = 'performance3';
+
 Ts = 0.001;
 
 %% Gear ratios
