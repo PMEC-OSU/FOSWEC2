@@ -53,14 +53,37 @@ same nominal dimensions.  If we have any trouble with flaps leaking, we can fill
 shown in the table below.  All dimensions in meters.
 
 
-| width | depth1 | depth2 | height |
-| :---: | :----: | :----: | :----: |
-| 0.743 | 0.061  | 0.120  | 0.576  |
+| width | depth1 | depth2 | height | shaft diameter | shaft center to top |
+| :---: | :----: | :----: | :----: | :------------: | :-----------------: |
+| 0.743 | 0.061  | 0.120  | 0.576  | 0.03015        | 0.595               |
 
 
 ![PXL_20241220_175030558](https://github.com/user-attachments/assets/36b68fce-775f-45b0-895f-153d6bbe6fa9)
 
+---
+# Cables
 
+Cables were updated to [Subconn](https://www.macartney.com/connectivity/subconn/) by MacArtney have a 15 m length.
+
+## Low power and ethernet cable
+
+Low power and ethernet cables were combined into one 13 pin [cable](https://www.macartney.com/connectivity/subconn/subconn-ethernet-series/subconn-power-ethernet-circular-13-contacts/).  
+Standard RJ45 connectors were put on each end of the bulkhead ethernet cable ends.  
+- Ethernet cable 4 pair 24 AWG twisted pair
+- Bulkhead ethernet cable is CAT 5E patch cable 
+- Cable power conductors 4 x 18 AWG
+- Screen of tinned copper braid
+- Bulkhead cables:  and 5 x 20 AWG
+
+## High power cable
+
+High power [cable](https://www.macartney.com/connectivity/subconn/subconn-power-series/subconn-high-power-4-contacts/)
+- Cable is 4 conductor #8 AWG
+- Bulkheads have 4 conductor 10AWG
+
+---
+# Repair
+Passthroughs of the load cell and shaft encoder cables were plugged or sealed.  
 
 Updated system diagram shown in Figure 1.
 
