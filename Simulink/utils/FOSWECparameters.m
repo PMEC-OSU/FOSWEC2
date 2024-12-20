@@ -18,10 +18,10 @@ bandpass_dt = c2d(tf([1 0],[1 2*pi/100])*tf(2*pi*200,[1 2*pi*200]),Ts,'impulse')
 
 T = 5;
 Ts = 0.001;
-Tsin = 2;
+% Tsin = 2;
 stepTime = 10;
 t = 25:25:200;
 
 
-save('FOSWECparameters.mat','bow','aft','bandpass_dt','T','Ts','Tsin','stepTime','t')
+save('FOSWECparameters.mat','bow','aft','bandpass_dt','T','Ts','stepTime','t')
 

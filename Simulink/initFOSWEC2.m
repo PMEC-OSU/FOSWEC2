@@ -5,7 +5,7 @@ addpath(genpath('utils'))
 disp('*** Setting model parameters')
 load('FOSWECparameters.mat');
 Ts = 0.001;
-period = 3.75; % period for sine wave
+Tsin = 3; % period for sine wave
 
 %% Define file and model names
 appName = 'FOSWEC2app.mlapp';

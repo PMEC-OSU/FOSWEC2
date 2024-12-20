@@ -10,7 +10,7 @@ nRepeats = 4; % times signal is repeated
 nExp = 3; % number of phase realizations
 NumPhases = 2000;
 fmins = 0.1;
-fmaxs = 0.6;
+fmaxs = 1;
 msnames = {'MS1','MS2','MS3'};
 seed = 13;
 
@@ -31,7 +31,7 @@ st.MS3 = sig.MS3;
 ds = Simulink.SimulationData.Dataset;
 ds = ds.add(sig,'refSigs');
 
-save('refSigs.mat','refSigs','ds')
+save('utils/refSigs.mat','refSigs','ds')
 
 
 % %% ------------Chirp-----------------------------------

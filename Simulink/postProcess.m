@@ -65,19 +65,20 @@ if(~isempty(app))
     output.reference.aftSignal = app.AftReferenceDropDown.Value;
     output.reference.bowSignal = app.BowReferenceDropDown.Value;
     output.reference.CurrentLimit = app.CurrentLimitSpinner.Value;
-    output.control.Source = app.SourceDropDown.Value;
+    output.feedback.Source = app.SourceDropDown.Value;
     output.feedback.aftDamping = app.AftDampingSpinner.Value;
     output.feedback.bowDamping = app.BowDampingSpinner.Value;
     output.feedback.aftStiffness = app.AftStiffnessSpinner.Value;
     output.feedback.bowStiffness = app.BowStiffnessSpinner.Value;
-    % output.feedback.time = 0:app.TsEditField.Value:length(output.feedback.vel_filt_radpers)*app.TsEditField.Value-app.TsEditField.Value;
-    output.control.CurrentLimit = app.CurrentLimitSpinner.Value;
+    output.feedback.aftDampCC = app.AftDampCCSpinner.Value;
+    output.feedback.bowDampCC = app.BowDampCCSpinner.Value;
+    output.feedback.aftStiffCC = app.AftStiffCCSpinner.Value;
+    output.feedback.bowStiffCC = app.BowStiffCCSpinner.Value;
+    output.feedback.CurrentLimit = app.CurrentLimitSpinner.Value;
     output.trialData.Project = app.ProjectEditField.Value;
     output.trialData.Experiment = app.ExperimentEditField.Value;
     output.trialData.TrialNumber = app.TrialSpinner.Value;
-    % output.trialData.Ts = app.TsEditField.Value;
     output.trialData.gearRatio = evalin('base','aft.N');
-
 
     projectName = app.ProjectEditField.Value;
     expname = app.ExperimentEditField.Value;
