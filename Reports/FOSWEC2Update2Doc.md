@@ -58,6 +58,7 @@ shown in the table below.  All dimensions in meters.
 | 0.743 | 0.061  | 0.120  | 0.576  |
 
 
+![PXL_20241220_175030558](https://github.com/user-attachments/assets/36b68fce-775f-45b0-895f-153d6bbe6fa9)
 
 
 
