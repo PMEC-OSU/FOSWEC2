@@ -45,6 +45,9 @@ This report documents the efforts in repairing and upgrading the FOSWEC2 device 
 	- Application of reference signals on inverted flaps (ramps, sine, multisine, chirp)
 	- Damping feedback checkout with manual flap actuation
 
+ ![PXL_20241221_001740702](https://github.com/user-attachments/assets/98273af1-41e4-4131-b22d-d06a350271eb)
+
+
 ---
 
 # Flaps
@@ -80,6 +83,8 @@ Standard RJ45 connectors were put on each end of the bulkhead ethernet cable end
 High power [cable](https://www.macartney.com/connectivity/subconn/subconn-power-series/subconn-high-power-4-contacts/)
 - Cable is 4 conductor #8 AWG
 - Bulkheads have 4 conductor 10AWG
+  
+<img width="1040" alt="SubConnCables" src="https://github.com/user-attachments/assets/9706f2ec-c0b7-4b81-92a0-cd4138dc019a" />
 
 ---
 # Repair
