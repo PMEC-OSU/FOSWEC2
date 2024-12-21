@@ -18,6 +18,8 @@
 
 [Dry Testing](#drytesting)
 
+[System Diagram](#systemdiagram)
+
 ---
 
 # Introduction
@@ -92,10 +94,12 @@ Passthroughs of the load cell and shaft encoder cables were plugged or sealed.  
 
 # Electronics
 
+![PXL_20241221_004923214](https://github.com/user-attachments/assets/44249083-cd7f-4bf2-bb6d-d3b4afbb63c3)
 
-Updated system diagram shown in Figure 1.
+# System diagram
 
-![FOSWEC2_signalDiagramOSU](https://github.com/PMEC-OSU/FOSWEC2/assets/12175532/06239213-2808-4c4b-a724-913d889dfca2)
+<img width="573" alt="FOSWEC_signalDiagram20241220" src="https://github.com/user-attachments/assets/06372db0-c914-4146-9627-c0f5edfaeb48" />
+
 
 _Figure 1: Updated FOSWEC2 system diagram_
 
