@@ -35,7 +35,7 @@ This report documents the efforts in repairing and upgrading the FOSWEC2 device 
 	- flap integrated load cells
 	- flap integrated encoders
 - Repair 
-	- enclosure penetrations for instruments removed or consolidated
+	- enclosure penetrations for instruments removed or consolidated.  Previous ethernet passthrough was plugged.
 - Combining
 	- low power and ethernet cable and bulkheads into a replacement single cable
 - Removal and re-installation of all electronics in submerged enclosure to allow for enclosure machining
@@ -88,7 +88,10 @@ High power [cable](https://www.macartney.com/connectivity/subconn/subconn-power-
 
 ---
 # Repair
-Passthroughs of the load cell and shaft encoder cables were plugged or sealed.  
+Passthroughs of the load cell and shaft encoder cables were plugged or sealed.  Previous ethernet passthrough was plugged
+
+# Electronics
+
 
 Updated system diagram shown in Figure 1.
 
