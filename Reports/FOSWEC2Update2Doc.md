@@ -121,6 +121,10 @@ HWRL tank coordinate definitions.
 
 # Dry testing
 
+Dry testing included testing different reference current signals including ramps, sine wave, chirp wave, multisine waves.  
+Also included was the testing of damping feedback control stepping through six damping values from 2 to 7 Nms in 1 Nms increments.
+Notable that the encoder position zero resets whenever the power is cycled.  
+
 ## Ramps
 
 ![Ramps](https://github.com/user-attachments/assets/3e6cec9f-852a-4334-8942-69466a26c6b6)
