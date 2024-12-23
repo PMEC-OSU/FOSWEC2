@@ -1,6 +1,6 @@
 # FOSWEC2 Repair and Upgrade 2
 
-12/20/2024
+12/23/2024
 
 # Contents
 
@@ -16,9 +16,9 @@
 
 [Shore Electrical](#shoreelectrical)
 
-[Dry Testing](#drytesting)
+[Data Sign Conventions](#datasignconventions)
 
-[System Diagram](#systemdiagram)
+[Dry Testing](#drytesting)
 
 ---
 
@@ -32,7 +32,7 @@ This report documents the efforts in repairing and upgrading the FOSWEC2 device 
 	- high power cables and bulkheads
 	- low power cables and bulkheads
 	- ethernet cables and bulkheads
-	- non-stainless fasteners on enclosure connection
+	- non-stainless fasteners on enclosure connection to platform
 - Removal
 	- flap integrated load cells
 	- flap integrated encoders
@@ -89,18 +89,38 @@ High power [cable](https://www.macartney.com/connectivity/subconn/subconn-power-
 <img width="1040" alt="SubConnCables" src="https://github.com/user-attachments/assets/9706f2ec-c0b7-4b81-92a0-cd4138dc019a" />
 
 ---
+
 # Repair
 Passthroughs of the load cell and shaft encoder cables were plugged or sealed.  Previous ethernet passthrough was plugged
 
+---
+
 # Electronics
 
-![PXL_20241221_004923214](https://github.com/user-attachments/assets/44249083-cd7f-4bf2-bb6d-d3b4afbb63c3)
+Updated system diagram shown below
 
-# System diagram
+![FOSWEC2_signalDiagramOSU](https://github.com/PMEC-OSU/FOSWEC2/assets/12175532/06239213-2808-4c4b-a724-913d889dfca2)
 
-<img width="573" alt="FOSWEC_signalDiagram20241220" src="https://github.com/user-attachments/assets/06372db0-c914-4146-9627-c0f5edfaeb48" />
+# Shore Electrical
 
+A new structure was created to hold the shore-side electrical components and hold the cables when they are not in use.
+This allows for easy moving and storage of these components and removes need to lift heavy components repeatedly.
+New cables were integrated into the shore-side electrical system.
 
-_Figure 1: Updated FOSWEC2 system diagram_
+# Data Sign Conventions
 
-#
+Recorded data is reported with the sign conventions shown below.  This sign convention is designed to be consistent with the
+HWRL tank coordinate definitions.
+
+# Dry testing
+
+## Ramps
+
+## Sine
+
+## Chirp
+
+## Multisine
+
+## Damping
+
