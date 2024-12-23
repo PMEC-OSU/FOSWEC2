@@ -14,11 +14,11 @@
 
 [Electronics](#electronics)
 
-[Shore Electrical](#shoreelectrical)
+[Shore Electrical](#shore-electrical)
 
-[Data Sign Conventions](#datasignconventions)
+[Data Sign Conventions](#data-sign-conventions)
 
-[Dry Testing](#drytesting)
+[Dry Testing](#dry-testing)
 
 ---
 
@@ -99,7 +99,8 @@ Passthroughs of the load cell and shaft encoder cables were plugged or sealed.  
 
 Updated system diagram shown below
 
-![FOSWEC2_signalDiagramOSU](https://github.com/PMEC-OSU/FOSWEC2/assets/12175532/06239213-2808-4c4b-a724-913d889dfca2)
+![FOSWEC_signalDiagram20241220](https://github.com/user-attachments/assets/69d34fba-2e1e-4c78-879e-2b68d169c42d)
+
 
 # Shore Electrical
 
@@ -112,15 +113,30 @@ New cables were integrated into the shore-side electrical system.
 Recorded data is reported with the sign conventions shown below.  This sign convention is designed to be consistent with the
 HWRL tank coordinate definitions.
 
+![FOSWEC Sign Conventions 3d](https://github.com/user-attachments/assets/d65fc5a7-16a1-4cd0-a7fe-99d70fddbce6)
+
+![FOSWEC Sign Conventions 2d](https://github.com/user-attachments/assets/0b13e933-3b31-4af3-97b1-e42065940b9e)
+
+---
+
 # Dry testing
 
 ## Ramps
 
+![Ramps](https://github.com/user-attachments/assets/3e6cec9f-852a-4334-8942-69466a26c6b6)
+
 ## Sine
+![Sine](https://github.com/user-attachments/assets/04b0e13f-fa20-400c-8abf-218a8cbd22ad)
 
 ## Chirp
 
+![Chirp](https://github.com/user-attachments/assets/e7776e3a-0bd8-4749-8c57-e7a14d1c9b55)
+
 ## Multisine
 
+![Multisine](https://github.com/user-attachments/assets/5a4dc0eb-fe1a-48b4-a4c9-269fcf72e629)
+
 ## Damping
+
+![Damping](https://github.com/user-attachments/assets/f3a635b5-192e-4e67-aaeb-cb4c4536d473)
 
