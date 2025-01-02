@@ -144,3 +144,6 @@ Notable that the encoder position zero resets whenever the power is cycled.
 
 ![Damping](https://github.com/user-attachments/assets/f3a635b5-192e-4e67-aaeb-cb4c4536d473)
 
+### Notes on dry testing
+
+There is noticeable stiction and friction differences in the two flaps most notable in the chirp dry test shown above.  The flap shafts were equipped with self lubricating bushings activated when wet.  Evaluation of the stiction/friction will occur once deployed in water and the need for repair assessed. 
