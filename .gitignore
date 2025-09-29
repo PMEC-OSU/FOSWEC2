@@ -12,3 +12,4 @@ Simulink/utils/*.asv
 Simulink/utils/IMUParser*
 Simulink/utils/ecat_config_xml_0.cpp
 Simulink/utils/rtwmakecfg.m
+Simulink/test/
