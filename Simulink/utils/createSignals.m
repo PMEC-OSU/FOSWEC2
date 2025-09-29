@@ -31,7 +31,7 @@ st.MS3 = sig.MS3;
 ds = Simulink.SimulationData.Dataset;
 ds = ds.add(sig,'refSigs');
 
-save('utils/refSigs.mat','refSigs','ds')
+save('refSigs.mat','refSigs','ds')
 
 
 % %% ------------Chirp-----------------------------------
