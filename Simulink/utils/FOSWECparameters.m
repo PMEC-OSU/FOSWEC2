@@ -1,10 +1,6 @@
 %% Generate all constants needed for FOSWEC model
 clear; clc; close all
 
-tgName = 'performance3';
-
-Ts = 0.001;
-
 %% Gear ratios
 aft.N = 75/20;
 bow.N = 75/20;

@@ -3,15 +3,31 @@ clear; clc; close all
 %% Set model parameters
 addpath(genpath('utils'))
 disp('*** Setting model parameters')
-load('FOSWECparameters.mat');
 Ts = 0.001;
 Tsin = 3; % period for sine wave
+
+%% Gear ratios
+aft.N = 75/20;
+bow.N = 75/20;
+
+%% Motor constants
+aft.Kt = 0.9636; % from report and pendulum branch of FOSWEC2Update git
+bow.Kt = 0.9438;
+
+%% bandpass filter for motor position signals
+bandpass_dt = c2d(tf([1 0],[1 2*pi/100])*tf(2*pi*200,[1 2*pi*200]),Ts,'impulse');
+
+T = 5;
+Ts = 0.001;
+% Tsin = 2;
+stepTime = 10;
+t = 25:25:200;
 
 %% Define file and model names
 appName = 'FOSWEC2app.mlapp';
 mdlName = 'FOSWEC2';
-buildDir = fullfile('C:','simulink_build');
-tgName = 'performance3';
+buildDir = fullfile('C:','simulink_code');
+tgName = 'performance4';
 
 %% === load excel gains =======================================
 gainTstep = 1.55*20; % time between change in gains (s) (Represents the wave period times 20 waves)
@@ -28,14 +44,14 @@ open_system(mdlName);
 %% Load input signals
 load('refSigs.mat')
 
-
-
 %% Load the model
 disp('*** Load and Build Simulink Model ***')
 set_param(mdlName,'LoadExternalInput','on');
 set_param(mdlName,'StopTime','Inf');
 tg = slrealtime();
 load_system(mdlName)
+eniPath = fullfile(pwd,'../TwinCAT/mCDRLUPA8xml.xml');
+set_param([mdlName,'/Initialization/EtherCAT Init'],'config_file',eniPath);
 set_param(mdlName,'RTWVerbose','off')
 
 %% Build Model
@@ -43,9 +59,11 @@ disp('*** Build Simulink RT model for Speedgoat')
 slbuild(mdlName)
 
 %% Open the app
+allfigs = findall(0,'Type','figure');
+app2handle = findall(allfigs,'Name','FOSWEC2');
+app2handle.delete
 disp('*** Start user app ***')
 run(appName)
-
 
 
 function commandSigs = modifySine(commandSigs,period)
