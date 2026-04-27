@@ -232,7 +232,7 @@ Aux_Encoder_Index_Minus_Selection_Four=0
 Resolver_Cycles_Per_Rev=1
 Resolver_Multi_Speed=0
 Stored_Motor_2_Parameters_Version_Id=0
-Stored_Motor_2_Parameters_Data_Crc_Value=65195
+Stored_Motor_2_Parameters_Data_Crc_Value=15987
 Encoder_Wiring_Polarity=1
 Maximum_Phase_Detection_Current=0
 Maximum_Phase_Detection_Time_Limit=1000
@@ -524,7 +524,7 @@ H_S_Angle1=0
 H_S_Angle2=0
 Index_S_Angle1=0
 Index_S_Angle2=0
-N_T_A_At_E_Z_P=199
+N_T_A_At_E_Z_P=58
 Max_S_P_A_Error=3641
 Max_S_P_A_Adj=182
 E_Cycle_Adj_Count=3
@@ -811,20 +811,20 @@ Response_Time_External_Quick_Stop=0
 Response_Time_Pwm_And_Direction_Broken_Wire=0
 
 [Scope Data Section]
-Trace_Mode=3
-Trigger_Selector=1
+Trace_Mode=2
+Trigger_Selector=0
 Trigger_Threshold=0
 Trigger_Count=0
-Post_Trigger_Count=100
+Post_Trigger_Count=0
 Initial_Skip_count=0
 Skip_Count=199
-Buffer_Size=300
-Parameter_1_Selector=1
-Parameter_2_Selector=2
-Parameter_3_Selector=4
-Parameter_4_Selector=0
-Parameter_5_Selector=0
-Parameter_6_Selector=0
+Buffer_Size=3072
+Parameter_1_Selector=15
+Parameter_2_Selector=40
+Parameter_3_Selector=47
+Parameter_4_Selector=48
+Parameter_5_Selector=43
+Parameter_6_Selector=44
 Parameter_7_Selector=0
 Parameter_8_Selector=0
 
@@ -1049,7 +1049,7 @@ DX_DAC_Bank_4_Consumed_Hardware_Outputs=0
 ;* BEGIN INTERNAL USE ONLY SECTIONS - DO NOT EDIT *;
 ;**************************************************;
 [Additional Data]
-Ctn_Data=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b1aa0a00ff000000ffffffffffffffff0001040f0000000000000000ffffffffffffffff00000000000000000000000000000000000000000000000000000000000000000000000000002440000000000000244000000000000024400000000000002440000000000000000000000000000000000000000000001440000000000000000000000000e3ff0000dcff0000020f000000
+Ctn_Data=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000acaa0a00ff000000ffffffffffffffff353e35140000000000000000ffffffffffffffff00000000000000000000000000000000000000000000000000000000000000000000000000002440000000000000244000000000000024400000000000002440000000000000000000000000000000000000000000001440000000000000000000000000e3ff0000dcff0000353e36e200
 
 ;**********************************;
 ;* END INTERNAL USE ONLY SECTIONS *;
