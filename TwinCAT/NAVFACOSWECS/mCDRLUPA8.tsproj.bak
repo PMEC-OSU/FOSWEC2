@@ -59,7 +59,7 @@
 		<Analytics ConfigVersion="1.4">
 			<Name>ANALYTICS</Name>
 			<ImageId>437</ImageId>
-			<XmlProps><![CDATA[<Address /><Latitude /><Longitude /><SystemIdAlias /><DeviceProps></DeviceProps><SelectedDriverVersion>3.3.211.0</SelectedDriverVersion><StreamTargets><StreamTargetItem Id="2f17d120-733c-48fd-8e77-a43fbed3052c"><Name>Stream Target 1</Name><Type>FILE</Type><Directory>%TC_BOOTPRJPATH%</Directory><MqttConnectionSettings><Broker>127.0.0.1</Broker><BrokerPort>1883</BrokerPort><UserID /><WithCertificates>false</WithCertificates><CA_Certificate /><Cert_Certificate /><Key_Certificate /><CommunicationTimeout>30000000</CommunicationTimeout><KeepAlivePeriod>600000000</KeepAlivePeriod><TcpBufferSize>32768</TcpBufferSize><SecurityType>NO_SECURITY</SecurityType><Insecure>false</Insecure><IgnoreExpiration>false</IgnoreExpiration><IsPskIdCaseSensitive>false</IsPskIdCaseSensitive><IgnoreCnMismatch>false</IgnoreCnMismatch><TargetPaths>false</TargetPaths><PskMode>HexKey</PskMode></MqttConnectionSettings><TimeType>None</TimeType></StreamTargetItem></StreamTargets><ActivateAlyLogger>false</ActivateAlyLogger>]]></XmlProps>
+			<XmlProps><![CDATA[<Address /><Latitude /><Longitude /><SystemIdAlias /><DeviceProps></DeviceProps><SelectedDriverVersion>3.3.211.0</SelectedDriverVersion><StreamTargets><StreamTargetItem Id="47832598-da0a-45f0-944b-7061ab6b26a3"><Name>Stream Target 1</Name><Type>FILE</Type><Directory>%TC_BOOTPRJPATH%</Directory><MqttConnectionSettings><Broker>127.0.0.1</Broker><BrokerPort>1883</BrokerPort><UserID /><WithCertificates>false</WithCertificates><CA_Certificate /><Cert_Certificate /><Key_Certificate /><CommunicationTimeout>30000000</CommunicationTimeout><KeepAlivePeriod>600000000</KeepAlivePeriod><TcpBufferSize>32768</TcpBufferSize><SecurityType>NO_SECURITY</SecurityType><Insecure>false</Insecure><IgnoreExpiration>false</IgnoreExpiration><IsPskIdCaseSensitive>false</IsPskIdCaseSensitive><IgnoreCnMismatch>false</IgnoreCnMismatch><TargetPaths>false</TargetPaths><PskMode>HexKey</PskMode></MqttConnectionSettings><TimeType>None</TimeType></StreamTargetItem></StreamTargets><ActivateAlyLogger>false</ActivateAlyLogger>]]></XmlProps>
 		</Analytics>
 		<Io>
 			<Device Id="2" DevType="111" DevFlags="#x0003" AmsPort="28674" AmsNetId="192.168.7.2.3.1" RemoteName="Device 2 (EtherCAT)" InfoImageId="3">
@@ -76,12 +76,12 @@
 				</Image>
 				<Box Id="1" BoxType="9099" BoxFlags="#x00000020">
 					<Name>Box 1 (GEN Series DAQ System)</Name>
-					<ImageId>547</ImageId>
+					<ImageId>551</ImageId>
 					<EtherCAT SlaveType="2" PdiType="#x0c80" MboxDataLinkLayer="true" StateMBoxPolling="true" CycleMBoxPollingTime="0" CoeType="19" VendorId="#x0000011d" ProductCode="#x00000d01" RevisionNo="#x00000002" InfoDataAddr="true" TimeoutStateChange1="65535" TimeoutStateChange4="5000" TimeoutMailbox1="1000" TimeoutMailbox2="10000" PortPhys="17" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="GEN Series DAQ System" Desc="GEN Series DAQ System" PortABoxInfo="#x00ffffff">
 						<SyncMan>0010000226000100010000002e0000020002001026010000</SyncMan>
 						<SyncMan>0012000222000100020000002e0000020002001222010000</SyncMan>
 						<SyncMan>001408002400010003000000000027000800001424000000</SyncMan>
-						<SyncMan>75145e0060000100040000000000b3055e00751460000000</SyncMan>
+						<SyncMan>7514680060000100040000000000b3055e00751460020000</SyncMan>
 						<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
 						<Fmmu>0000000000000000001400020100000001000000020000000200000000000000</Fmmu>
 						<Fmmu>0000000000000000751400010100000002000000060000000300000000000000</Fmmu>
@@ -89,7 +89,7 @@
 						<DcMode>44634f66660000000000000000000000467265652052756e000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000</DcMode>
 						<DcMode>446353796e633000000000000000000044432d53796e6368726f6e6f7573000000000000000000000000000000000000000000000000000000000000000030030100000000000000000000000000000000000000000000000000000000000000</DcMode>
 						<Pdo Name="AcquisitionState" Index="#x1a00" Flags="#x0011" SyncMan="3">
-							<Entry Name="AcquisitionState_S" Index="#x2000" Sub="#x01">
+							<Entry Name="AcquisitionState_V" Index="#x2000" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
 						</Pdo>
@@ -106,136 +106,152 @@
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Powersource.out.I" Index="#x1a03" Flags="#x0011" SyncMan="3">
-							<Entry Name="Powersource.out.I_S" Index="#x2003" Sub="#x01">
+						<Pdo Name="AftFlap.out.Cycle_interval" Index="#x1a03" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.Cycle_interval_S" Index="#x2003" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Powersource.out.I_V" Index="#x2003" Sub="#x02">
+							<Entry Name="AftFlap.out.Cycle_interval_V" Index="#x2003" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Powersource.out.U" Index="#x1a04" Flags="#x0011" SyncMan="3">
-							<Entry Name="Powersource.out.U_S" Index="#x2004" Sub="#x01">
+						<Pdo Name="AftFlap.out.Cycle_Check" Index="#x1a04" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.Cycle_Check_S" Index="#x2004" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Powersource.out.U_V" Index="#x2004" Sub="#x02">
+							<Entry Name="AftFlap.out.Cycle_Check_V" Index="#x2004" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Powersource.out.i_mean" Index="#x1a05" Flags="#x0011" SyncMan="3">
-							<Entry Name="Powersource.out.i_mean_S" Index="#x2005" Sub="#x01">
+						<Pdo Name="AftFlap.out.Frequency" Index="#x1a05" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.Frequency_S" Index="#x2005" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Powersource.out.i_mean_V" Index="#x2005" Sub="#x02">
+							<Entry Name="AftFlap.out.Frequency_V" Index="#x2005" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Powersource.out.u_mean" Index="#x1a06" Flags="#x0011" SyncMan="3">
-							<Entry Name="Powersource.out.u_mean_S" Index="#x2006" Sub="#x01">
+						<Pdo Name="AftFlap.out.I" Index="#x1a06" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.I_S" Index="#x2006" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Powersource.out.u_mean_V" Index="#x2006" Sub="#x02">
+							<Entry Name="AftFlap.out.I_V" Index="#x2006" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Powersource.out.P" Index="#x1a07" Flags="#x0011" SyncMan="3">
-							<Entry Name="Powersource.out.P_S" Index="#x2007" Sub="#x01">
+						<Pdo Name="AftFlap.out.U" Index="#x1a07" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.U_S" Index="#x2007" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Powersource.out.P_V" Index="#x2007" Sub="#x02">
+							<Entry Name="AftFlap.out.U_V" Index="#x2007" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Inverter.out.P" Index="#x1a08" Flags="#x0011" SyncMan="3">
-							<Entry Name="Inverter.out.P_S" Index="#x2008" Sub="#x01">
+						<Pdo Name="AftFlap.out.i_mean" Index="#x1a08" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.i_mean_S" Index="#x2008" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Inverter.out.P_V" Index="#x2008" Sub="#x02">
+							<Entry Name="AftFlap.out.i_mean_V" Index="#x2008" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Motor.out.M" Index="#x1a09" Flags="#x0011" SyncMan="3">
-							<Entry Name="Motor.out.M_S" Index="#x2009" Sub="#x01">
+						<Pdo Name="AftFlap.out.u_mean" Index="#x1a09" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.u_mean_S" Index="#x2009" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Motor.out.M_V" Index="#x2009" Sub="#x02">
+							<Entry Name="AftFlap.out.u_mean_V" Index="#x2009" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Motor.out.n" Index="#x1a0a" Flags="#x0011" SyncMan="3">
-							<Entry Name="Motor.out.n_S" Index="#x200a" Sub="#x01">
+						<Pdo Name="AftFlap.out.P" Index="#x1a0a" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.P_S" Index="#x200a" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Motor.out.n_V" Index="#x200a" Sub="#x02">
+							<Entry Name="AftFlap.out.P_V" Index="#x200a" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Motor.out.M_inst" Index="#x1a0b" Flags="#x0011" SyncMan="3">
-							<Entry Name="Motor.out.M_inst_S" Index="#x200b" Sub="#x01">
+						<Pdo Name="BowFlap.out1.Cycle_interval" Index="#x1a0b" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out1.Cycle_interval_S" Index="#x200b" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Motor.out.M_inst_V" Index="#x200b" Sub="#x02">
+							<Entry Name="BowFlap.out1.Cycle_interval_V" Index="#x200b" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Motor.out.n_inst" Index="#x1a0c" Flags="#x0011" SyncMan="3">
-							<Entry Name="Motor.out.n_inst_S" Index="#x200c" Sub="#x01">
+						<Pdo Name="BowFlap.out1.Cycle_Check" Index="#x1a14" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out1.Cycle_Check_S" Index="#x2014" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Motor.out.n_inst_V" Index="#x200c" Sub="#x02">
+							<Entry Name="BowFlap.out1.Cycle_Check_V" Index="#x2014" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Motor.out.P_mech" Index="#x1a0d" Flags="#x0011" SyncMan="3">
-							<Entry Name="Motor.out.P_mech_S" Index="#x200d" Sub="#x01">
+						<Pdo Name="BowFlap.out1.Frequency" Index="#x1a15" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out1.Frequency_S" Index="#x2015" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Motor.out.P_mech_V" Index="#x200d" Sub="#x02">
+							<Entry Name="BowFlap.out1.Frequency_V" Index="#x2015" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Motor.out.Instantaneous_time" Index="#x1a0e" Flags="#x0011" SyncMan="3">
-							<Entry Name="Motor.out.Instantaneous_time_S" Index="#x200e" Sub="#x01">
+						<Pdo Name="BowFlap.out1.I" Index="#x1a16" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out1.I_S" Index="#x2016" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Motor.out.Instantaneous_time_V" Index="#x200e" Sub="#x02">
+							<Entry Name="BowFlap.out1.I_V" Index="#x2016" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Inverter.out.SIGMA_I" Index="#x1a0f" Flags="#x0011" SyncMan="3">
-							<Entry Name="Inverter.out.SIGMA_I_S" Index="#x200f" Sub="#x01">
+						<Pdo Name="BowFlap.out1.U" Index="#x1a17" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out1.U_S" Index="#x2017" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Inverter.out.SIGMA_I_V" Index="#x200f" Sub="#x02">
+							<Entry Name="BowFlap.out1.U_V" Index="#x2017" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Inverter.out.SIGMA_U" Index="#x1a10" Flags="#x0011" SyncMan="3">
-							<Entry Name="Inverter.out.SIGMA_U_S" Index="#x2010" Sub="#x01">
+						<Pdo Name="BowFlap.out1.i_mean" Index="#x1a18" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out1.i_mean_S" Index="#x2018" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="Inverter.out.SIGMA_U_V" Index="#x2010" Sub="#x02">
+							<Entry Name="BowFlap.out1.i_mean_V" Index="#x2018" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Remote Control (Tx)" Index="#x1a11" Flags="#x0011" SyncMan="3">
-							<Entry Name="Command" Index="#x2011" Sub="#x01">
+						<Pdo Name="BowFlap.out1.u_mean" Index="#x1a19" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out1.u_mean_S" Index="#x2019" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowFlap.out1.u_mean_V" Index="#x2019" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowFlap.out1.P" Index="#x1a1a" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out1.P_S" Index="#x201a" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowFlap.out1.P_V" Index="#x201a" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="Remote Control (Tx)" Index="#x1a1b" Flags="#x0011" SyncMan="3">
+							<Entry Name="Command" Index="#x201b" Sub="#x01">
 								<Type>UINT</Type>
 							</Entry>
-							<Entry Name="Recorder" Index="#x2011" Sub="#x02">
+							<Entry Name="Recorder" Index="#x201b" Sub="#x02">
 								<Type>UINT</Type>
 							</Entry>
-							<Entry Name="Channel" Index="#x2011" Sub="#x03">
+							<Entry Name="Channel" Index="#x201b" Sub="#x03">
 								<Type>UINT</Type>
 							</Entry>
-							<Entry Name="Value" Index="#x2011" Sub="#x04">
+							<Entry Name="Value" Index="#x201b" Sub="#x04">
 								<Type>UINT</Type>
 							</Entry>
-							<Entry Name="ReturnCode" Index="#x2011" Sub="#x05">
+							<Entry Name="ReturnCode" Index="#x201b" Sub="#x05">
 								<Type>UINT</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Remote Control (Rx)" Index="#x1600" InOut="1" Flags="#x0011" SyncMan="2">
+						<Pdo Name="Remote Control (Rx)" Index="#x1600" InOut="1" Flags="#x0010" SyncMan="2">
 							<Entry Name="Command" Index="#x1900" Sub="#x01">
 								<Type>UINT</Type>
 							</Entry>
@@ -541,7 +557,7 @@ Bit1: Value smaller than Limit2]]></Comment>
 							<ModuleIdent>0</ModuleIdent>
 							<Module Id="#x03090001" Type="Default" Class="">
 								<Name>Module 1 (Default)</Name>
-								<ImageId>551</ImageId>
+								<ImageId>550</ImageId>
 								<ModuleData>bd00000000000000000004000000000000000000000000000000000000000000</ModuleData>
 								<PdoIndex>6656</PdoIndex>
 								<PdoIndex>5632</PdoIndex>
@@ -1046,7 +1062,7 @@ Bit1: Value smaller than Limit2]]></Comment>
 							<ModuleIdent>0</ModuleIdent>
 							<Module Id="#x03090002" Type="Default" Class="">
 								<Name>Module 1 (Default)</Name>
-								<ImageId>551</ImageId>
+								<ImageId>550</ImageId>
 								<ModuleData>bd00000000000000000004000000000000000000000000000000000000000000</ModuleData>
 								<PdoIndex>6656</PdoIndex>
 								<PdoIndex>5632</PdoIndex>

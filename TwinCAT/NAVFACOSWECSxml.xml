@@ -174,7 +174,7 @@
 				</Send>
 				<Recv Sm3="true">
 					<BitStart>1496</BitStart>
-					<BitLength>752</BitLength>
+					<BitLength>832</BitLength>
 				</Recv>
 				<Sm2>
 					<Type>Outputs</Type>
@@ -204,12 +204,14 @@
 					<Pdo>6665</Pdo>
 					<Pdo>6666</Pdo>
 					<Pdo>6667</Pdo>
-					<Pdo>6668</Pdo>
-					<Pdo>6669</Pdo>
-					<Pdo>6670</Pdo>
-					<Pdo>6671</Pdo>
-					<Pdo>6672</Pdo>
-					<Pdo>6673</Pdo>
+					<Pdo>6676</Pdo>
+					<Pdo>6677</Pdo>
+					<Pdo>6678</Pdo>
+					<Pdo>6679</Pdo>
+					<Pdo>6680</Pdo>
+					<Pdo>6681</Pdo>
+					<Pdo>6682</Pdo>
+					<Pdo>6683</Pdo>
 				</Sm3>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a00</Index>
@@ -218,7 +220,7 @@
 						<Index>#x2000</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>AcquisitionState_S</Name>
+						<Name>AcquisitionState_V</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 				</TxPdo>
@@ -253,296 +255,332 @@
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a03</Index>
-					<Name>Powersource.out.I</Name>
+					<Name>AftFlap.out.Cycle_interval</Name>
 					<Entry>
 						<Index>#x2003</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Powersource.out.I_S</Name>
+						<Name>AftFlap.out.Cycle_interval_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2003</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Powersource.out.I_V</Name>
+						<Name>AftFlap.out.Cycle_interval_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a04</Index>
-					<Name>Powersource.out.U</Name>
+					<Name>AftFlap.out.Cycle_Check</Name>
 					<Entry>
 						<Index>#x2004</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Powersource.out.U_S</Name>
+						<Name>AftFlap.out.Cycle_Check_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2004</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Powersource.out.U_V</Name>
+						<Name>AftFlap.out.Cycle_Check_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a05</Index>
-					<Name>Powersource.out.i_mean</Name>
+					<Name>AftFlap.out.Frequency</Name>
 					<Entry>
 						<Index>#x2005</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Powersource.out.i_mean_S</Name>
+						<Name>AftFlap.out.Frequency_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2005</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Powersource.out.i_mean_V</Name>
+						<Name>AftFlap.out.Frequency_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a06</Index>
-					<Name>Powersource.out.u_mean</Name>
+					<Name>AftFlap.out.I</Name>
 					<Entry>
 						<Index>#x2006</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Powersource.out.u_mean_S</Name>
+						<Name>AftFlap.out.I_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2006</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Powersource.out.u_mean_V</Name>
+						<Name>AftFlap.out.I_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a07</Index>
-					<Name>Powersource.out.P</Name>
+					<Name>AftFlap.out.U</Name>
 					<Entry>
 						<Index>#x2007</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Powersource.out.P_S</Name>
+						<Name>AftFlap.out.U_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2007</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Powersource.out.P_V</Name>
+						<Name>AftFlap.out.U_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a08</Index>
-					<Name>Inverter.out.P</Name>
+					<Name>AftFlap.out.i_mean</Name>
 					<Entry>
 						<Index>#x2008</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Inverter.out.P_S</Name>
+						<Name>AftFlap.out.i_mean_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2008</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Inverter.out.P_V</Name>
+						<Name>AftFlap.out.i_mean_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a09</Index>
-					<Name>Motor.out.M</Name>
+					<Name>AftFlap.out.u_mean</Name>
 					<Entry>
 						<Index>#x2009</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Motor.out.M_S</Name>
+						<Name>AftFlap.out.u_mean_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2009</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Motor.out.M_V</Name>
+						<Name>AftFlap.out.u_mean_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a0a</Index>
-					<Name>Motor.out.n</Name>
+					<Name>AftFlap.out.P</Name>
 					<Entry>
 						<Index>#x200a</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Motor.out.n_S</Name>
+						<Name>AftFlap.out.P_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x200a</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Motor.out.n_V</Name>
+						<Name>AftFlap.out.P_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a0b</Index>
-					<Name>Motor.out.M_inst</Name>
+					<Name>BowFlap.out1.Cycle_interval</Name>
 					<Entry>
 						<Index>#x200b</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Motor.out.M_inst_S</Name>
+						<Name>BowFlap.out1.Cycle_interval_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x200b</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Motor.out.M_inst_V</Name>
+						<Name>BowFlap.out1.Cycle_interval_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a0c</Index>
-					<Name>Motor.out.n_inst</Name>
+					<Index>#x1a14</Index>
+					<Name>BowFlap.out1.Cycle_Check</Name>
 					<Entry>
-						<Index>#x200c</Index>
+						<Index>#x2014</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Motor.out.n_inst_S</Name>
+						<Name>BowFlap.out1.Cycle_Check_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x200c</Index>
+						<Index>#x2014</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Motor.out.n_inst_V</Name>
+						<Name>BowFlap.out1.Cycle_Check_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a0d</Index>
-					<Name>Motor.out.P_mech</Name>
+					<Index>#x1a15</Index>
+					<Name>BowFlap.out1.Frequency</Name>
 					<Entry>
-						<Index>#x200d</Index>
+						<Index>#x2015</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Motor.out.P_mech_S</Name>
+						<Name>BowFlap.out1.Frequency_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x200d</Index>
+						<Index>#x2015</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Motor.out.P_mech_V</Name>
+						<Name>BowFlap.out1.Frequency_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a0e</Index>
-					<Name>Motor.out.Instantaneous_time</Name>
+					<Index>#x1a16</Index>
+					<Name>BowFlap.out1.I</Name>
 					<Entry>
-						<Index>#x200e</Index>
+						<Index>#x2016</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Motor.out.Instantaneous_time_S</Name>
+						<Name>BowFlap.out1.I_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x200e</Index>
+						<Index>#x2016</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Motor.out.Instantaneous_time_V</Name>
+						<Name>BowFlap.out1.I_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a0f</Index>
-					<Name>Inverter.out.SIGMA_I</Name>
+					<Index>#x1a17</Index>
+					<Name>BowFlap.out1.U</Name>
 					<Entry>
-						<Index>#x200f</Index>
+						<Index>#x2017</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Inverter.out.SIGMA_I_S</Name>
+						<Name>BowFlap.out1.U_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x200f</Index>
+						<Index>#x2017</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Inverter.out.SIGMA_I_V</Name>
+						<Name>BowFlap.out1.U_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a10</Index>
-					<Name>Inverter.out.SIGMA_U</Name>
+					<Index>#x1a18</Index>
+					<Name>BowFlap.out1.i_mean</Name>
 					<Entry>
-						<Index>#x2010</Index>
+						<Index>#x2018</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>Inverter.out.SIGMA_U_S</Name>
+						<Name>BowFlap.out1.i_mean_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2010</Index>
+						<Index>#x2018</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>Inverter.out.SIGMA_U_V</Name>
+						<Name>BowFlap.out1.i_mean_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a11</Index>
+					<Index>#x1a19</Index>
+					<Name>BowFlap.out1.u_mean</Name>
+					<Entry>
+						<Index>#x2019</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowFlap.out1.u_mean_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2019</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowFlap.out1.u_mean_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a1a</Index>
+					<Name>BowFlap.out1.P</Name>
+					<Entry>
+						<Index>#x201a</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowFlap.out1.P_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x201a</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowFlap.out1.P_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a1b</Index>
 					<Name>Remote Control (Tx)</Name>
 					<Entry>
-						<Index>#x2011</Index>
+						<Index>#x201b</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Command</Name>
 						<DataType>UINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2011</Index>
+						<Index>#x201b</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Recorder</Name>
 						<DataType>UINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2011</Index>
+						<Index>#x201b</Index>
 						<SubIndex>3</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Channel</Name>
 						<DataType>UINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2011</Index>
+						<Index>#x201b</Index>
 						<SubIndex>4</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
 						<DataType>UINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2011</Index>
+						<Index>#x201b</Index>
 						<SubIndex>5</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>ReturnCode</Name>
 						<DataType>UINT</DataType>
 					</Entry>
 				</TxPdo>
-				<RxPdo Fixed="true" Mandatory="true" Sm="2">
+				<RxPdo Fixed="true" Sm="2">
 					<Index>#x1600</Index>
 					<Name>Remote Control (Rx)</Name>
 					<Entry>
@@ -601,17 +639,6 @@
 					<Data>1100</Data>
 					<Retries>3</Retries>
 					<Timeout>5000</Timeout>
-				</InitCmd>
-				<InitCmd>
-					<Transition>SI</Transition>
-					<Transition>OI</Transition>
-					<Comment><![CDATA[clear DC activation]]></Comment>
-					<Requires>cycle</Requires>
-					<Cmd>2</Cmd>
-					<Adp>0</Adp>
-					<Ado>2432</Ado>
-					<Data>0000</Data>
-					<Retries>3</Retries>
 				</InitCmd>
 				<InitCmd>
 					<Transition>PI</Transition>
@@ -793,50 +820,6 @@
 					<Retries>3</Retries>
 				</InitCmd>
 				<InitCmd>
-					<Transition>PS</Transition>
-					<Comment><![CDATA[set DC cycle time]]></Comment>
-					<Requires>cycle</Requires>
-					<Cmd>5</Cmd>
-					<Adp>1001</Adp>
-					<Ado>2464</Ado>
-					<Data>40420f0000000000</Data>
-					<Cnt>1</Cnt>
-					<Retries>3</Retries>
-				</InitCmd>
-				<InitCmd>
-					<Transition>PS</Transition>
-					<Comment><![CDATA[set DC start time]]></Comment>
-					<Requires>cycle</Requires>
-					<Cmd>5</Cmd>
-					<Adp>1001</Adp>
-					<Ado>2448</Ado>
-					<Data>0000000000000000</Data>
-					<Cnt>1</Cnt>
-					<Retries>3</Retries>
-				</InitCmd>
-				<InitCmd>
-					<Transition>PS</Transition>
-					<Comment><![CDATA[set DC activation]]></Comment>
-					<Requires>cycle</Requires>
-					<Cmd>5</Cmd>
-					<Adp>1001</Adp>
-					<Ado>2432</Ado>
-					<Data>3003</Data>
-					<Cnt>1</Cnt>
-					<Retries>3</Retries>
-				</InitCmd>
-				<InitCmd>
-					<Transition>IP</Transition>
-					<Transition>PP</Transition>
-					<Comment><![CDATA[clear DC activation]]></Comment>
-					<Requires>cycle</Requires>
-					<Cmd>5</Cmd>
-					<Adp>1001</Adp>
-					<Ado>2432</Ado>
-					<Data>0000</Data>
-					<Retries>3</Retries>
-				</InitCmd>
-				<InitCmd>
 					<Transition>SP</Transition>
 					<Transition>OP</Transition>
 					<Comment><![CDATA[set device state to PREOP]]></Comment>
@@ -877,7 +860,7 @@
 					<Cmd>5</Cmd>
 					<Adp>1001</Adp>
 					<Ado>2072</Ado>
-					<Data>75145e0060000100</Data>
+					<Data>7514680060000100</Data>
 					<Cnt>1</Cnt>
 					<Retries>3</Retries>
 				</InitCmd>
@@ -908,7 +891,7 @@
 					<Cmd>5</Cmd>
 					<Adp>1001</Adp>
 					<Ado>1568</Ado>
-					<Data>001000015e0000077514000101000000</Data>
+					<Data>00100001680000077514000101000000</Data>
 					<Cnt>1</Cnt>
 					<Retries>3</Retries>
 				</InitCmd>
@@ -957,17 +940,6 @@
 					<Adp>1001</Adp>
 					<Ado>1568</Ado>
 					<Data>00000000000000000000000000000000</Data>
-					<Retries>3</Retries>
-				</InitCmd>
-				<InitCmd>
-					<Transition>SP</Transition>
-					<Transition>OP</Transition>
-					<Comment><![CDATA[clear DC activation]]></Comment>
-					<Requires>cycle</Requires>
-					<Cmd>5</Cmd>
-					<Adp>1001</Adp>
-					<Ado>2432</Ado>
-					<Data>0000</Data>
 					<Retries>3</Retries>
 				</InitCmd>
 				<InitCmd>
@@ -1147,12 +1119,6 @@
 					</Validate>
 				</InitCmd>
 			</InitCmds>
-			<DC>
-				<ReferenceClock>true</ReferenceClock>
-				<CycleTime0>1000000</CycleTime0>
-				<CycleTime1>0</CycleTime1>
-				<ShiftTime>0</ShiftTime>
-			</DC>
 		</Slave>
 		<Slave>
 			<Info>
@@ -2319,7 +2285,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Cmd>5</Cmd>
 					<Adp>1003</Adp>
 					<Ado>2448</Ado>
-					<Data>80d3f7ffffffffff</Data>
+					<Data>60d0f7ffffffffff</Data>
 					<Cnt>1</Cnt>
 					<Retries>3</Retries>
 				</InitCmd>
@@ -2649,10 +2615,10 @@ Bit1: Value smaller than Limit2</Comment>
 				<PhysAddr>1002</PhysAddr>
 			</PreviousPort>
 			<DC>
-				<ReferenceClock>false</ReferenceClock>
+				<ReferenceClock>true</ReferenceClock>
 				<CycleTime0>1000000</CycleTime0>
 				<CycleTime1>25000</CycleTime1>
-				<ShiftTime>-535680</ShiftTime>
+				<ShiftTime>-536480</ShiftTime>
 			</DC>
 		</Slave>
 		<Slave>
@@ -4550,7 +4516,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Cmd>5</Cmd>
 					<Adp>1006</Adp>
 					<Ado>2448</Ado>
-					<Data>80d3f7ffffffffff</Data>
+					<Data>60d0f7ffffffffff</Data>
 					<Cnt>1</Cnt>
 					<Retries>3</Retries>
 				</InitCmd>
@@ -4883,7 +4849,7 @@ Bit1: Value smaller than Limit2</Comment>
 				<ReferenceClock>false</ReferenceClock>
 				<CycleTime0>1000000</CycleTime0>
 				<CycleTime1>25000</CycleTime1>
-				<ShiftTime>-535680</ShiftTime>
+				<ShiftTime>-536480</ShiftTime>
 			</DC>
 		</Slave>
 		<Slave>
@@ -6714,7 +6680,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<State>OP</State>
 					<Comment><![CDATA[cyclic cmd]]></Comment>
 					<Cmd>13</Cmd>
-					<Adp>0</Adp>
+					<Adp>65534</Adp>
 					<Ado>2320</Ado>
 					<DataLength>4</DataLength>
 					<InputOffs>32</InputOffs>
@@ -6759,7 +6725,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Comment><![CDATA[cyclic cmd]]></Comment>
 					<Cmd>12</Cmd>
 					<Addr>16781312</Addr>
-					<DataLength>94</DataLength>
+					<DataLength>104</DataLength>
 					<Cnt>3</Cnt>
 					<InputOffs>177</InputOffs>
 					<OutputOffs>177</OutputOffs>
@@ -6774,14 +6740,14 @@ Bit1: Value smaller than Limit2</Comment>
 					<Ado>304</Ado>
 					<DataLength>2</DataLength>
 					<Cnt>8</Cnt>
-					<InputOffs>283</InputOffs>
-					<OutputOffs>283</OutputOffs>
+					<InputOffs>293</InputOffs>
+					<OutputOffs>293</OutputOffs>
 				</Cmd>
 			</Frame>
 		</Cyclic>
 		<ProcessImage>
 			<Inputs>
-				<ByteSize>1678</ByteSize>
+				<ByteSize>1670</ByteSize>
 				<Variable>
 					<Name>Drive 4 (AMC).Module 1 (Default).PDO data from Slave.Status Word</Name>
 					<DataType>UINT</DataType>
@@ -7013,7 +6979,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<BitOffs>1368</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AcquisitionState.AcquisitionState_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AcquisitionState.AcquisitionState_V</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1496</BitOffs>
@@ -7037,202 +7003,226 @@ Bit1: Value smaller than Limit2</Comment>
 					<BitOffs>1576</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Powersource.out.I.Powersource.out.I_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_interval.AftFlap.out.Cycle_interval_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1608</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Powersource.out.I.Powersource.out.I_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_interval.AftFlap.out.Cycle_interval_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1616</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Powersource.out.U.Powersource.out.U_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_Check.AftFlap.out.Cycle_Check_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1648</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Powersource.out.U.Powersource.out.U_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_Check.AftFlap.out.Cycle_Check_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1656</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Powersource.out.i_mean.Powersource.out.i_mean_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Frequency.AftFlap.out.Frequency_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1688</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Powersource.out.i_mean.Powersource.out.i_mean_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Frequency.AftFlap.out.Frequency_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1696</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Powersource.out.u_mean.Powersource.out.u_mean_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.I.AftFlap.out.I_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1728</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Powersource.out.u_mean.Powersource.out.u_mean_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.I.AftFlap.out.I_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1736</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Powersource.out.P.Powersource.out.P_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.U.AftFlap.out.U_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1768</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Powersource.out.P.Powersource.out.P_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.U.AftFlap.out.U_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1776</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Inverter.out.P.Inverter.out.P_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.i_mean.AftFlap.out.i_mean_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1808</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Inverter.out.P.Inverter.out.P_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.i_mean.AftFlap.out.i_mean_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1816</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.M.Motor.out.M_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.u_mean.AftFlap.out.u_mean_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1848</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.M.Motor.out.M_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.u_mean.AftFlap.out.u_mean_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1856</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.n.Motor.out.n_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.P.AftFlap.out.P_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1888</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.n.Motor.out.n_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.P.AftFlap.out.P_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1896</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.M_inst.Motor.out.M_inst_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Cycle_interval.BowFlap.out1.Cycle_interval_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1928</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.M_inst.Motor.out.M_inst_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Cycle_interval.BowFlap.out1.Cycle_interval_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1936</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.n_inst.Motor.out.n_inst_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Cycle_Check.BowFlap.out1.Cycle_Check_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1968</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.n_inst.Motor.out.n_inst_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Cycle_Check.BowFlap.out1.Cycle_Check_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1976</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.P_mech.Motor.out.P_mech_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Frequency.BowFlap.out1.Frequency_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2008</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.P_mech.Motor.out.P_mech_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Frequency.BowFlap.out1.Frequency_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2016</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.Instantaneous_time.Motor.out.Instantaneous_time_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.I.BowFlap.out1.I_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2048</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Motor.out.Instantaneous_time.Motor.out.Instantaneous_time_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.I.BowFlap.out1.I_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2056</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Inverter.out.SIGMA_I.Inverter.out.SIGMA_I_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.U.BowFlap.out1.U_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2088</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Inverter.out.SIGMA_I.Inverter.out.SIGMA_I_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.U.BowFlap.out1.U_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2096</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Inverter.out.SIGMA_U.Inverter.out.SIGMA_U_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.i_mean.BowFlap.out1.i_mean_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2128</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).Inverter.out.SIGMA_U.Inverter.out.SIGMA_U_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.i_mean.BowFlap.out1.i_mean_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2136</BitOffs>
 				</Variable>
 				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.u_mean.BowFlap.out1.u_mean_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2168</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.u_mean.BowFlap.out1.u_mean_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2176</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.P.BowFlap.out1.P_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2208</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.P.BowFlap.out1.P_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2216</BitOffs>
+				</Variable>
+				<Variable>
 					<Name>Box 1 (GEN Series DAQ System).Remote Control (Tx).Command</Name>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>2168</BitOffs>
+					<BitOffs>2248</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Box 1 (GEN Series DAQ System).Remote Control (Tx).Recorder</Name>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>2184</BitOffs>
+					<BitOffs>2264</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Box 1 (GEN Series DAQ System).Remote Control (Tx).Channel</Name>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>2200</BitOffs>
+					<BitOffs>2280</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Box 1 (GEN Series DAQ System).Remote Control (Tx).Value</Name>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>2216</BitOffs>
+					<BitOffs>2296</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Box 1 (GEN Series DAQ System).Remote Control (Tx).ReturnCode</Name>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>2232</BitOffs>
+					<BitOffs>2312</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Inputs.Frm0State</Name>
@@ -7477,18 +7467,6 @@ Bit1: Value smaller than Limit2</Comment>
 					<BitOffs>12400</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).InfoData.DcOutputShift</Name>
-					<DataType>DINT</DataType>
-					<BitSize>32</BitSize>
-					<BitOffs>12464</BitOffs>
-				</Variable>
-				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).InfoData.DcInputShift</Name>
-					<DataType>DINT</DataType>
-					<BitSize>32</BitSize>
-					<BitOffs>12496</BitOffs>
-				</Variable>
-				<Variable>
 					<Name>Term 2 (EK1100).InfoData.State</Name>
 					<Comment><![CDATA[0x___1 = Slave in 'INIT' state
 0x___2 = Slave in 'PREOP' state
@@ -7510,7 +7488,7 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>12528</BitOffs>
+					<BitOffs>12464</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 3 (EL3104).InfoData.State</Name>
@@ -7534,26 +7512,26 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>12544</BitOffs>
+					<BitOffs>12480</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 3 (EL3104).InfoData.AdsAddr</Name>
 					<Comment><![CDATA[Complete ADS address to access the slave (mailbox)]]></Comment>
 					<DataType>AMSADDR</DataType>
 					<BitSize>64</BitSize>
-					<BitOffs>12560</BitOffs>
+					<BitOffs>12496</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 3 (EL3104).InfoData.DcOutputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12624</BitOffs>
+					<BitOffs>12560</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 3 (EL3104).InfoData.DcInputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12656</BitOffs>
+					<BitOffs>12592</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 4 (AMC).InfoData.State</Name>
@@ -7577,33 +7555,33 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>12688</BitOffs>
+					<BitOffs>12624</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 4 (AMC).InfoData.AdsAddr</Name>
 					<Comment><![CDATA[Complete ADS address to access the slave (mailbox)]]></Comment>
 					<DataType>AMSADDR</DataType>
 					<BitSize>64</BitSize>
-					<BitOffs>12704</BitOffs>
+					<BitOffs>12640</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 4 (AMC).InfoData.Chn0</Name>
 					<Comment><![CDATA[Slave has a channel]]></Comment>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
-					<BitOffs>12768</BitOffs>
+					<BitOffs>12704</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 4 (AMC).InfoData.DcOutputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12776</BitOffs>
+					<BitOffs>12712</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 4 (AMC).InfoData.DcInputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12808</BitOffs>
+					<BitOffs>12744</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 5 (EK1100).InfoData.State</Name>
@@ -7627,7 +7605,7 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>12840</BitOffs>
+					<BitOffs>12776</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 6 (EL3154).InfoData.State</Name>
@@ -7651,26 +7629,26 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>12856</BitOffs>
+					<BitOffs>12792</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 6 (EL3154).InfoData.AdsAddr</Name>
 					<Comment><![CDATA[Complete ADS address to access the slave (mailbox)]]></Comment>
 					<DataType>AMSADDR</DataType>
 					<BitSize>64</BitSize>
-					<BitOffs>12872</BitOffs>
+					<BitOffs>12808</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 6 (EL3154).InfoData.DcOutputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12936</BitOffs>
+					<BitOffs>12872</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 6 (EL3154).InfoData.DcInputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12968</BitOffs>
+					<BitOffs>12904</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 7 (EL3692).InfoData.State</Name>
@@ -7694,14 +7672,14 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13000</BitOffs>
+					<BitOffs>12936</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 7 (EL3692).InfoData.AdsAddr</Name>
 					<Comment><![CDATA[Complete ADS address to access the slave (mailbox)]]></Comment>
 					<DataType>AMSADDR</DataType>
 					<BitSize>64</BitSize>
-					<BitOffs>13016</BitOffs>
+					<BitOffs>12952</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 8 (AMC).InfoData.State</Name>
@@ -7725,39 +7703,39 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13080</BitOffs>
+					<BitOffs>13016</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 8 (AMC).InfoData.AdsAddr</Name>
 					<Comment><![CDATA[Complete ADS address to access the slave (mailbox)]]></Comment>
 					<DataType>AMSADDR</DataType>
 					<BitSize>64</BitSize>
-					<BitOffs>13096</BitOffs>
+					<BitOffs>13032</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 8 (AMC).InfoData.Chn0</Name>
 					<Comment><![CDATA[Slave has a channel]]></Comment>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
-					<BitOffs>13160</BitOffs>
+					<BitOffs>13096</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 8 (AMC).InfoData.DcOutputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>13168</BitOffs>
+					<BitOffs>13104</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 8 (AMC).InfoData.DcInputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>13200</BitOffs>
+					<BitOffs>13136</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.&lt;unreferenced&gt;.InfoData.ObjectId</Name>
 					<DataType>OTCID</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>13232</BitOffs>
+					<BitOffs>13168</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.&lt;unreferenced&gt;.InfoData.State</Name>
@@ -7777,20 +7755,20 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13264</BitOffs>
+					<BitOffs>13200</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.&lt;unreferenced&gt;.InfoData.SlaveCount</Name>
 					<Comment><![CDATA[Info data slave counter]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13280</BitOffs>
+					<BitOffs>13216</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.Task 2.InfoData.ObjectId</Name>
 					<DataType>OTCID</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>13296</BitOffs>
+					<BitOffs>13232</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.Task 2.InfoData.State</Name>
@@ -7810,20 +7788,20 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13328</BitOffs>
+					<BitOffs>13264</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.Task 2.InfoData.SlaveCount</Name>
 					<Comment><![CDATA[Info data slave counter]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13344</BitOffs>
+					<BitOffs>13280</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.SyncUnit1.&lt;unreferenced&gt;.InfoData.ObjectId</Name>
 					<DataType>OTCID</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>13360</BitOffs>
+					<BitOffs>13296</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.SyncUnit1.&lt;unreferenced&gt;.InfoData.State</Name>
@@ -7843,14 +7821,14 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13392</BitOffs>
+					<BitOffs>13328</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.SyncUnit1.&lt;unreferenced&gt;.InfoData.SlaveCount</Name>
 					<Comment><![CDATA[Info data slave counter]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13408</BitOffs>
+					<BitOffs>13344</BitOffs>
 				</Variable>
 			</Inputs>
 			<Outputs>

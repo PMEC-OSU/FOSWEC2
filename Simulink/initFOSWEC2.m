@@ -4,7 +4,6 @@ clear; clc; close all
 addpath(genpath('utils'))
 disp('*** Setting model parameters')
 Ts = 0.001;
-Tsin = 3; % period for sine wave
 
 %% Gear ratios
 aft.N = 75/20;
@@ -17,9 +16,9 @@ bow.Kt = 0.9438;
 %% bandpass filter for motor position signals
 bandpass_dt = c2d(tf([1 0],[1 2*pi/100])*tf(2*pi*200,[1 2*pi*200]),Ts,'impulse');
 
+rampTime = 20;
 T = 5;
 Ts = 0.001;
-% Tsin = 2;
 stepTime = 10;
 t = 25:25:200;
 
@@ -50,7 +49,7 @@ set_param(mdlName,'LoadExternalInput','on');
 set_param(mdlName,'StopTime','Inf');
 tg = slrealtime();
 load_system(mdlName)
-eniPath = fullfile(pwd,'../TwinCAT/mCDRLUPA8xml.xml');
+eniPath = fullfile(pwd,'../TwinCAT/NAVFACOSWECSxml.xml');
 set_param([mdlName,'/Initialization/EtherCAT Init'],'config_file',eniPath);
 set_param(mdlName,'RTWVerbose','off')
 
