@@ -59,7 +59,7 @@
 		<Analytics ConfigVersion="1.4">
 			<Name>ANALYTICS</Name>
 			<ImageId>437</ImageId>
-			<XmlProps><![CDATA[<Address /><Latitude /><Longitude /><SystemIdAlias /><DeviceProps></DeviceProps><SelectedDriverVersion>3.3.211.0</SelectedDriverVersion><StreamTargets><StreamTargetItem Id="47832598-da0a-45f0-944b-7061ab6b26a3"><Name>Stream Target 1</Name><Type>FILE</Type><Directory>%TC_BOOTPRJPATH%</Directory><MqttConnectionSettings><Broker>127.0.0.1</Broker><BrokerPort>1883</BrokerPort><UserID /><WithCertificates>false</WithCertificates><CA_Certificate /><Cert_Certificate /><Key_Certificate /><CommunicationTimeout>30000000</CommunicationTimeout><KeepAlivePeriod>600000000</KeepAlivePeriod><TcpBufferSize>32768</TcpBufferSize><SecurityType>NO_SECURITY</SecurityType><Insecure>false</Insecure><IgnoreExpiration>false</IgnoreExpiration><IsPskIdCaseSensitive>false</IsPskIdCaseSensitive><IgnoreCnMismatch>false</IgnoreCnMismatch><TargetPaths>false</TargetPaths><PskMode>HexKey</PskMode></MqttConnectionSettings><TimeType>None</TimeType></StreamTargetItem></StreamTargets><ActivateAlyLogger>false</ActivateAlyLogger>]]></XmlProps>
+			<XmlProps><![CDATA[<Address /><Latitude /><Longitude /><SystemIdAlias /><DeviceProps></DeviceProps><SelectedDriverVersion>3.3.211.0</SelectedDriverVersion><StreamTargets><StreamTargetItem Id="330946ec-fc38-492b-b83b-75377f8f6d4b"><Name>Stream Target 1</Name><Type>FILE</Type><Directory>%TC_BOOTPRJPATH%</Directory><MqttConnectionSettings><Broker>127.0.0.1</Broker><BrokerPort>1883</BrokerPort><UserID /><WithCertificates>false</WithCertificates><CA_Certificate /><Cert_Certificate /><Key_Certificate /><CommunicationTimeout>30000000</CommunicationTimeout><KeepAlivePeriod>600000000</KeepAlivePeriod><TcpBufferSize>32768</TcpBufferSize><SecurityType>NO_SECURITY</SecurityType><Insecure>false</Insecure><IgnoreExpiration>false</IgnoreExpiration><IsPskIdCaseSensitive>false</IsPskIdCaseSensitive><IgnoreCnMismatch>false</IgnoreCnMismatch><TargetPaths>false</TargetPaths><PskMode>HexKey</PskMode></MqttConnectionSettings><TimeType>None</TimeType></StreamTargetItem></StreamTargets><ActivateAlyLogger>false</ActivateAlyLogger>]]></XmlProps>
 		</Analytics>
 		<Io>
 			<Device Id="2" DevType="111" DevFlags="#x0003" AmsPort="28674" AmsNetId="192.168.7.2.3.1" RemoteName="Device 2 (EtherCAT)" InfoImageId="3">
@@ -106,131 +106,131 @@
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.Cycle_interval" Index="#x1a03" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.Cycle_interval_S" Index="#x2003" Sub="#x01">
+						<Pdo Name="BowFlap.out.Cycle_interval" Index="#x1a03" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out.Cycle_interval_S" Index="#x2003" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.Cycle_interval_V" Index="#x2003" Sub="#x02">
+							<Entry Name="BowFlap.out.Cycle_interval_V" Index="#x2003" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.Cycle_Check" Index="#x1a04" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.Cycle_Check_S" Index="#x2004" Sub="#x01">
+						<Pdo Name="BowFlap.out.Cycle_Check" Index="#x1a04" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out.Cycle_Check_S" Index="#x2004" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.Cycle_Check_V" Index="#x2004" Sub="#x02">
+							<Entry Name="BowFlap.out.Cycle_Check_V" Index="#x2004" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.Frequency" Index="#x1a05" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.Frequency_S" Index="#x2005" Sub="#x01">
+						<Pdo Name="BowFlap.out.Frequency" Index="#x1a05" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out.Frequency_S" Index="#x2005" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.Frequency_V" Index="#x2005" Sub="#x02">
+							<Entry Name="BowFlap.out.Frequency_V" Index="#x2005" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.I" Index="#x1a06" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.I_S" Index="#x2006" Sub="#x01">
+						<Pdo Name="BowFlap.out.I" Index="#x1a06" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out.I_S" Index="#x2006" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.I_V" Index="#x2006" Sub="#x02">
+							<Entry Name="BowFlap.out.I_V" Index="#x2006" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.U" Index="#x1a07" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.U_S" Index="#x2007" Sub="#x01">
+						<Pdo Name="BowFlap.out.U" Index="#x1a07" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out.U_S" Index="#x2007" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.U_V" Index="#x2007" Sub="#x02">
+							<Entry Name="BowFlap.out.U_V" Index="#x2007" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.i_mean" Index="#x1a08" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.i_mean_S" Index="#x2008" Sub="#x01">
+						<Pdo Name="BowFlap.out.i_mean" Index="#x1a08" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out.i_mean_S" Index="#x2008" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.i_mean_V" Index="#x2008" Sub="#x02">
+							<Entry Name="BowFlap.out.i_mean_V" Index="#x2008" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.u_mean" Index="#x1a09" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.u_mean_S" Index="#x2009" Sub="#x01">
+						<Pdo Name="BowFlap.out.u_mean" Index="#x1a09" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out.u_mean_S" Index="#x2009" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.u_mean_V" Index="#x2009" Sub="#x02">
+							<Entry Name="BowFlap.out.u_mean_V" Index="#x2009" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.P" Index="#x1a0a" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.P_S" Index="#x200a" Sub="#x01">
+						<Pdo Name="BowFlap.out.P" Index="#x1a0a" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowFlap.out.P_S" Index="#x200a" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.P_V" Index="#x200a" Sub="#x02">
+							<Entry Name="BowFlap.out.P_V" Index="#x200a" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out1.Cycle_interval" Index="#x1a0b" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out1.Cycle_interval_S" Index="#x200b" Sub="#x01">
+						<Pdo Name="AftFlap.out.Cycle_interval" Index="#x1a0b" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.Cycle_interval_S" Index="#x200b" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out1.Cycle_interval_V" Index="#x200b" Sub="#x02">
+							<Entry Name="AftFlap.out.Cycle_interval_V" Index="#x200b" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out1.Cycle_Check" Index="#x1a14" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out1.Cycle_Check_S" Index="#x2014" Sub="#x01">
+						<Pdo Name="AftFlap.out.Cycle_Check" Index="#x1a14" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.Cycle_Check_S" Index="#x2014" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out1.Cycle_Check_V" Index="#x2014" Sub="#x02">
+							<Entry Name="AftFlap.out.Cycle_Check_V" Index="#x2014" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out1.Frequency" Index="#x1a15" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out1.Frequency_S" Index="#x2015" Sub="#x01">
+						<Pdo Name="AftFlap.out.Frequency" Index="#x1a15" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.Frequency_S" Index="#x2015" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out1.Frequency_V" Index="#x2015" Sub="#x02">
+							<Entry Name="AftFlap.out.Frequency_V" Index="#x2015" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out1.I" Index="#x1a16" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out1.I_S" Index="#x2016" Sub="#x01">
+						<Pdo Name="AftFlap.out.I" Index="#x1a16" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.I_S" Index="#x2016" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out1.I_V" Index="#x2016" Sub="#x02">
+							<Entry Name="AftFlap.out.I_V" Index="#x2016" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out1.U" Index="#x1a17" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out1.U_S" Index="#x2017" Sub="#x01">
+						<Pdo Name="AftFlap.out.U" Index="#x1a17" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.U_S" Index="#x2017" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out1.U_V" Index="#x2017" Sub="#x02">
+							<Entry Name="AftFlap.out.U_V" Index="#x2017" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out1.i_mean" Index="#x1a18" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out1.i_mean_S" Index="#x2018" Sub="#x01">
+						<Pdo Name="AftFlap.out.i_mean" Index="#x1a18" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.i_mean_S" Index="#x2018" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out1.i_mean_V" Index="#x2018" Sub="#x02">
+							<Entry Name="AftFlap.out.i_mean_V" Index="#x2018" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out1.u_mean" Index="#x1a19" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out1.u_mean_S" Index="#x2019" Sub="#x01">
+						<Pdo Name="AftFlap.out.u_mean" Index="#x1a19" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.u_mean_S" Index="#x2019" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out1.u_mean_V" Index="#x2019" Sub="#x02">
+							<Entry Name="AftFlap.out.u_mean_V" Index="#x2019" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out1.P" Index="#x1a1a" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out1.P_S" Index="#x201a" Sub="#x01">
+						<Pdo Name="AftFlap.out.P" Index="#x1a1a" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftFlap.out.P_S" Index="#x201a" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out1.P_V" Index="#x201a" Sub="#x02">
+							<Entry Name="AftFlap.out.P_V" Index="#x201a" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>

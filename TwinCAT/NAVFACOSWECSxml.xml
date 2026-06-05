@@ -255,16 +255,160 @@
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a03</Index>
-					<Name>AftFlap.out.Cycle_interval</Name>
+					<Name>BowFlap.out.Cycle_interval</Name>
 					<Entry>
 						<Index>#x2003</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowFlap.out.Cycle_interval_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2003</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowFlap.out.Cycle_interval_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a04</Index>
+					<Name>BowFlap.out.Cycle_Check</Name>
+					<Entry>
+						<Index>#x2004</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowFlap.out.Cycle_Check_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2004</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowFlap.out.Cycle_Check_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a05</Index>
+					<Name>BowFlap.out.Frequency</Name>
+					<Entry>
+						<Index>#x2005</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowFlap.out.Frequency_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2005</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowFlap.out.Frequency_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a06</Index>
+					<Name>BowFlap.out.I</Name>
+					<Entry>
+						<Index>#x2006</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowFlap.out.I_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2006</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowFlap.out.I_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a07</Index>
+					<Name>BowFlap.out.U</Name>
+					<Entry>
+						<Index>#x2007</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowFlap.out.U_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2007</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowFlap.out.U_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a08</Index>
+					<Name>BowFlap.out.i_mean</Name>
+					<Entry>
+						<Index>#x2008</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowFlap.out.i_mean_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2008</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowFlap.out.i_mean_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a09</Index>
+					<Name>BowFlap.out.u_mean</Name>
+					<Entry>
+						<Index>#x2009</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowFlap.out.u_mean_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2009</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowFlap.out.u_mean_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a0a</Index>
+					<Name>BowFlap.out.P</Name>
+					<Entry>
+						<Index>#x200a</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowFlap.out.P_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x200a</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowFlap.out.P_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a0b</Index>
+					<Name>AftFlap.out.Cycle_interval</Name>
+					<Entry>
+						<Index>#x200b</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
 						<Name>AftFlap.out.Cycle_interval_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2003</Index>
+						<Index>#x200b</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
 						<Name>AftFlap.out.Cycle_interval_V</Name>
@@ -272,17 +416,17 @@
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a04</Index>
+					<Index>#x1a14</Index>
 					<Name>AftFlap.out.Cycle_Check</Name>
 					<Entry>
-						<Index>#x2004</Index>
+						<Index>#x2014</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
 						<Name>AftFlap.out.Cycle_Check_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2004</Index>
+						<Index>#x2014</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
 						<Name>AftFlap.out.Cycle_Check_V</Name>
@@ -290,17 +434,17 @@
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a05</Index>
+					<Index>#x1a15</Index>
 					<Name>AftFlap.out.Frequency</Name>
 					<Entry>
-						<Index>#x2005</Index>
+						<Index>#x2015</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
 						<Name>AftFlap.out.Frequency_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2005</Index>
+						<Index>#x2015</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
 						<Name>AftFlap.out.Frequency_V</Name>
@@ -308,17 +452,17 @@
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a06</Index>
+					<Index>#x1a16</Index>
 					<Name>AftFlap.out.I</Name>
 					<Entry>
-						<Index>#x2006</Index>
+						<Index>#x2016</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
 						<Name>AftFlap.out.I_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2006</Index>
+						<Index>#x2016</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
 						<Name>AftFlap.out.I_V</Name>
@@ -326,17 +470,17 @@
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a07</Index>
+					<Index>#x1a17</Index>
 					<Name>AftFlap.out.U</Name>
 					<Entry>
-						<Index>#x2007</Index>
+						<Index>#x2017</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
 						<Name>AftFlap.out.U_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2007</Index>
+						<Index>#x2017</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
 						<Name>AftFlap.out.U_V</Name>
@@ -344,17 +488,17 @@
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a08</Index>
+					<Index>#x1a18</Index>
 					<Name>AftFlap.out.i_mean</Name>
 					<Entry>
-						<Index>#x2008</Index>
+						<Index>#x2018</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
 						<Name>AftFlap.out.i_mean_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2008</Index>
+						<Index>#x2018</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
 						<Name>AftFlap.out.i_mean_V</Name>
@@ -362,17 +506,17 @@
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a09</Index>
+					<Index>#x1a19</Index>
 					<Name>AftFlap.out.u_mean</Name>
 					<Entry>
-						<Index>#x2009</Index>
+						<Index>#x2019</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
 						<Name>AftFlap.out.u_mean_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2009</Index>
+						<Index>#x2019</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
 						<Name>AftFlap.out.u_mean_V</Name>
@@ -380,164 +524,20 @@
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a0a</Index>
+					<Index>#x1a1a</Index>
 					<Name>AftFlap.out.P</Name>
 					<Entry>
-						<Index>#x200a</Index>
+						<Index>#x201a</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
 						<Name>AftFlap.out.P_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x200a</Index>
+						<Index>#x201a</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
 						<Name>AftFlap.out.P_V</Name>
-						<DataType>REAL</DataType>
-					</Entry>
-				</TxPdo>
-				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a0b</Index>
-					<Name>BowFlap.out1.Cycle_interval</Name>
-					<Entry>
-						<Index>#x200b</Index>
-						<SubIndex>1</SubIndex>
-						<BitLen>8</BitLen>
-						<Name>BowFlap.out1.Cycle_interval_S</Name>
-						<DataType>USINT</DataType>
-					</Entry>
-					<Entry>
-						<Index>#x200b</Index>
-						<SubIndex>2</SubIndex>
-						<BitLen>32</BitLen>
-						<Name>BowFlap.out1.Cycle_interval_V</Name>
-						<DataType>REAL</DataType>
-					</Entry>
-				</TxPdo>
-				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a14</Index>
-					<Name>BowFlap.out1.Cycle_Check</Name>
-					<Entry>
-						<Index>#x2014</Index>
-						<SubIndex>1</SubIndex>
-						<BitLen>8</BitLen>
-						<Name>BowFlap.out1.Cycle_Check_S</Name>
-						<DataType>USINT</DataType>
-					</Entry>
-					<Entry>
-						<Index>#x2014</Index>
-						<SubIndex>2</SubIndex>
-						<BitLen>32</BitLen>
-						<Name>BowFlap.out1.Cycle_Check_V</Name>
-						<DataType>REAL</DataType>
-					</Entry>
-				</TxPdo>
-				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a15</Index>
-					<Name>BowFlap.out1.Frequency</Name>
-					<Entry>
-						<Index>#x2015</Index>
-						<SubIndex>1</SubIndex>
-						<BitLen>8</BitLen>
-						<Name>BowFlap.out1.Frequency_S</Name>
-						<DataType>USINT</DataType>
-					</Entry>
-					<Entry>
-						<Index>#x2015</Index>
-						<SubIndex>2</SubIndex>
-						<BitLen>32</BitLen>
-						<Name>BowFlap.out1.Frequency_V</Name>
-						<DataType>REAL</DataType>
-					</Entry>
-				</TxPdo>
-				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a16</Index>
-					<Name>BowFlap.out1.I</Name>
-					<Entry>
-						<Index>#x2016</Index>
-						<SubIndex>1</SubIndex>
-						<BitLen>8</BitLen>
-						<Name>BowFlap.out1.I_S</Name>
-						<DataType>USINT</DataType>
-					</Entry>
-					<Entry>
-						<Index>#x2016</Index>
-						<SubIndex>2</SubIndex>
-						<BitLen>32</BitLen>
-						<Name>BowFlap.out1.I_V</Name>
-						<DataType>REAL</DataType>
-					</Entry>
-				</TxPdo>
-				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a17</Index>
-					<Name>BowFlap.out1.U</Name>
-					<Entry>
-						<Index>#x2017</Index>
-						<SubIndex>1</SubIndex>
-						<BitLen>8</BitLen>
-						<Name>BowFlap.out1.U_S</Name>
-						<DataType>USINT</DataType>
-					</Entry>
-					<Entry>
-						<Index>#x2017</Index>
-						<SubIndex>2</SubIndex>
-						<BitLen>32</BitLen>
-						<Name>BowFlap.out1.U_V</Name>
-						<DataType>REAL</DataType>
-					</Entry>
-				</TxPdo>
-				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a18</Index>
-					<Name>BowFlap.out1.i_mean</Name>
-					<Entry>
-						<Index>#x2018</Index>
-						<SubIndex>1</SubIndex>
-						<BitLen>8</BitLen>
-						<Name>BowFlap.out1.i_mean_S</Name>
-						<DataType>USINT</DataType>
-					</Entry>
-					<Entry>
-						<Index>#x2018</Index>
-						<SubIndex>2</SubIndex>
-						<BitLen>32</BitLen>
-						<Name>BowFlap.out1.i_mean_V</Name>
-						<DataType>REAL</DataType>
-					</Entry>
-				</TxPdo>
-				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a19</Index>
-					<Name>BowFlap.out1.u_mean</Name>
-					<Entry>
-						<Index>#x2019</Index>
-						<SubIndex>1</SubIndex>
-						<BitLen>8</BitLen>
-						<Name>BowFlap.out1.u_mean_S</Name>
-						<DataType>USINT</DataType>
-					</Entry>
-					<Entry>
-						<Index>#x2019</Index>
-						<SubIndex>2</SubIndex>
-						<BitLen>32</BitLen>
-						<Name>BowFlap.out1.u_mean_V</Name>
-						<DataType>REAL</DataType>
-					</Entry>
-				</TxPdo>
-				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a1a</Index>
-					<Name>BowFlap.out1.P</Name>
-					<Entry>
-						<Index>#x201a</Index>
-						<SubIndex>1</SubIndex>
-						<BitLen>8</BitLen>
-						<Name>BowFlap.out1.P_S</Name>
-						<DataType>USINT</DataType>
-					</Entry>
-					<Entry>
-						<Index>#x201a</Index>
-						<SubIndex>2</SubIndex>
-						<BitLen>32</BitLen>
-						<Name>BowFlap.out1.P_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
@@ -7003,193 +7003,193 @@ Bit1: Value smaller than Limit2</Comment>
 					<BitOffs>1576</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_interval.AftFlap.out.Cycle_interval_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Cycle_interval.BowFlap.out.Cycle_interval_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1608</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_interval.AftFlap.out.Cycle_interval_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Cycle_interval.BowFlap.out.Cycle_interval_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1616</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_Check.AftFlap.out.Cycle_Check_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Cycle_Check.BowFlap.out.Cycle_Check_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1648</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_Check.AftFlap.out.Cycle_Check_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Cycle_Check.BowFlap.out.Cycle_Check_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1656</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Frequency.AftFlap.out.Frequency_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Frequency.BowFlap.out.Frequency_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1688</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Frequency.AftFlap.out.Frequency_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Frequency.BowFlap.out.Frequency_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1696</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.I.AftFlap.out.I_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.I.BowFlap.out.I_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1728</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.I.AftFlap.out.I_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.I.BowFlap.out.I_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1736</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.U.AftFlap.out.U_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.U.BowFlap.out.U_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1768</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.U.AftFlap.out.U_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.U.BowFlap.out.U_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1776</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.i_mean.AftFlap.out.i_mean_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.i_mean.BowFlap.out.i_mean_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1808</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.i_mean.AftFlap.out.i_mean_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.i_mean.BowFlap.out.i_mean_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1816</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.u_mean.AftFlap.out.u_mean_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.u_mean.BowFlap.out.u_mean_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1848</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.u_mean.AftFlap.out.u_mean_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.u_mean.BowFlap.out.u_mean_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1856</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.P.AftFlap.out.P_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.P.BowFlap.out.P_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1888</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.P.AftFlap.out.P_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.P.BowFlap.out.P_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1896</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Cycle_interval.BowFlap.out1.Cycle_interval_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_interval.AftFlap.out.Cycle_interval_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1928</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Cycle_interval.BowFlap.out1.Cycle_interval_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_interval.AftFlap.out.Cycle_interval_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1936</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Cycle_Check.BowFlap.out1.Cycle_Check_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_Check.AftFlap.out.Cycle_Check_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1968</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Cycle_Check.BowFlap.out1.Cycle_Check_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_Check.AftFlap.out.Cycle_Check_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1976</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Frequency.BowFlap.out1.Frequency_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Frequency.AftFlap.out.Frequency_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2008</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.Frequency.BowFlap.out1.Frequency_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Frequency.AftFlap.out.Frequency_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2016</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.I.BowFlap.out1.I_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.I.AftFlap.out.I_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2048</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.I.BowFlap.out1.I_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.I.AftFlap.out.I_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2056</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.U.BowFlap.out1.U_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.U.AftFlap.out.U_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2088</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.U.BowFlap.out1.U_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.U.AftFlap.out.U_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2096</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.i_mean.BowFlap.out1.i_mean_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.i_mean.AftFlap.out.i_mean_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2128</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.i_mean.BowFlap.out1.i_mean_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.i_mean.AftFlap.out.i_mean_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2136</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.u_mean.BowFlap.out1.u_mean_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.u_mean.AftFlap.out.u_mean_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2168</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.u_mean.BowFlap.out1.u_mean_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.u_mean.AftFlap.out.u_mean_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2176</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.P.BowFlap.out1.P_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.P.AftFlap.out.P_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2208</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out1.P.BowFlap.out1.P_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.P.AftFlap.out.P_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2216</BitOffs>
