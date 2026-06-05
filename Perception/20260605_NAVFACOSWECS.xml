@@ -218,7 +218,7 @@
         <Sm Enable="1" ControlByte="#x26" StartAddress="#x1000" DefaultSize="512" MaxSize="512" MinSize="46">MBoxOut</Sm>
         <Sm Enable="1" ControlByte="#x22" StartAddress="#x1200" DefaultSize="512" MaxSize="512" MinSize="46">MBoxIn</Sm>
         <Sm ControlByte="#x24" StartAddress="#x1400" DefaultSize="8" MaxSize="39" MinSize="0">Outputs</Sm>
-        <Sm ControlByte="#x60" StartAddress="#x1475" DefaultSize="579" MaxSize="1459" MinSize="0">Inputs</Sm>
+        <Sm ControlByte="#x60" StartAddress="#x1475" DefaultSize="229" MaxSize="1459" MinSize="0">Inputs</Sm>
         <Su>SyncUnit1</Su>
         <RxPdo Sm="2" Mandatory="true" Fixed="true">
           <Index>5632</Index>
@@ -437,6 +437,24 @@
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
+          <Index>6667</Index>
+          <Name>AftInverter.out.SIGMA_I</Name>
+          <Entry>
+            <Index>8203</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>AftInverter.out.SIGMA_I_S</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>8203</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>AftInverter.out.SIGMA_I_V</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6668</Index>
           <Name>AftInverter.out.Cycle_Check</Name>
           <Entry>
@@ -473,200 +491,20 @@
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6670</Index>
-          <Name>AftInverter.out.I_1</Name>
-          <Entry>
-            <Index>8206</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.I_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8206</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.I_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6671</Index>
-          <Name>AftInverter.out.I_2</Name>
-          <Entry>
-            <Index>8207</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.I_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8207</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.I_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6672</Index>
-          <Name>AftInverter.out.I_3</Name>
-          <Entry>
-            <Index>8208</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.I_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8208</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.I_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6673</Index>
-          <Name>AftInverter.out.?_I</Name>
+          <Name>AftInverter.out.SIGMA_U</Name>
           <Entry>
             <Index>8209</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_I_S</Name>
+            <Name>AftInverter.out.SIGMA_U_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8209</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_I_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6674</Index>
-          <Name>AftInverter.out.U_1</Name>
-          <Entry>
-            <Index>8210</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.U_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8210</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.U_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6675</Index>
-          <Name>AftInverter.out.U_2</Name>
-          <Entry>
-            <Index>8211</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.U_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8211</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.U_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6676</Index>
-          <Name>AftInverter.out.U_3</Name>
-          <Entry>
-            <Index>8212</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.U_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8212</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.U_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6677</Index>
-          <Name>AftInverter.out.?_U</Name>
-          <Entry>
-            <Index>8213</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_U_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8213</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_U_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6678</Index>
-          <Name>AftInverter.out.P_1</Name>
-          <Entry>
-            <Index>8214</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.P_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8214</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.P_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6679</Index>
-          <Name>AftInverter.out.P_2</Name>
-          <Entry>
-            <Index>8215</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.P_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8215</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.P_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6680</Index>
-          <Name>AftInverter.out.P_3</Name>
-          <Entry>
-            <Index>8216</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.P_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8216</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.P_3_V</Name>
+            <Name>AftInverter.out.SIGMA_U_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
@@ -689,60 +527,6 @@
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6682</Index>
-          <Name>AftInverter.out.S_1</Name>
-          <Entry>
-            <Index>8218</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.S_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8218</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.S_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6683</Index>
-          <Name>AftInverter.out.S_2</Name>
-          <Entry>
-            <Index>8219</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.S_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8219</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.S_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6684</Index>
-          <Name>AftInverter.out.S_3</Name>
-          <Entry>
-            <Index>8220</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.S_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8220</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.S_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6685</Index>
           <Name>AftInverter.out.S</Name>
           <Entry>
@@ -757,60 +541,6 @@
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
             <Name>AftInverter.out.S_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6686</Index>
-          <Name>AftInverter.out.Q_1</Name>
-          <Entry>
-            <Index>8222</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.Q_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8222</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.Q_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6687</Index>
-          <Name>AftInverter.out.Q_2</Name>
-          <Entry>
-            <Index>8223</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.Q_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8223</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.Q_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6688</Index>
-          <Name>AftInverter.out.Q_3</Name>
-          <Entry>
-            <Index>8224</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.Q_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8224</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.Q_3_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
@@ -833,74 +563,20 @@
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6690</Index>
-          <Name>AftInverter.out.?_1</Name>
-          <Entry>
-            <Index>8226</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8226</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6691</Index>
-          <Name>AftInverter.out.?_2</Name>
-          <Entry>
-            <Index>8227</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8227</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6692</Index>
-          <Name>AftInverter.out.?_3</Name>
+          <Name>AftInverter.out.lambda</Name>
           <Entry>
             <Index>8228</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_3_S</Name>
+            <Name>AftInverter.out.lambda_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8228</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6693</Index>
-          <Name>AftInverter.out.?</Name>
-          <Entry>
-            <Index>8229</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8229</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_V</Name>
+            <Name>AftInverter.out.lambda_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
@@ -923,218 +599,38 @@
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6695</Index>
-          <Name>AftInverter.out.?_fund_1</Name>
-          <Entry>
-            <Index>8231</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_fund_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8231</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_fund_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6696</Index>
-          <Name>AftInverter.out.?_fund_2</Name>
-          <Entry>
-            <Index>8232</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_fund_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8232</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_fund_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6697</Index>
-          <Name>AftInverter.out.?_fund_3</Name>
-          <Entry>
-            <Index>8233</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_fund_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8233</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_fund_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6698</Index>
-          <Name>AftInverter.out.Cos?_fund_1</Name>
-          <Entry>
-            <Index>8234</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.Cos?_fund_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8234</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.Cos?_fund_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6699</Index>
-          <Name>AftInverter.out.Cos?_fund_2</Name>
-          <Entry>
-            <Index>8235</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.Cos?_fund_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8235</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.Cos?_fund_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6700</Index>
-          <Name>AftInverter.out.Cos?_fund_3</Name>
+          <Name>AftInverter.out.phi_u1</Name>
           <Entry>
             <Index>8236</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftInverter.out.Cos?_fund_3_S</Name>
+            <Name>AftInverter.out.phi_u1_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8236</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftInverter.out.Cos?_fund_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6701</Index>
-          <Name>AftInverter.out.?_u1</Name>
-          <Entry>
-            <Index>8237</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_u1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8237</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_u1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6702</Index>
-          <Name>AftInverter.out.?_u1_i1</Name>
-          <Entry>
-            <Index>8238</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_u1_i1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8238</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_u1_i1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6703</Index>
-          <Name>AftInverter.out.?_u1_u2</Name>
-          <Entry>
-            <Index>8239</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_u1_u2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8239</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_u1_u2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6704</Index>
-          <Name>AftInverter.out.?_u1_i2</Name>
-          <Entry>
-            <Index>8240</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_u1_i2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8240</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_u1_i2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6705</Index>
-          <Name>AftInverter.out.?_u1_u3</Name>
-          <Entry>
-            <Index>8241</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_u1_u3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8241</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_u1_u3_V</Name>
+            <Name>AftInverter.out.phi_u1_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6706</Index>
-          <Name>AftInverter.out.?_u1_i3</Name>
+          <Name>AftInverter.out.SIGMA_I_fund</Name>
           <Entry>
             <Index>8242</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_u1_i3_S</Name>
+            <Name>AftInverter.out.SIGMA_I_fund_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8242</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_u1_i3_V</Name>
+            <Name>AftInverter.out.SIGMA_I_fund_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
@@ -1157,146 +653,56 @@
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6708</Index>
-          <Name>AftInverter.out.I_fund_1</Name>
-          <Entry>
-            <Index>8244</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.I_fund_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8244</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.I_fund_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6709</Index>
-          <Name>AftInverter.out.I_fund_2</Name>
-          <Entry>
-            <Index>8245</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.I_fund_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8245</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.I_fund_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6710</Index>
-          <Name>AftInverter.out.I_fund_3</Name>
-          <Entry>
-            <Index>8246</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.I_fund_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8246</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.I_fund_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6711</Index>
-          <Name>AftInverter.out.?_I_fund</Name>
+          <Name>AftInverter.out.SIGMA_U_fund</Name>
           <Entry>
             <Index>8247</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_I_fund_S</Name>
+            <Name>AftInverter.out.SIGMA_U_fund_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8247</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_I_fund_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6712</Index>
-          <Name>AftInverter.out.U_fund_1</Name>
-          <Entry>
-            <Index>8248</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.U_fund_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8248</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.U_fund_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6713</Index>
-          <Name>AftInverter.out.U_fund_2</Name>
-          <Entry>
-            <Index>8249</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.U_fund_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8249</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.U_fund_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6714</Index>
-          <Name>AftInverter.out.U_fund_3</Name>
-          <Entry>
-            <Index>8250</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>AftInverter.out.U_fund_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8250</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>AftInverter.out.U_fund_3_V</Name>
+            <Name>AftInverter.out.SIGMA_U_fund_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6715</Index>
-          <Name>AftInverter.out.?_U_fund</Name>
+          <Name>BowInverter.out.SIGMA_I</Name>
           <Entry>
             <Index>8251</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftInverter.out.?_U_fund_S</Name>
+            <Name>BowInverter.out.SIGMA_I_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8251</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftInverter.out.?_U_fund_V</Name>
+            <Name>BowInverter.out.SIGMA_I_V</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Sm="3" Mandatory="true" Fixed="true">
+          <Index>6716</Index>
+          <Name>BowInverter.out.SIGMA_U</Name>
+          <Entry>
+            <Index>8252</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>BowInverter.out.SIGMA_U_S</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>8252</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>BowInverter.out.SIGMA_U_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
@@ -1463,204 +869,6 @@
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6727</Index>
-          <Name>BowInverter.out.I_1</Name>
-          <Entry>
-            <Index>8263</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.I_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8263</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.I_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6728</Index>
-          <Name>BowInverter.out.I_2</Name>
-          <Entry>
-            <Index>8264</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.I_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8264</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.I_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6729</Index>
-          <Name>BowInverter.out.I_3</Name>
-          <Entry>
-            <Index>8265</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.I_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8265</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.I_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6730</Index>
-          <Name>BowInverter.out.?_I</Name>
-          <Entry>
-            <Index>8266</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_I_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8266</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_I_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6731</Index>
-          <Name>BowInverter.out.U_1</Name>
-          <Entry>
-            <Index>8267</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.U_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8267</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.U_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6732</Index>
-          <Name>BowInverter.out.U_2</Name>
-          <Entry>
-            <Index>8268</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.U_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8268</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.U_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6733</Index>
-          <Name>BowInverter.out.U_3</Name>
-          <Entry>
-            <Index>8269</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.U_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8269</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.U_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6734</Index>
-          <Name>BowInverter.out.?_U</Name>
-          <Entry>
-            <Index>8270</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_U_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8270</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_U_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6735</Index>
-          <Name>BowInverter.out.P_1</Name>
-          <Entry>
-            <Index>8271</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.P_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8271</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.P_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6736</Index>
-          <Name>BowInverter.out.P_2</Name>
-          <Entry>
-            <Index>8272</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.P_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8272</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.P_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6737</Index>
-          <Name>BowInverter.out.P_3</Name>
-          <Entry>
-            <Index>8273</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.P_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8273</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.P_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6738</Index>
           <Name>BowInverter.out.P</Name>
           <Entry>
@@ -1679,60 +887,6 @@
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6739</Index>
-          <Name>BowInverter.out.S_1</Name>
-          <Entry>
-            <Index>8275</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.S_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8275</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.S_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6740</Index>
-          <Name>BowInverter.out.S_2</Name>
-          <Entry>
-            <Index>8276</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.S_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8276</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.S_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6741</Index>
-          <Name>BowInverter.out.S_3</Name>
-          <Entry>
-            <Index>8277</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.S_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8277</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.S_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6742</Index>
           <Name>BowInverter.out.S</Name>
           <Entry>
@@ -1747,60 +901,6 @@
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
             <Name>BowInverter.out.S_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6743</Index>
-          <Name>BowInverter.out.Q_1</Name>
-          <Entry>
-            <Index>8279</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.Q_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8279</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.Q_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6744</Index>
-          <Name>BowInverter.out.Q_2</Name>
-          <Entry>
-            <Index>8280</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.Q_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8280</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.Q_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6745</Index>
-          <Name>BowInverter.out.Q_3</Name>
-          <Entry>
-            <Index>8281</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.Q_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8281</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.Q_3_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
@@ -1824,73 +924,19 @@
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6747</Index>
-          <Name>BowInverter.out.?_1</Name>
+          <Name>BowInverter.out.lambda</Name>
           <Entry>
             <Index>8283</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_1_S</Name>
+            <Name>BowInverter.out.lambda_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8283</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6748</Index>
-          <Name>BowInverter.out.?_2</Name>
-          <Entry>
-            <Index>8284</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8284</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6749</Index>
-          <Name>BowInverter.out.?_3</Name>
-          <Entry>
-            <Index>8285</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8285</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6750</Index>
-          <Name>BowInverter.out.?</Name>
-          <Entry>
-            <Index>8286</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8286</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_V</Name>
+            <Name>BowInverter.out.lambda_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
@@ -1913,218 +959,56 @@
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6752</Index>
-          <Name>BowInverter.out.?_fund_1</Name>
-          <Entry>
-            <Index>8288</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_fund_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8288</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_fund_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6753</Index>
-          <Name>BowInverter.out.?_fund_2</Name>
-          <Entry>
-            <Index>8289</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_fund_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8289</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_fund_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6754</Index>
-          <Name>BowInverter.out.?_fund_3</Name>
-          <Entry>
-            <Index>8290</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_fund_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8290</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_fund_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6755</Index>
-          <Name>BowInverter.out.Cos?_fund_1</Name>
+          <Name>BowInverter.out.phi_u1</Name>
           <Entry>
             <Index>8291</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowInverter.out.Cos?_fund_1_S</Name>
+            <Name>BowInverter.out.phi_u1_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8291</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowInverter.out.Cos?_fund_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6756</Index>
-          <Name>BowInverter.out.Cos?_fund_2</Name>
-          <Entry>
-            <Index>8292</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.Cos?_fund_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8292</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.Cos?_fund_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6757</Index>
-          <Name>BowInverter.out.Cos?_fund_3</Name>
-          <Entry>
-            <Index>8293</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.Cos?_fund_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8293</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.Cos?_fund_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6758</Index>
-          <Name>BowInverter.out.?_u1</Name>
-          <Entry>
-            <Index>8294</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_u1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8294</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_u1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6759</Index>
-          <Name>BowInverter.out.?_u1_i1</Name>
-          <Entry>
-            <Index>8295</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_u1_i1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8295</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_u1_i1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6760</Index>
-          <Name>BowInverter.out.?_u1_u2</Name>
-          <Entry>
-            <Index>8296</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_u1_u2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8296</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_u1_u2_V</Name>
+            <Name>BowInverter.out.phi_u1_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6761</Index>
-          <Name>BowInverter.out.?_u1_i2</Name>
+          <Name>BowInverter.out.SIGMA_I_fund</Name>
           <Entry>
             <Index>8297</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_u1_i2_S</Name>
+            <Name>BowInverter.out.SIGMA_I_fund_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8297</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_u1_i2_V</Name>
+            <Name>BowInverter.out.SIGMA_I_fund_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6762</Index>
-          <Name>BowInverter.out.?_u1_u3</Name>
+          <Name>BowInverter.out.SIGMA_U_fund</Name>
           <Entry>
             <Index>8298</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_u1_u3_S</Name>
+            <Name>BowInverter.out.SIGMA_U_fund_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8298</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_u1_u3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6763</Index>
-          <Name>BowInverter.out.?_u1_i3</Name>
-          <Entry>
-            <Index>8299</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_u1_i3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8299</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_u1_i3_V</Name>
+            <Name>BowInverter.out.SIGMA_U_fund_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
@@ -2148,181 +1032,37 @@
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6765</Index>
-          <Name>BowInverter.out.I_fund_1</Name>
-          <Entry>
-            <Index>8301</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.I_fund_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8301</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.I_fund_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6766</Index>
-          <Name>BowInverter.out.I_fund_2</Name>
-          <Entry>
-            <Index>8302</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.I_fund_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8302</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.I_fund_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6767</Index>
-          <Name>BowInverter.out.I_fund_3</Name>
-          <Entry>
-            <Index>8303</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.I_fund_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8303</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.I_fund_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6768</Index>
-          <Name>BowInverter.out.?_I_fund</Name>
-          <Entry>
-            <Index>8304</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_I_fund_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8304</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_I_fund_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6769</Index>
-          <Name>BowInverter.out.U_fund_1</Name>
-          <Entry>
-            <Index>8305</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.U_fund_1_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8305</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.U_fund_1_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6770</Index>
-          <Name>BowInverter.out.U_fund_2</Name>
-          <Entry>
-            <Index>8306</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.U_fund_2_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8306</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.U_fund_2_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6771</Index>
-          <Name>BowInverter.out.U_fund_3</Name>
-          <Entry>
-            <Index>8307</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.U_fund_3_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8307</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.U_fund_3_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6772</Index>
-          <Name>BowInverter.out.?_U_fund</Name>
-          <Entry>
-            <Index>8308</Index>
-            <SubIndex>1</SubIndex>
-            <BitLen>8</BitLen>
-            <Name>BowInverter.out.?_U_fund_S</Name>
-            <DataType>USINT</DataType>
-          </Entry>
-          <Entry>
-            <Index>8308</Index>
-            <SubIndex>2</SubIndex>
-            <BitLen>32</BitLen>
-            <Name>BowInverter.out.?_U_fund_V</Name>
-            <DataType>REAL</DataType>
-          </Entry>
-        </TxPdo>
-        <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6773</Index>
           <Name>Remote Control (Tx)</Name>
           <Entry>
-            <Index>8309</Index>
+            <Index>8301</Index>
             <SubIndex>1</SubIndex>
             <BitLen>16</BitLen>
             <Name>Command</Name>
             <DataType>UINT</DataType>
           </Entry>
           <Entry>
-            <Index>8309</Index>
+            <Index>8301</Index>
             <SubIndex>2</SubIndex>
             <BitLen>16</BitLen>
             <Name>Recorder</Name>
             <DataType>UINT</DataType>
           </Entry>
           <Entry>
-            <Index>8309</Index>
+            <Index>8301</Index>
             <SubIndex>3</SubIndex>
             <BitLen>16</BitLen>
             <Name>Channel</Name>
             <DataType>UINT</DataType>
           </Entry>
           <Entry>
-            <Index>8309</Index>
+            <Index>8301</Index>
             <SubIndex>4</SubIndex>
             <BitLen>16</BitLen>
             <Name>Value</Name>
             <DataType>UINT</DataType>
           </Entry>
           <Entry>
-            <Index>8309</Index>
+            <Index>8301</Index>
             <SubIndex>5</SubIndex>
             <BitLen>16</BitLen>
             <Name>ReturnCode</Name>
