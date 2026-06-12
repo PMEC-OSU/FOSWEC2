@@ -30,12 +30,13 @@
 		</DataType>
 	</DataTypes>
 	<ImageDatas>
-		<ImageData Id="1000">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
-		<ImageData Id="1001">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
-		<ImageData Id="1002">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff</ImageData>
-		<ImageData Id="1003">424dd6020000000000003600000028000000100000000e0000000100180000000000a002000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c080808000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c0c0c0c000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c080808000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000000000000000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c080808000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c0c0c0c000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c0808080000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000ff000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c000ffff000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c0808080000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c000ff00000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000ffffffffffffffffffffffffffffff</ImageData>
+		<ImageData Id="1000">424db8000000000000004600000028000000100000000e000000010004000000000072000000120b0000120b0000040000000400000000000000ffffff005f321b00d7ccc600122112212112122111121211211212111121122121121221121112112112121111221221221212211111111111111111132231222212112112112121111211211211212111121321121221211112122112111122221232211211212111122321121121211112212113223122221231210000</ImageData>
+		<ImageData Id="1001">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000bfff00bfffc0c0c0808080c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
+		<ImageData Id="1002">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ff00ff0000ff0000ff0000ff0000ff0000ff00c0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
+		<ImageData Id="1003">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff</ImageData>
+		<ImageData Id="1004">424dd6020000000000003600000028000000100000000e0000000100180000000000a002000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c080808000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c0c0c0c000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c080808000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000000000000000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c080808000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c0c0c0c000000000800000ff00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c0808080000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000ff000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c000ffff000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c0808080000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000c0c0c000ff00000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000ffffffffffffffffffffffffffffff</ImageData>
 	</ImageDatas>
-	<Project ProjectGUID="{0728C96A-02F5-4D8C-949D-80D59CEAA7BD}" Target64Bit="true" ShowHideConfigurations="#x6">
+	<Project ProjectGUID="{98A4404C-D258-4C6E-B5E9-856E73206E61}" Target64Bit="true" ShowHideConfigurations="#x6">
 		<System>
 			<Tasks>
 				<Task Id="2" Priority="1" CycleTime="10000" AmsPort="301">
@@ -59,7 +60,7 @@
 		<Analytics ConfigVersion="1.4">
 			<Name>ANALYTICS</Name>
 			<ImageId>437</ImageId>
-			<XmlProps><![CDATA[<Address /><Latitude /><Longitude /><SystemIdAlias /><DeviceProps></DeviceProps><SelectedDriverVersion>3.3.211.0</SelectedDriverVersion><StreamTargets><StreamTargetItem Id="330946ec-fc38-492b-b83b-75377f8f6d4b"><Name>Stream Target 1</Name><Type>FILE</Type><Directory>%TC_BOOTPRJPATH%</Directory><MqttConnectionSettings><Broker>127.0.0.1</Broker><BrokerPort>1883</BrokerPort><UserID /><WithCertificates>false</WithCertificates><CA_Certificate /><Cert_Certificate /><Key_Certificate /><CommunicationTimeout>30000000</CommunicationTimeout><KeepAlivePeriod>600000000</KeepAlivePeriod><TcpBufferSize>32768</TcpBufferSize><SecurityType>NO_SECURITY</SecurityType><Insecure>false</Insecure><IgnoreExpiration>false</IgnoreExpiration><IsPskIdCaseSensitive>false</IsPskIdCaseSensitive><IgnoreCnMismatch>false</IgnoreCnMismatch><TargetPaths>false</TargetPaths><PskMode>HexKey</PskMode></MqttConnectionSettings><TimeType>None</TimeType></StreamTargetItem></StreamTargets><ActivateAlyLogger>false</ActivateAlyLogger>]]></XmlProps>
+			<XmlProps><![CDATA[<Address>Hauptstraße 5, 32567 Berlin</Address><Latitude>123.41</Latitude><Longitude>43.4555</Longitude><SystemIdAlias /><DeviceProps></DeviceProps><SelectedDriverVersion>3.3.211.0</SelectedDriverVersion><StreamTargets><StreamTargetItem Id="92e56ef5-6813-4078-81f0-db8967b385ce"><Name>Stream Target 1</Name><Type>FILE</Type><Directory>%TC_BOOTPRJPATH%</Directory><MqttConnectionSettings><Broker>127.0.0.1</Broker><BrokerPort>1883</BrokerPort><UserID /><WithCertificates>false</WithCertificates><CA_Certificate /><Cert_Certificate /><Key_Certificate /><CommunicationTimeout>30000000</CommunicationTimeout><KeepAlivePeriod>600000000</KeepAlivePeriod><TcpBufferSize>32768</TcpBufferSize><SecurityType>NO_SECURITY</SecurityType><Insecure>false</Insecure><IgnoreExpiration>false</IgnoreExpiration><IsPskIdCaseSensitive>false</IsPskIdCaseSensitive><IgnoreCnMismatch>false</IgnoreCnMismatch><TargetPaths>false</TargetPaths><PskMode>HexKey</PskMode></MqttConnectionSettings><TimeType>None</TimeType></StreamTargetItem></StreamTargets><ActivateAlyLogger>false</ActivateAlyLogger>]]></XmlProps>
 		</Analytics>
 		<Io>
 			<Device Id="2" DevType="111" DevFlags="#x0003" AmsPort="28674" AmsNetId="192.168.7.2.3.1" RemoteName="Device 2 (EtherCAT)" InfoImageId="3">
@@ -76,16 +77,17 @@
 				</Image>
 				<Box Id="1" BoxType="9099" BoxFlags="#x00000020">
 					<Name>Box 1 (GEN Series DAQ System)</Name>
-					<ImageId>551</ImageId>
-					<EtherCAT SlaveType="2" PdiType="#x0c80" MboxDataLinkLayer="true" StateMBoxPolling="true" CycleMBoxPollingTime="0" CoeType="19" VendorId="#x0000011d" ProductCode="#x00000d01" RevisionNo="#x00000002" InfoDataAddr="true" TimeoutStateChange1="65535" TimeoutStateChange4="5000" TimeoutMailbox1="1000" TimeoutMailbox2="10000" PortPhys="17" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="GEN Series DAQ System" Desc="GEN Series DAQ System" PortABoxInfo="#x00ffffff">
+					<ImageId>1000</ImageId>
+					<EtherCAT SlaveType="2" PdiType="#x0c80" MboxDataLinkLayer="true" StateMBoxPolling="true" CycleMBoxPollingTime="0" CoeType="19" VendorId="#x0000011d" ProductCode="#x00000d01" RevisionNo="#x00000002" InfoDataAddr="true" InfoDataDcTimes="true" TimeoutStateChange1="65535" TimeoutStateChange4="5000" TimeoutMailbox1="1000" TimeoutMailbox2="10000" PortPhys="17" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="GEN Series DAQ System" Desc="GEN Series DAQ System" PortABoxInfo="#x00ffffff">
 						<SyncMan>0010000226000100010000002e0000020002001026010000</SyncMan>
 						<SyncMan>0012000222000100020000002e0000020002001222010000</SyncMan>
 						<SyncMan>001408002400010003000000000027000800001424000000</SyncMan>
-						<SyncMan>7514680060000100040000000000b3055e00751460020000</SyncMan>
+						<SyncMan>7514e50060000100040000000000b3055e00751460020000</SyncMan>
 						<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
 						<Fmmu>0000000000000000001400020100000001000000020000000200000000000000</Fmmu>
 						<Fmmu>0000000000000000751400010100000002000000060000000300000000000000</Fmmu>
 						<SuName>SyncUnit1</SuName>
+						<DcData>3003000000000000000000000000000001000000010000000000000000000000</DcData>
 						<DcMode>44634f66660000000000000000000000467265652052756e000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000</DcMode>
 						<DcMode>446353796e633000000000000000000044432d53796e6368726f6e6f7573000000000000000000000000000000000000000000000000000000000000000030030100000000000000000000000000000000000000000000000000000000000000</DcMode>
 						<Pdo Name="AcquisitionState" Index="#x1a00" Flags="#x0011" SyncMan="3">
@@ -106,148 +108,348 @@
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out.Cycle_interval" Index="#x1a03" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out.Cycle_interval_S" Index="#x2003" Sub="#x01">
+						<Pdo Name="AftPowersource.out.Cycle_interval" Index="#x1a03" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftPowersource.out.Cycle_interval_S" Index="#x2003" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out.Cycle_interval_V" Index="#x2003" Sub="#x02">
+							<Entry Name="AftPowersource.out.Cycle_interval_V" Index="#x2003" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out.Cycle_Check" Index="#x1a04" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out.Cycle_Check_S" Index="#x2004" Sub="#x01">
+						<Pdo Name="AftPowersource.out.Cycle_Check" Index="#x1a04" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftPowersource.out.Cycle_Check_S" Index="#x2004" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out.Cycle_Check_V" Index="#x2004" Sub="#x02">
+							<Entry Name="AftPowersource.out.Cycle_Check_V" Index="#x2004" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out.Frequency" Index="#x1a05" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out.Frequency_S" Index="#x2005" Sub="#x01">
+						<Pdo Name="AftPowersource.out.Frequency" Index="#x1a05" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftPowersource.out.Frequency_S" Index="#x2005" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out.Frequency_V" Index="#x2005" Sub="#x02">
+							<Entry Name="AftPowersource.out.Frequency_V" Index="#x2005" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out.I" Index="#x1a06" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out.I_S" Index="#x2006" Sub="#x01">
+						<Pdo Name="AftPowersource.out.I" Index="#x1a06" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftPowersource.out.I_S" Index="#x2006" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out.I_V" Index="#x2006" Sub="#x02">
+							<Entry Name="AftPowersource.out.I_V" Index="#x2006" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out.U" Index="#x1a07" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out.U_S" Index="#x2007" Sub="#x01">
+						<Pdo Name="AftPowersource.out.U" Index="#x1a07" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftPowersource.out.U_S" Index="#x2007" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out.U_V" Index="#x2007" Sub="#x02">
+							<Entry Name="AftPowersource.out.U_V" Index="#x2007" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out.i_mean" Index="#x1a08" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out.i_mean_S" Index="#x2008" Sub="#x01">
+						<Pdo Name="AftPowersource.out.i_mean" Index="#x1a08" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftPowersource.out.i_mean_S" Index="#x2008" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out.i_mean_V" Index="#x2008" Sub="#x02">
+							<Entry Name="AftPowersource.out.i_mean_V" Index="#x2008" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out.u_mean" Index="#x1a09" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out.u_mean_S" Index="#x2009" Sub="#x01">
+						<Pdo Name="AftPowersource.out.u_mean" Index="#x1a09" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftPowersource.out.u_mean_S" Index="#x2009" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out.u_mean_V" Index="#x2009" Sub="#x02">
+							<Entry Name="AftPowersource.out.u_mean_V" Index="#x2009" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="BowFlap.out.P" Index="#x1a0a" Flags="#x0011" SyncMan="3">
-							<Entry Name="BowFlap.out.P_S" Index="#x200a" Sub="#x01">
+						<Pdo Name="AftPowersource.out.P" Index="#x1a0a" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftPowersource.out.P_S" Index="#x200a" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="BowFlap.out.P_V" Index="#x200a" Sub="#x02">
+							<Entry Name="AftPowersource.out.P_V" Index="#x200a" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.Cycle_interval" Index="#x1a0b" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.Cycle_interval_S" Index="#x200b" Sub="#x01">
+						<Pdo Name="AftInverter.out.SIGMA_I" Index="#x1a0b" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.SIGMA_I_S" Index="#x200b" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.Cycle_interval_V" Index="#x200b" Sub="#x02">
+							<Entry Name="AftInverter.out.SIGMA_I_V" Index="#x200b" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.Cycle_Check" Index="#x1a14" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.Cycle_Check_S" Index="#x2014" Sub="#x01">
+						<Pdo Name="AftInverter.out.Cycle_Check" Index="#x1a0c" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.Cycle_Check_S" Index="#x200c" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.Cycle_Check_V" Index="#x2014" Sub="#x02">
+							<Entry Name="AftInverter.out.Cycle_Check_V" Index="#x200c" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.Frequency" Index="#x1a15" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.Frequency_S" Index="#x2015" Sub="#x01">
+						<Pdo Name="AftInverter.out.Frequency" Index="#x1a0d" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.Frequency_S" Index="#x200d" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.Frequency_V" Index="#x2015" Sub="#x02">
+							<Entry Name="AftInverter.out.Frequency_V" Index="#x200d" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.I" Index="#x1a16" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.I_S" Index="#x2016" Sub="#x01">
+						<Pdo Name="AftInverter.out.SIGMA_U" Index="#x1a11" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.SIGMA_U_S" Index="#x2011" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.I_V" Index="#x2016" Sub="#x02">
+							<Entry Name="AftInverter.out.SIGMA_U_V" Index="#x2011" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.U" Index="#x1a17" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.U_S" Index="#x2017" Sub="#x01">
+						<Pdo Name="AftInverter.out.P" Index="#x1a19" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.P_S" Index="#x2019" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.U_V" Index="#x2017" Sub="#x02">
+							<Entry Name="AftInverter.out.P_V" Index="#x2019" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.i_mean" Index="#x1a18" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.i_mean_S" Index="#x2018" Sub="#x01">
+						<Pdo Name="AftInverter.out.S" Index="#x1a1d" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.S_S" Index="#x201d" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.i_mean_V" Index="#x2018" Sub="#x02">
+							<Entry Name="AftInverter.out.S_V" Index="#x201d" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.u_mean" Index="#x1a19" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.u_mean_S" Index="#x2019" Sub="#x01">
+						<Pdo Name="AftInverter.out.Q" Index="#x1a21" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.Q_S" Index="#x2021" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.u_mean_V" Index="#x2019" Sub="#x02">
+							<Entry Name="AftInverter.out.Q_V" Index="#x2021" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="AftFlap.out.P" Index="#x1a1a" Flags="#x0011" SyncMan="3">
-							<Entry Name="AftFlap.out.P_S" Index="#x201a" Sub="#x01">
+						<Pdo Name="AftInverter.out.lambda" Index="#x1a24" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.lambda_S" Index="#x2024" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
-							<Entry Name="AftFlap.out.P_V" Index="#x201a" Sub="#x02">
+							<Entry Name="AftInverter.out.lambda_V" Index="#x2024" Sub="#x02">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="Remote Control (Tx)" Index="#x1a1b" Flags="#x0011" SyncMan="3">
-							<Entry Name="Command" Index="#x201b" Sub="#x01">
+						<Pdo Name="AftInverter.out.Min_fund_frequency" Index="#x1a26" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.Min_fund_frequency_S" Index="#x2026" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="AftInverter.out.Min_fund_frequency_V" Index="#x2026" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="AftInverter.out.phi_u1" Index="#x1a2c" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.phi_u1_S" Index="#x202c" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="AftInverter.out.phi_u1_V" Index="#x202c" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="AftInverter.out.SIGMA_I_fund" Index="#x1a32" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.SIGMA_I_fund_S" Index="#x2032" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="AftInverter.out.SIGMA_I_fund_V" Index="#x2032" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="AftInverter.out.Min_fundrms_frequency" Index="#x1a33" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.Min_fundrms_frequency_S" Index="#x2033" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="AftInverter.out.Min_fundrms_frequency_V" Index="#x2033" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="AftInverter.out.SIGMA_U_fund" Index="#x1a37" Flags="#x0011" SyncMan="3">
+							<Entry Name="AftInverter.out.SIGMA_U_fund_S" Index="#x2037" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="AftInverter.out.SIGMA_U_fund_V" Index="#x2037" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.SIGMA_I" Index="#x1a3b" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.SIGMA_I_S" Index="#x203b" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.SIGMA_I_V" Index="#x203b" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.SIGMA_U" Index="#x1a3c" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.SIGMA_U_S" Index="#x203c" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.SIGMA_U_V" Index="#x203c" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowPowersource.out.Cycle_Check" Index="#x1a3d" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowPowersource.out.Cycle_Check_S" Index="#x203d" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowPowersource.out.Cycle_Check_V" Index="#x203d" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowPowersource.out.Frequency" Index="#x1a3e" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowPowersource.out.Frequency_S" Index="#x203e" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowPowersource.out.Frequency_V" Index="#x203e" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowPowersource.out.I" Index="#x1a3f" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowPowersource.out.I_S" Index="#x203f" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowPowersource.out.I_V" Index="#x203f" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowPowersource.out.U" Index="#x1a40" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowPowersource.out.U_S" Index="#x2040" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowPowersource.out.U_V" Index="#x2040" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowPowersource.out.i_mean" Index="#x1a41" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowPowersource.out.i_mean_S" Index="#x2041" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowPowersource.out.i_mean_V" Index="#x2041" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowPowersource.out.u_mean" Index="#x1a42" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowPowersource.out.u_mean_S" Index="#x2042" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowPowersource.out.u_mean_V" Index="#x2042" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowPowersource.out.P" Index="#x1a43" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowPowersource.out.P_S" Index="#x2043" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowPowersource.out.P_V" Index="#x2043" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.Cycle_Check" Index="#x1a45" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.Cycle_Check_S" Index="#x2045" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.Cycle_Check_V" Index="#x2045" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.Frequency" Index="#x1a46" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.Frequency_S" Index="#x2046" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.Frequency_V" Index="#x2046" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.P" Index="#x1a52" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.P_S" Index="#x2052" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.P_V" Index="#x2052" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.S" Index="#x1a56" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.S_S" Index="#x2056" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.S_V" Index="#x2056" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.Q" Index="#x1a5a" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.Q_S" Index="#x205a" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.Q_V" Index="#x205a" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.lambda" Index="#x1a5b" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.lambda_S" Index="#x205b" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.lambda_V" Index="#x205b" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.Min_fund_frequency" Index="#x1a5f" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.Min_fund_frequency_S" Index="#x205f" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.Min_fund_frequency_V" Index="#x205f" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.phi_u1" Index="#x1a63" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.phi_u1_S" Index="#x2063" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.phi_u1_V" Index="#x2063" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.SIGMA_I_fund" Index="#x1a69" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.SIGMA_I_fund_S" Index="#x2069" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.SIGMA_I_fund_V" Index="#x2069" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.SIGMA_U_fund" Index="#x1a6a" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.SIGMA_U_fund_S" Index="#x206a" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.SIGMA_U_fund_V" Index="#x206a" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="BowInverter.out.Min_fundrms_frequency" Index="#x1a6c" Flags="#x0011" SyncMan="3">
+							<Entry Name="BowInverter.out.Min_fundrms_frequency_S" Index="#x206c" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+							<Entry Name="BowInverter.out.Min_fundrms_frequency_V" Index="#x206c" Sub="#x02">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="Remote Control (Tx)" Index="#x1a6d" Flags="#x0011" SyncMan="3">
+							<Entry Name="Command" Index="#x206d" Sub="#x01">
 								<Type>UINT</Type>
 							</Entry>
-							<Entry Name="Recorder" Index="#x201b" Sub="#x02">
+							<Entry Name="Recorder" Index="#x206d" Sub="#x02">
 								<Type>UINT</Type>
 							</Entry>
-							<Entry Name="Channel" Index="#x201b" Sub="#x03">
+							<Entry Name="Channel" Index="#x206d" Sub="#x03">
 								<Type>UINT</Type>
 							</Entry>
-							<Entry Name="Value" Index="#x201b" Sub="#x04">
+							<Entry Name="Value" Index="#x206d" Sub="#x04">
 								<Type>UINT</Type>
 							</Entry>
-							<Entry Name="ReturnCode" Index="#x201b" Sub="#x05">
+							<Entry Name="ReturnCode" Index="#x206d" Sub="#x05">
 								<Type>UINT</Type>
 							</Entry>
 						</Pdo>
@@ -269,11 +471,11 @@
 				</Box>
 				<Box Id="2" BoxType="9099">
 					<Name>Term 2 (EK1100)</Name>
-					<ImageId>1000</ImageId>
+					<ImageId>1001</ImageId>
 					<EtherCAT SlaveType="1" PdiType="#x0d00" CycleMBoxPollingTime="0" VendorId="#x00000002" ProductCode="#x044c2c52" RevisionNo="#x00120000" PortPhys="305" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EK1100 EtherCAT Coupler (2A E-Bus)" Desc="EK1100" PortABoxInfo="#x01000001"/>
 					<Box Id="3" BoxType="9099" BoxFlags="#x00000020">
 						<Name>Term 3 (EL3104)</Name>
-						<ImageId>1001</ImageId>
+						<ImageId>1002</ImageId>
 						<EtherCAT SlaveType="2" PdiType="#x0405" MboxDataLinkLayer="true" StateMBoxPolling="true" CycleMBoxPollingTime="0" CoeType="7" FoeType="1" VendorId="#x00000002" ProductCode="#x0c203052" RevisionNo="#x00140000" InfoDataAddr="true" InfoDataDcTimes="true" TimeoutMailbox2="2000" CheckRevisionNoType="3" PortPhys="51" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EL3104 4Ch. Ana. Input +/-10V Diff." Desc="EL3104" PortABoxInfo="#x01000002">
 							<SyncMan>001080002600010001000000800080008000001026010000</SyncMan>
 							<SyncMan>801080002200010002000000800080008000801022010000</SyncMan>
@@ -490,13 +692,13 @@ Bit1: Value smaller than Limit2]]></Comment>
 					</Box>
 					<Box Id="9" BoxType="9099">
 						<Name>Term 9 (EL9011)</Name>
-						<ImageId>1002</ImageId>
+						<ImageId>1003</ImageId>
 						<EtherCAT CycleMBoxPollingTime="0" VendorId="#x00000002" ProductCode="#x23333050" InfoDataState="false" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EL9011 End Terminal" Desc="EL9011" PortABoxInfo="#x01000003"/>
 					</Box>
 				</Box>
 				<Box Id="4" BoxType="9099" BoxFlags="#x00000020">
 					<Name>Drive 4 (AMC)</Name>
-					<ImageId>1003</ImageId>
+					<ImageId>1004</ImageId>
 					<EtherCAT SlaveType="2" PdiType="#x8000" MboxDataLinkLayer="true" CycleMBoxPolling="true" CoeType="17" EoeType="1" VendorId="#x000000bd" ProductCode="#x012d0000" RevisionNo="#x01000300" InfoDataAddr="true" InfoDataSoeDS401="true" InfoDataDcTimes="true" PortPhys="17" SlotPdoIncrement="64" SlotIndexIncrement="2048" Type="DP/DZ Series; 1-Axis" Desc="AMC" PortABoxInfo="#x02000002">
 						<SyncMan>00182e0226000100010000002800ce052e02001826010000</SyncMan>
 						<SyncMan>2e1a2e0222000100020000002800ce052e022e1a22010000</SyncMan>
@@ -568,11 +770,11 @@ Bit1: Value smaller than Limit2]]></Comment>
 				</Box>
 				<Box Id="5" BoxType="9099">
 					<Name>Term 5 (EK1100)</Name>
-					<ImageId>1000</ImageId>
+					<ImageId>1001</ImageId>
 					<EtherCAT SlaveType="1" PdiType="#x0d00" CycleMBoxPollingTime="0" VendorId="#x00000002" ProductCode="#x044c2c52" RevisionNo="#x00120000" PortPhys="305" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EK1100 EtherCAT Coupler (2A E-Bus)" Desc="EK1100" PortABoxInfo="#x01000004"/>
 					<Box Id="6" BoxType="9099" BoxFlags="#x00000020">
 						<Name>Term 6 (EL3154)</Name>
-						<ImageId>1001</ImageId>
+						<ImageId>1002</ImageId>
 						<EtherCAT SlaveType="2" PdiType="#x0405" MboxDataLinkLayer="true" StateMBoxPolling="true" CycleMBoxPollingTime="0" CoeType="7" FoeType="1" VendorId="#x00000002" ProductCode="#x0c523052" RevisionNo="#x00130000" InfoDataAddr="true" InfoDataDcTimes="true" TimeoutMailbox2="2000" CheckRevisionNoType="3" PortPhys="51" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EL3154 4Ch. Ana. Input 4-20mA" Desc="EL3154" PortABoxInfo="#x01000005">
 							<SyncMan>001080002600010001000000800080008000001026010000</SyncMan>
 							<SyncMan>801080002200010002000000800080008000801022010000</SyncMan>
@@ -789,7 +991,7 @@ Bit1: Value smaller than Limit2]]></Comment>
 					</Box>
 					<Box Id="7" BoxType="9099" BoxFlags="#x00000020">
 						<Name>Term 7 (EL3692)</Name>
-						<ImageId>1001</ImageId>
+						<ImageId>1002</ImageId>
 						<EtherCAT SlaveType="2" PdiType="#x0005" MboxDataLinkLayer="true" StateMBoxPolling="true" CycleMBoxPollingTime="0" CoeType="7" FoeType="1" VendorId="#x00000002" ProductCode="#x0e6c3052" RevisionNo="#x00150000" InfoDataAddr="true" TimeoutMailbox2="2000" CheckRevisionNoType="3" PortPhys="51" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EL3692 2Ch. resistance measurement terminal" Desc="EL3692" PortABoxInfo="#x01000006">
 							<SyncMan>001080002600010001000000800080008000001026010000</SyncMan>
 							<SyncMan>801080002200010002000000800080008000801022010000</SyncMan>
@@ -995,13 +1197,13 @@ Bit1: Value smaller than Limit2]]></Comment>
 					</Box>
 					<Box Id="10" BoxType="9099">
 						<Name>Term 10 (EL9011)</Name>
-						<ImageId>1002</ImageId>
+						<ImageId>1003</ImageId>
 						<EtherCAT CycleMBoxPollingTime="0" VendorId="#x00000002" ProductCode="#x23333050" InfoDataState="false" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EL9011 End Terminal" Desc="EL9011" PortABoxInfo="#x01000007"/>
 					</Box>
 				</Box>
 				<Box Id="8" BoxType="9099" BoxFlags="#x00000020">
 					<Name>Drive 8 (AMC)</Name>
-					<ImageId>1003</ImageId>
+					<ImageId>1004</ImageId>
 					<EtherCAT SlaveType="2" PdiType="#x8000" MboxDataLinkLayer="true" CycleMBoxPolling="true" CoeType="17" EoeType="1" VendorId="#x000000bd" ProductCode="#x012d0000" RevisionNo="#x01000300" InfoDataAddr="true" InfoDataSoeDS401="true" InfoDataDcTimes="true" PortPhys="17" SlotPdoIncrement="64" SlotIndexIncrement="2048" Type="DP/DZ Series; 1-Axis" Desc="AMC" PortABoxInfo="#x02000005">
 						<SyncMan>00182e0226000100010000002800ce052e02001826010000</SyncMan>
 						<SyncMan>2e1a2e0222000100020000002800ce052e022e1a22010000</SyncMan>
@@ -1079,7 +1281,7 @@ Bit1: Value smaller than Limit2]]></Comment>
 		<MappingInfo Identifier="{00000000-0020-0304-1000-040320000403}" Id="#x02030010"/>
 		<OwnerA Name="TIRT^Task 2">
 			<OwnerB Name="TIID^Device 2 (EtherCAT)^Term 2 (EK1100)^Term 3 (EL3104)">
-				<Link VarA="Inputs^Var 34" VarB="AI Standard Channel 3^Value"/>
+				<Link VarA="Inputs^Var 34" VarB="AI Standard Channel 1^Value"/>
 			</OwnerB>
 		</OwnerA>
 	</Mappings>

@@ -1,20 +1,8 @@
-
-
-%% Temperature
-
-figure
-plot(output.time,output.temperature.aftMotorTemp_C)
-hold on
-plot(output.time,output.temperature.bowMotorTemp_C)
-legend('aft','bow')
-ylabel('temp (\circC)')
-xlabel('time (s)')
-grid on
-title('Motor Temperature')
+close all
 
 %% Control gains
 
-figure
+figure("Name",'Damping in flap frame')
 subplot(2,2,1)
 plot(output.time,output.ctrlGains.aftDamping)
 hold on
@@ -56,7 +44,7 @@ grid on
 title('Stiffness in flap frame')
 
 %% Shore ADC
-figure
+figure('Name','wmstart and led')
 plot(output.time,output.shoreADC.wmstart)
 hold on
 plot(output.time,output.shoreADC.led)
@@ -67,21 +55,17 @@ grid on
 title('Wavemaker start and led signals')
 
 %% Pressure sensors
-figure
-plot(output.time,output.pressure.pressBowPort_Pa/6894.76)
-hold on
-plot(output.time,output.pressure.pressBowStbd_Pa/6894.76)
-plot(output.time,output.pressure.pressAftPort_Pa/6894.76)
-plot(output.time,output.pressure.pressAftStbd_Pa/6894.76)
+figure('Name','Pressure Sensors')
+
 plot(output.time,output.pressure.pressChassis_Pa/6894.76)
-legend('Bow Port','Bow Starboard','Aft Port','Aft Starboard','Chassis')
+legend('Chassis')
 ylabel('P (psi)')
 xlabel('time (s)')
 grid on
 title('Pressure sensors')
 
 %% Target current and torque
-figure
+figure('Name','Target current and torque')
 subplot(2,1,1)
 plot(output.time,squeeze(output.target.aftTarget_A))
 hold on
@@ -103,7 +87,7 @@ grid on
 title('Target Torque')
 
 %% motor feedback signals
-figure
+figure('Name','Motor feedback signals')
 subplot(2,3,1)
 plot(output.time,output.motor.aftCurrent_A)
 hold on
@@ -166,7 +150,7 @@ grid on
 title('Drive Power')
 
 %% Flap signals assuming lossless drivetrain
-figure
+figure('Name','Flap signals')
 subplot(2,1,1)
 plot(output.time,output.flap.aftFlap_deg)
 hold on
@@ -187,3 +171,94 @@ xlabel('time (s)')
 grid on
 title('Flap Torque')
 
+%% Power analyzer inverter
+figure('Name','Power Analyzer Inverter')
+ax(1) = subplot(3,2,1);
+plot(output.time,output.motor.aftPower_W)
+hold on
+% plot(output.time,output.inverter.aft_W)
+plot(output.time,-output.inverter.aft_sigma_W)
+plot(output.time,output.capacitor.aft_W)
+
+legend('aft motor shaft power','aft inverter power','aft capacitor power')
+ylabel('Power (W)')
+grid on
+
+ax2(1) = subplot(3,2,2);
+plot(output.time,output.motor.bowPower_W)
+hold on
+% plot(output.time,output.inverter.bow_W)
+plot(output.time,-output.inverter.bow_sigma_W)
+plot(output.time,output.capacitor.bow_W)
+legend('bow motor shaft power','bow inverter power','bow capacitor power')
+ylabel('Power (W)')
+grid on
+
+ax(2) = subplot(3,2,3);
+plot(output.time,output.inverter.aft_sigma_A)
+ylabel('Current (A)')
+grid on
+
+ax2(2) = subplot(3,2,4);
+plot(output.time,output.inverter.bow_sigma_A)
+ylabel('Current (A)')
+grid on
+
+ax(3) = subplot(3,2,5);
+plot(output.time,output.inverter.aft_sigma_V)
+ylabel('Voltage (V)')
+grid on
+
+ax2(3) = subplot(3,2,6);
+plot(output.time,output.inverter.bow_sigma_V)
+ylabel('Voltage (V)')
+grid on
+
+xlabel('time(s)')
+
+linkaxes(ax, 'x')
+linkaxes(ax2, 'x')
+
+%% Power analyzer capacitor
+figure('Name','Power Analyzer Capacitor')
+ax(1) = subplot(3,2,1);
+plot(output.time,output.motor.aftPower_W)
+hold on
+plot(output.time,output.capacitor.aft_W)
+
+legend('aft motor shaft power','aft capacitor power')
+ylabel('Power (W)')
+grid on
+
+ax2(1) = subplot(3,2,2);
+plot(output.time,output.motor.bowPower_W)
+hold on
+plot(output.time,output.capacitor.bow_W)
+legend('bow motor shaft power','bow capacitor power')
+ylabel('Power (W)')
+grid on
+
+ax(2) = subplot(3,2,3);
+plot(output.time,output.capacitor.aft_mean_A)
+ylabel('Current (A)')
+grid on
+
+ax2(2) = subplot(3,2,4);
+plot(output.time,output.capacitor.bow_mean_A)
+ylabel('Current (A)')
+grid on
+
+ax(3) = subplot(3,2,5);
+plot(output.time,output.capacitor.aft_mean_V)
+ylabel('Voltage (V)')
+grid on
+
+ax2(3) = subplot(3,2,6);
+plot(output.time,output.capacitor.bow_mean_V)
+ylabel('Voltage (V)')
+grid on
+
+xlabel('time(s)')
+
+linkaxes(ax, 'x')
+linkaxes(ax2, 'x')

@@ -174,7 +174,7 @@
 				</Send>
 				<Recv Sm3="true">
 					<BitStart>1496</BitStart>
-					<BitLength>832</BitLength>
+					<BitLength>1832</BitLength>
 				</Recv>
 				<Sm2>
 					<Type>Outputs</Type>
@@ -204,14 +204,39 @@
 					<Pdo>6665</Pdo>
 					<Pdo>6666</Pdo>
 					<Pdo>6667</Pdo>
-					<Pdo>6676</Pdo>
-					<Pdo>6677</Pdo>
-					<Pdo>6678</Pdo>
-					<Pdo>6679</Pdo>
-					<Pdo>6680</Pdo>
+					<Pdo>6668</Pdo>
+					<Pdo>6669</Pdo>
+					<Pdo>6673</Pdo>
 					<Pdo>6681</Pdo>
-					<Pdo>6682</Pdo>
-					<Pdo>6683</Pdo>
+					<Pdo>6685</Pdo>
+					<Pdo>6689</Pdo>
+					<Pdo>6692</Pdo>
+					<Pdo>6694</Pdo>
+					<Pdo>6700</Pdo>
+					<Pdo>6706</Pdo>
+					<Pdo>6707</Pdo>
+					<Pdo>6711</Pdo>
+					<Pdo>6715</Pdo>
+					<Pdo>6716</Pdo>
+					<Pdo>6717</Pdo>
+					<Pdo>6718</Pdo>
+					<Pdo>6719</Pdo>
+					<Pdo>6720</Pdo>
+					<Pdo>6721</Pdo>
+					<Pdo>6722</Pdo>
+					<Pdo>6723</Pdo>
+					<Pdo>6725</Pdo>
+					<Pdo>6726</Pdo>
+					<Pdo>6738</Pdo>
+					<Pdo>6742</Pdo>
+					<Pdo>6746</Pdo>
+					<Pdo>6747</Pdo>
+					<Pdo>6751</Pdo>
+					<Pdo>6755</Pdo>
+					<Pdo>6761</Pdo>
+					<Pdo>6762</Pdo>
+					<Pdo>6764</Pdo>
+					<Pdo>6765</Pdo>
 				</Sm3>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a00</Index>
@@ -255,325 +280,775 @@
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a03</Index>
-					<Name>BowFlap.out.Cycle_interval</Name>
+					<Name>AftPowersource.out.Cycle_interval</Name>
 					<Entry>
 						<Index>#x2003</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>BowFlap.out.Cycle_interval_S</Name>
+						<Name>AftPowersource.out.Cycle_interval_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2003</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>BowFlap.out.Cycle_interval_V</Name>
+						<Name>AftPowersource.out.Cycle_interval_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a04</Index>
-					<Name>BowFlap.out.Cycle_Check</Name>
+					<Name>AftPowersource.out.Cycle_Check</Name>
 					<Entry>
 						<Index>#x2004</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>BowFlap.out.Cycle_Check_S</Name>
+						<Name>AftPowersource.out.Cycle_Check_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2004</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>BowFlap.out.Cycle_Check_V</Name>
+						<Name>AftPowersource.out.Cycle_Check_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a05</Index>
-					<Name>BowFlap.out.Frequency</Name>
+					<Name>AftPowersource.out.Frequency</Name>
 					<Entry>
 						<Index>#x2005</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>BowFlap.out.Frequency_S</Name>
+						<Name>AftPowersource.out.Frequency_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2005</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>BowFlap.out.Frequency_V</Name>
+						<Name>AftPowersource.out.Frequency_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a06</Index>
-					<Name>BowFlap.out.I</Name>
+					<Name>AftPowersource.out.I</Name>
 					<Entry>
 						<Index>#x2006</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>BowFlap.out.I_S</Name>
+						<Name>AftPowersource.out.I_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2006</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>BowFlap.out.I_V</Name>
+						<Name>AftPowersource.out.I_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a07</Index>
-					<Name>BowFlap.out.U</Name>
+					<Name>AftPowersource.out.U</Name>
 					<Entry>
 						<Index>#x2007</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>BowFlap.out.U_S</Name>
+						<Name>AftPowersource.out.U_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2007</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>BowFlap.out.U_V</Name>
+						<Name>AftPowersource.out.U_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a08</Index>
-					<Name>BowFlap.out.i_mean</Name>
+					<Name>AftPowersource.out.i_mean</Name>
 					<Entry>
 						<Index>#x2008</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>BowFlap.out.i_mean_S</Name>
+						<Name>AftPowersource.out.i_mean_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2008</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>BowFlap.out.i_mean_V</Name>
+						<Name>AftPowersource.out.i_mean_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a09</Index>
-					<Name>BowFlap.out.u_mean</Name>
+					<Name>AftPowersource.out.u_mean</Name>
 					<Entry>
 						<Index>#x2009</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>BowFlap.out.u_mean_S</Name>
+						<Name>AftPowersource.out.u_mean_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2009</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>BowFlap.out.u_mean_V</Name>
+						<Name>AftPowersource.out.u_mean_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a0a</Index>
-					<Name>BowFlap.out.P</Name>
+					<Name>AftPowersource.out.P</Name>
 					<Entry>
 						<Index>#x200a</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>BowFlap.out.P_S</Name>
+						<Name>AftPowersource.out.P_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x200a</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>BowFlap.out.P_V</Name>
+						<Name>AftPowersource.out.P_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a0b</Index>
-					<Name>AftFlap.out.Cycle_interval</Name>
+					<Name>AftInverter.out.SIGMA_I</Name>
 					<Entry>
 						<Index>#x200b</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>AftFlap.out.Cycle_interval_S</Name>
+						<Name>AftInverter.out.SIGMA_I_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x200b</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>AftFlap.out.Cycle_interval_V</Name>
+						<Name>AftInverter.out.SIGMA_I_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a14</Index>
-					<Name>AftFlap.out.Cycle_Check</Name>
+					<Index>#x1a0c</Index>
+					<Name>AftInverter.out.Cycle_Check</Name>
 					<Entry>
-						<Index>#x2014</Index>
+						<Index>#x200c</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>AftFlap.out.Cycle_Check_S</Name>
+						<Name>AftInverter.out.Cycle_Check_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2014</Index>
+						<Index>#x200c</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>AftFlap.out.Cycle_Check_V</Name>
+						<Name>AftInverter.out.Cycle_Check_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a15</Index>
-					<Name>AftFlap.out.Frequency</Name>
+					<Index>#x1a0d</Index>
+					<Name>AftInverter.out.Frequency</Name>
 					<Entry>
-						<Index>#x2015</Index>
+						<Index>#x200d</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>AftFlap.out.Frequency_S</Name>
+						<Name>AftInverter.out.Frequency_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2015</Index>
+						<Index>#x200d</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>AftFlap.out.Frequency_V</Name>
+						<Name>AftInverter.out.Frequency_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a16</Index>
-					<Name>AftFlap.out.I</Name>
+					<Index>#x1a11</Index>
+					<Name>AftInverter.out.SIGMA_U</Name>
 					<Entry>
-						<Index>#x2016</Index>
+						<Index>#x2011</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>AftFlap.out.I_S</Name>
+						<Name>AftInverter.out.SIGMA_U_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x2016</Index>
+						<Index>#x2011</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>AftFlap.out.I_V</Name>
-						<DataType>REAL</DataType>
-					</Entry>
-				</TxPdo>
-				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a17</Index>
-					<Name>AftFlap.out.U</Name>
-					<Entry>
-						<Index>#x2017</Index>
-						<SubIndex>1</SubIndex>
-						<BitLen>8</BitLen>
-						<Name>AftFlap.out.U_S</Name>
-						<DataType>USINT</DataType>
-					</Entry>
-					<Entry>
-						<Index>#x2017</Index>
-						<SubIndex>2</SubIndex>
-						<BitLen>32</BitLen>
-						<Name>AftFlap.out.U_V</Name>
-						<DataType>REAL</DataType>
-					</Entry>
-				</TxPdo>
-				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a18</Index>
-					<Name>AftFlap.out.i_mean</Name>
-					<Entry>
-						<Index>#x2018</Index>
-						<SubIndex>1</SubIndex>
-						<BitLen>8</BitLen>
-						<Name>AftFlap.out.i_mean_S</Name>
-						<DataType>USINT</DataType>
-					</Entry>
-					<Entry>
-						<Index>#x2018</Index>
-						<SubIndex>2</SubIndex>
-						<BitLen>32</BitLen>
-						<Name>AftFlap.out.i_mean_V</Name>
+						<Name>AftInverter.out.SIGMA_U_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
 					<Index>#x1a19</Index>
-					<Name>AftFlap.out.u_mean</Name>
+					<Name>AftInverter.out.P</Name>
 					<Entry>
 						<Index>#x2019</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>AftFlap.out.u_mean_S</Name>
+						<Name>AftInverter.out.P_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
 						<Index>#x2019</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>AftFlap.out.u_mean_V</Name>
+						<Name>AftInverter.out.P_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a1a</Index>
-					<Name>AftFlap.out.P</Name>
+					<Index>#x1a1d</Index>
+					<Name>AftInverter.out.S</Name>
 					<Entry>
-						<Index>#x201a</Index>
+						<Index>#x201d</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>8</BitLen>
-						<Name>AftFlap.out.P_S</Name>
+						<Name>AftInverter.out.S_S</Name>
 						<DataType>USINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x201a</Index>
+						<Index>#x201d</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>32</BitLen>
-						<Name>AftFlap.out.P_V</Name>
+						<Name>AftInverter.out.S_V</Name>
 						<DataType>REAL</DataType>
 					</Entry>
 				</TxPdo>
 				<TxPdo Fixed="true" Mandatory="true" Sm="3">
-					<Index>#x1a1b</Index>
+					<Index>#x1a21</Index>
+					<Name>AftInverter.out.Q</Name>
+					<Entry>
+						<Index>#x2021</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>AftInverter.out.Q_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2021</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>AftInverter.out.Q_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a24</Index>
+					<Name>AftInverter.out.lambda</Name>
+					<Entry>
+						<Index>#x2024</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>AftInverter.out.lambda_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2024</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>AftInverter.out.lambda_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a26</Index>
+					<Name>AftInverter.out.Min_fund_frequency</Name>
+					<Entry>
+						<Index>#x2026</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>AftInverter.out.Min_fund_frequency_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2026</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>AftInverter.out.Min_fund_frequency_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a2c</Index>
+					<Name>AftInverter.out.phi_u1</Name>
+					<Entry>
+						<Index>#x202c</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>AftInverter.out.phi_u1_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x202c</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>AftInverter.out.phi_u1_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a32</Index>
+					<Name>AftInverter.out.SIGMA_I_fund</Name>
+					<Entry>
+						<Index>#x2032</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>AftInverter.out.SIGMA_I_fund_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2032</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>AftInverter.out.SIGMA_I_fund_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a33</Index>
+					<Name>AftInverter.out.Min_fundrms_frequency</Name>
+					<Entry>
+						<Index>#x2033</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>AftInverter.out.Min_fundrms_frequency_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2033</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>AftInverter.out.Min_fundrms_frequency_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a37</Index>
+					<Name>AftInverter.out.SIGMA_U_fund</Name>
+					<Entry>
+						<Index>#x2037</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>AftInverter.out.SIGMA_U_fund_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2037</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>AftInverter.out.SIGMA_U_fund_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a3b</Index>
+					<Name>BowInverter.out.SIGMA_I</Name>
+					<Entry>
+						<Index>#x203b</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.SIGMA_I_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x203b</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.SIGMA_I_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a3c</Index>
+					<Name>BowInverter.out.SIGMA_U</Name>
+					<Entry>
+						<Index>#x203c</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.SIGMA_U_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x203c</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.SIGMA_U_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a3d</Index>
+					<Name>BowPowersource.out.Cycle_Check</Name>
+					<Entry>
+						<Index>#x203d</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowPowersource.out.Cycle_Check_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x203d</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowPowersource.out.Cycle_Check_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a3e</Index>
+					<Name>BowPowersource.out.Frequency</Name>
+					<Entry>
+						<Index>#x203e</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowPowersource.out.Frequency_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x203e</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowPowersource.out.Frequency_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a3f</Index>
+					<Name>BowPowersource.out.I</Name>
+					<Entry>
+						<Index>#x203f</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowPowersource.out.I_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x203f</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowPowersource.out.I_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a40</Index>
+					<Name>BowPowersource.out.U</Name>
+					<Entry>
+						<Index>#x2040</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowPowersource.out.U_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2040</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowPowersource.out.U_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a41</Index>
+					<Name>BowPowersource.out.i_mean</Name>
+					<Entry>
+						<Index>#x2041</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowPowersource.out.i_mean_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2041</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowPowersource.out.i_mean_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a42</Index>
+					<Name>BowPowersource.out.u_mean</Name>
+					<Entry>
+						<Index>#x2042</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowPowersource.out.u_mean_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2042</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowPowersource.out.u_mean_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a43</Index>
+					<Name>BowPowersource.out.P</Name>
+					<Entry>
+						<Index>#x2043</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowPowersource.out.P_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2043</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowPowersource.out.P_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a45</Index>
+					<Name>BowInverter.out.Cycle_Check</Name>
+					<Entry>
+						<Index>#x2045</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.Cycle_Check_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2045</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.Cycle_Check_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a46</Index>
+					<Name>BowInverter.out.Frequency</Name>
+					<Entry>
+						<Index>#x2046</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.Frequency_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2046</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.Frequency_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a52</Index>
+					<Name>BowInverter.out.P</Name>
+					<Entry>
+						<Index>#x2052</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.P_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2052</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.P_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a56</Index>
+					<Name>BowInverter.out.S</Name>
+					<Entry>
+						<Index>#x2056</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.S_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2056</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.S_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a5a</Index>
+					<Name>BowInverter.out.Q</Name>
+					<Entry>
+						<Index>#x205a</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.Q_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x205a</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.Q_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a5b</Index>
+					<Name>BowInverter.out.lambda</Name>
+					<Entry>
+						<Index>#x205b</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.lambda_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x205b</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.lambda_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a5f</Index>
+					<Name>BowInverter.out.Min_fund_frequency</Name>
+					<Entry>
+						<Index>#x205f</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.Min_fund_frequency_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x205f</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.Min_fund_frequency_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a63</Index>
+					<Name>BowInverter.out.phi_u1</Name>
+					<Entry>
+						<Index>#x2063</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.phi_u1_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2063</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.phi_u1_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a69</Index>
+					<Name>BowInverter.out.SIGMA_I_fund</Name>
+					<Entry>
+						<Index>#x2069</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.SIGMA_I_fund_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x2069</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.SIGMA_I_fund_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a6a</Index>
+					<Name>BowInverter.out.SIGMA_U_fund</Name>
+					<Entry>
+						<Index>#x206a</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.SIGMA_U_fund_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x206a</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.SIGMA_U_fund_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a6c</Index>
+					<Name>BowInverter.out.Min_fundrms_frequency</Name>
+					<Entry>
+						<Index>#x206c</Index>
+						<SubIndex>1</SubIndex>
+						<BitLen>8</BitLen>
+						<Name>BowInverter.out.Min_fundrms_frequency_S</Name>
+						<DataType>USINT</DataType>
+					</Entry>
+					<Entry>
+						<Index>#x206c</Index>
+						<SubIndex>2</SubIndex>
+						<BitLen>32</BitLen>
+						<Name>BowInverter.out.Min_fundrms_frequency_V</Name>
+						<DataType>REAL</DataType>
+					</Entry>
+				</TxPdo>
+				<TxPdo Fixed="true" Mandatory="true" Sm="3">
+					<Index>#x1a6d</Index>
 					<Name>Remote Control (Tx)</Name>
 					<Entry>
-						<Index>#x201b</Index>
+						<Index>#x206d</Index>
 						<SubIndex>1</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Command</Name>
 						<DataType>UINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x201b</Index>
+						<Index>#x206d</Index>
 						<SubIndex>2</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Recorder</Name>
 						<DataType>UINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x201b</Index>
+						<Index>#x206d</Index>
 						<SubIndex>3</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Channel</Name>
 						<DataType>UINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x201b</Index>
+						<Index>#x206d</Index>
 						<SubIndex>4</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>Value</Name>
 						<DataType>UINT</DataType>
 					</Entry>
 					<Entry>
-						<Index>#x201b</Index>
+						<Index>#x206d</Index>
 						<SubIndex>5</SubIndex>
 						<BitLen>16</BitLen>
 						<Name>ReturnCode</Name>
@@ -639,6 +1114,17 @@
 					<Data>1100</Data>
 					<Retries>3</Retries>
 					<Timeout>5000</Timeout>
+				</InitCmd>
+				<InitCmd>
+					<Transition>SI</Transition>
+					<Transition>OI</Transition>
+					<Comment><![CDATA[clear DC activation]]></Comment>
+					<Requires>cycle</Requires>
+					<Cmd>2</Cmd>
+					<Adp>0</Adp>
+					<Ado>2432</Ado>
+					<Data>0000</Data>
+					<Retries>3</Retries>
 				</InitCmd>
 				<InitCmd>
 					<Transition>PI</Transition>
@@ -820,6 +1306,50 @@
 					<Retries>3</Retries>
 				</InitCmd>
 				<InitCmd>
+					<Transition>PS</Transition>
+					<Comment><![CDATA[set DC cycle time]]></Comment>
+					<Requires>cycle</Requires>
+					<Cmd>5</Cmd>
+					<Adp>1001</Adp>
+					<Ado>2464</Ado>
+					<Data>40420f0000000000</Data>
+					<Cnt>1</Cnt>
+					<Retries>3</Retries>
+				</InitCmd>
+				<InitCmd>
+					<Transition>PS</Transition>
+					<Comment><![CDATA[set DC start time]]></Comment>
+					<Requires>cycle</Requires>
+					<Cmd>5</Cmd>
+					<Adp>1001</Adp>
+					<Ado>2448</Ado>
+					<Data>0000000000000000</Data>
+					<Cnt>1</Cnt>
+					<Retries>3</Retries>
+				</InitCmd>
+				<InitCmd>
+					<Transition>PS</Transition>
+					<Comment><![CDATA[set DC activation]]></Comment>
+					<Requires>cycle</Requires>
+					<Cmd>5</Cmd>
+					<Adp>1001</Adp>
+					<Ado>2432</Ado>
+					<Data>3003</Data>
+					<Cnt>1</Cnt>
+					<Retries>3</Retries>
+				</InitCmd>
+				<InitCmd>
+					<Transition>IP</Transition>
+					<Transition>PP</Transition>
+					<Comment><![CDATA[clear DC activation]]></Comment>
+					<Requires>cycle</Requires>
+					<Cmd>5</Cmd>
+					<Adp>1001</Adp>
+					<Ado>2432</Ado>
+					<Data>0000</Data>
+					<Retries>3</Retries>
+				</InitCmd>
+				<InitCmd>
 					<Transition>SP</Transition>
 					<Transition>OP</Transition>
 					<Comment><![CDATA[set device state to PREOP]]></Comment>
@@ -860,7 +1390,7 @@
 					<Cmd>5</Cmd>
 					<Adp>1001</Adp>
 					<Ado>2072</Ado>
-					<Data>7514680060000100</Data>
+					<Data>7514e50060000100</Data>
 					<Cnt>1</Cnt>
 					<Retries>3</Retries>
 				</InitCmd>
@@ -891,7 +1421,7 @@
 					<Cmd>5</Cmd>
 					<Adp>1001</Adp>
 					<Ado>1568</Ado>
-					<Data>00100001680000077514000101000000</Data>
+					<Data>00100001e50000077514000101000000</Data>
 					<Cnt>1</Cnt>
 					<Retries>3</Retries>
 				</InitCmd>
@@ -940,6 +1470,17 @@
 					<Adp>1001</Adp>
 					<Ado>1568</Ado>
 					<Data>00000000000000000000000000000000</Data>
+					<Retries>3</Retries>
+				</InitCmd>
+				<InitCmd>
+					<Transition>SP</Transition>
+					<Transition>OP</Transition>
+					<Comment><![CDATA[clear DC activation]]></Comment>
+					<Requires>cycle</Requires>
+					<Cmd>5</Cmd>
+					<Adp>1001</Adp>
+					<Ado>2432</Ado>
+					<Data>0000</Data>
 					<Retries>3</Retries>
 				</InitCmd>
 				<InitCmd>
@@ -1119,6 +1660,12 @@
 					</Validate>
 				</InitCmd>
 			</InitCmds>
+			<DC>
+				<ReferenceClock>true</ReferenceClock>
+				<CycleTime0>1000000</CycleTime0>
+				<CycleTime1>0</CycleTime1>
+				<ShiftTime>0</ShiftTime>
+			</DC>
 		</Slave>
 		<Slave>
 			<Info>
@@ -2285,7 +2832,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Cmd>5</Cmd>
 					<Adp>1003</Adp>
 					<Ado>2448</Ado>
-					<Data>60d0f7ffffffffff</Data>
+					<Data>50a9f7ffffffffff</Data>
 					<Cnt>1</Cnt>
 					<Retries>3</Retries>
 				</InitCmd>
@@ -2615,10 +3162,10 @@ Bit1: Value smaller than Limit2</Comment>
 				<PhysAddr>1002</PhysAddr>
 			</PreviousPort>
 			<DC>
-				<ReferenceClock>true</ReferenceClock>
+				<ReferenceClock>false</ReferenceClock>
 				<CycleTime0>1000000</CycleTime0>
 				<CycleTime1>25000</CycleTime1>
-				<ShiftTime>-536480</ShiftTime>
+				<ShiftTime>-546480</ShiftTime>
 			</DC>
 		</Slave>
 		<Slave>
@@ -4516,7 +5063,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Cmd>5</Cmd>
 					<Adp>1006</Adp>
 					<Ado>2448</Ado>
-					<Data>60d0f7ffffffffff</Data>
+					<Data>50a9f7ffffffffff</Data>
 					<Cnt>1</Cnt>
 					<Retries>3</Retries>
 				</InitCmd>
@@ -4849,7 +5396,7 @@ Bit1: Value smaller than Limit2</Comment>
 				<ReferenceClock>false</ReferenceClock>
 				<CycleTime0>1000000</CycleTime0>
 				<CycleTime1>25000</CycleTime1>
-				<ShiftTime>-536480</ShiftTime>
+				<ShiftTime>-546480</ShiftTime>
 			</DC>
 		</Slave>
 		<Slave>
@@ -6680,7 +7227,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<State>OP</State>
 					<Comment><![CDATA[cyclic cmd]]></Comment>
 					<Cmd>13</Cmd>
-					<Adp>65534</Adp>
+					<Adp>0</Adp>
 					<Ado>2320</Ado>
 					<DataLength>4</DataLength>
 					<InputOffs>32</InputOffs>
@@ -6725,7 +7272,7 @@ Bit1: Value smaller than Limit2</Comment>
 					<Comment><![CDATA[cyclic cmd]]></Comment>
 					<Cmd>12</Cmd>
 					<Addr>16781312</Addr>
-					<DataLength>104</DataLength>
+					<DataLength>229</DataLength>
 					<Cnt>3</Cnt>
 					<InputOffs>177</InputOffs>
 					<OutputOffs>177</OutputOffs>
@@ -6740,14 +7287,14 @@ Bit1: Value smaller than Limit2</Comment>
 					<Ado>304</Ado>
 					<DataLength>2</DataLength>
 					<Cnt>8</Cnt>
-					<InputOffs>293</InputOffs>
-					<OutputOffs>293</OutputOffs>
+					<InputOffs>418</InputOffs>
+					<OutputOffs>418</OutputOffs>
 				</Cmd>
 			</Frame>
 		</Cyclic>
 		<ProcessImage>
 			<Inputs>
-				<ByteSize>1670</ByteSize>
+				<ByteSize>1678</ByteSize>
 				<Variable>
 					<Name>Drive 4 (AMC).Module 1 (Default).PDO data from Slave.Status Word</Name>
 					<DataType>UINT</DataType>
@@ -7003,226 +7550,526 @@ Bit1: Value smaller than Limit2</Comment>
 					<BitOffs>1576</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Cycle_interval.BowFlap.out.Cycle_interval_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.Cycle_interval.AftPowersource.out.Cycle_interval_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1608</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Cycle_interval.BowFlap.out.Cycle_interval_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.Cycle_interval.AftPowersource.out.Cycle_interval_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1616</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Cycle_Check.BowFlap.out.Cycle_Check_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.Cycle_Check.AftPowersource.out.Cycle_Check_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1648</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Cycle_Check.BowFlap.out.Cycle_Check_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.Cycle_Check.AftPowersource.out.Cycle_Check_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1656</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Frequency.BowFlap.out.Frequency_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.Frequency.AftPowersource.out.Frequency_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1688</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.Frequency.BowFlap.out.Frequency_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.Frequency.AftPowersource.out.Frequency_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1696</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.I.BowFlap.out.I_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.I.AftPowersource.out.I_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1728</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.I.BowFlap.out.I_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.I.AftPowersource.out.I_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1736</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.U.BowFlap.out.U_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.U.AftPowersource.out.U_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1768</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.U.BowFlap.out.U_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.U.AftPowersource.out.U_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1776</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.i_mean.BowFlap.out.i_mean_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.i_mean.AftPowersource.out.i_mean_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1808</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.i_mean.BowFlap.out.i_mean_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.i_mean.AftPowersource.out.i_mean_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1816</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.u_mean.BowFlap.out.u_mean_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.u_mean.AftPowersource.out.u_mean_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1848</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.u_mean.BowFlap.out.u_mean_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.u_mean.AftPowersource.out.u_mean_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1856</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.P.BowFlap.out.P_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.P.AftPowersource.out.P_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1888</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).BowFlap.out.P.BowFlap.out.P_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftPowersource.out.P.AftPowersource.out.P_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1896</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_interval.AftFlap.out.Cycle_interval_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.SIGMA_I.AftInverter.out.SIGMA_I_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1928</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_interval.AftFlap.out.Cycle_interval_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.SIGMA_I.AftInverter.out.SIGMA_I_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1936</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_Check.AftFlap.out.Cycle_Check_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.Cycle_Check.AftInverter.out.Cycle_Check_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>1968</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Cycle_Check.AftFlap.out.Cycle_Check_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.Cycle_Check.AftInverter.out.Cycle_Check_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>1976</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Frequency.AftFlap.out.Frequency_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.Frequency.AftInverter.out.Frequency_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2008</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.Frequency.AftFlap.out.Frequency_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.Frequency.AftInverter.out.Frequency_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2016</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.I.AftFlap.out.I_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.SIGMA_U.AftInverter.out.SIGMA_U_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2048</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.I.AftFlap.out.I_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.SIGMA_U.AftInverter.out.SIGMA_U_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2056</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.U.AftFlap.out.U_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.P.AftInverter.out.P_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2088</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.U.AftFlap.out.U_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.P.AftInverter.out.P_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2096</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.i_mean.AftFlap.out.i_mean_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.S.AftInverter.out.S_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2128</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.i_mean.AftFlap.out.i_mean_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.S.AftInverter.out.S_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2136</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.u_mean.AftFlap.out.u_mean_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.Q.AftInverter.out.Q_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2168</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.u_mean.AftFlap.out.u_mean_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.Q.AftInverter.out.Q_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2176</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.P.AftFlap.out.P_S</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.lambda.AftInverter.out.lambda_S</Name>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
 					<BitOffs>2208</BitOffs>
 				</Variable>
 				<Variable>
-					<Name>Box 1 (GEN Series DAQ System).AftFlap.out.P.AftFlap.out.P_V</Name>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.lambda.AftInverter.out.lambda_V</Name>
 					<DataType>REAL</DataType>
 					<BitSize>32</BitSize>
 					<BitOffs>2216</BitOffs>
 				</Variable>
 				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.Min_fund_frequency.AftInverter.out.Min_fund_frequency_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2248</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.Min_fund_frequency.AftInverter.out.Min_fund_frequency_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2256</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.phi_u1.AftInverter.out.phi_u1_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2288</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.phi_u1.AftInverter.out.phi_u1_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2296</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.SIGMA_I_fund.AftInverter.out.SIGMA_I_fund_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2328</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.SIGMA_I_fund.AftInverter.out.SIGMA_I_fund_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2336</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.Min_fundrms_frequency.AftInverter.out.Min_fundrms_frequency_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2368</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.Min_fundrms_frequency.AftInverter.out.Min_fundrms_frequency_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2376</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.SIGMA_U_fund.AftInverter.out.SIGMA_U_fund_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2408</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).AftInverter.out.SIGMA_U_fund.AftInverter.out.SIGMA_U_fund_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2416</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.SIGMA_I.BowInverter.out.SIGMA_I_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2448</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.SIGMA_I.BowInverter.out.SIGMA_I_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2456</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.SIGMA_U.BowInverter.out.SIGMA_U_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2488</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.SIGMA_U.BowInverter.out.SIGMA_U_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2496</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.Cycle_Check.BowPowersource.out.Cycle_Check_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2528</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.Cycle_Check.BowPowersource.out.Cycle_Check_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2536</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.Frequency.BowPowersource.out.Frequency_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2568</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.Frequency.BowPowersource.out.Frequency_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2576</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.I.BowPowersource.out.I_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2608</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.I.BowPowersource.out.I_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2616</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.U.BowPowersource.out.U_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2648</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.U.BowPowersource.out.U_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2656</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.i_mean.BowPowersource.out.i_mean_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2688</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.i_mean.BowPowersource.out.i_mean_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2696</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.u_mean.BowPowersource.out.u_mean_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2728</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.u_mean.BowPowersource.out.u_mean_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2736</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.P.BowPowersource.out.P_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2768</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowPowersource.out.P.BowPowersource.out.P_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2776</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.Cycle_Check.BowInverter.out.Cycle_Check_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2808</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.Cycle_Check.BowInverter.out.Cycle_Check_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2816</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.Frequency.BowInverter.out.Frequency_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2848</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.Frequency.BowInverter.out.Frequency_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2856</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.P.BowInverter.out.P_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2888</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.P.BowInverter.out.P_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2896</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.S.BowInverter.out.S_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2928</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.S.BowInverter.out.S_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2936</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.Q.BowInverter.out.Q_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>2968</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.Q.BowInverter.out.Q_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>2976</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.lambda.BowInverter.out.lambda_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>3008</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.lambda.BowInverter.out.lambda_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>3016</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.Min_fund_frequency.BowInverter.out.Min_fund_frequency_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>3048</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.Min_fund_frequency.BowInverter.out.Min_fund_frequency_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>3056</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.phi_u1.BowInverter.out.phi_u1_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>3088</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.phi_u1.BowInverter.out.phi_u1_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>3096</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.SIGMA_I_fund.BowInverter.out.SIGMA_I_fund_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>3128</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.SIGMA_I_fund.BowInverter.out.SIGMA_I_fund_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>3136</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.SIGMA_U_fund.BowInverter.out.SIGMA_U_fund_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>3168</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.SIGMA_U_fund.BowInverter.out.SIGMA_U_fund_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>3176</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.Min_fundrms_frequency.BowInverter.out.Min_fundrms_frequency_S</Name>
+					<DataType>USINT</DataType>
+					<BitSize>8</BitSize>
+					<BitOffs>3208</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).BowInverter.out.Min_fundrms_frequency.BowInverter.out.Min_fundrms_frequency_V</Name>
+					<DataType>REAL</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>3216</BitOffs>
+				</Variable>
+				<Variable>
 					<Name>Box 1 (GEN Series DAQ System).Remote Control (Tx).Command</Name>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>2248</BitOffs>
+					<BitOffs>3248</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Box 1 (GEN Series DAQ System).Remote Control (Tx).Recorder</Name>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>2264</BitOffs>
+					<BitOffs>3264</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Box 1 (GEN Series DAQ System).Remote Control (Tx).Channel</Name>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>2280</BitOffs>
+					<BitOffs>3280</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Box 1 (GEN Series DAQ System).Remote Control (Tx).Value</Name>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>2296</BitOffs>
+					<BitOffs>3296</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Box 1 (GEN Series DAQ System).Remote Control (Tx).ReturnCode</Name>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>2312</BitOffs>
+					<BitOffs>3312</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Inputs.Frm0State</Name>
@@ -7467,6 +8314,18 @@ Bit1: Value smaller than Limit2</Comment>
 					<BitOffs>12400</BitOffs>
 				</Variable>
 				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).InfoData.DcOutputShift</Name>
+					<DataType>DINT</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>12464</BitOffs>
+				</Variable>
+				<Variable>
+					<Name>Box 1 (GEN Series DAQ System).InfoData.DcInputShift</Name>
+					<DataType>DINT</DataType>
+					<BitSize>32</BitSize>
+					<BitOffs>12496</BitOffs>
+				</Variable>
+				<Variable>
 					<Name>Term 2 (EK1100).InfoData.State</Name>
 					<Comment><![CDATA[0x___1 = Slave in 'INIT' state
 0x___2 = Slave in 'PREOP' state
@@ -7488,7 +8347,7 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>12464</BitOffs>
+					<BitOffs>12528</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 3 (EL3104).InfoData.State</Name>
@@ -7512,26 +8371,26 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>12480</BitOffs>
+					<BitOffs>12544</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 3 (EL3104).InfoData.AdsAddr</Name>
 					<Comment><![CDATA[Complete ADS address to access the slave (mailbox)]]></Comment>
 					<DataType>AMSADDR</DataType>
 					<BitSize>64</BitSize>
-					<BitOffs>12496</BitOffs>
+					<BitOffs>12560</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 3 (EL3104).InfoData.DcOutputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12560</BitOffs>
+					<BitOffs>12624</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 3 (EL3104).InfoData.DcInputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12592</BitOffs>
+					<BitOffs>12656</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 4 (AMC).InfoData.State</Name>
@@ -7555,33 +8414,33 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>12624</BitOffs>
+					<BitOffs>12688</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 4 (AMC).InfoData.AdsAddr</Name>
 					<Comment><![CDATA[Complete ADS address to access the slave (mailbox)]]></Comment>
 					<DataType>AMSADDR</DataType>
 					<BitSize>64</BitSize>
-					<BitOffs>12640</BitOffs>
+					<BitOffs>12704</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 4 (AMC).InfoData.Chn0</Name>
 					<Comment><![CDATA[Slave has a channel]]></Comment>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
-					<BitOffs>12704</BitOffs>
+					<BitOffs>12768</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 4 (AMC).InfoData.DcOutputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12712</BitOffs>
+					<BitOffs>12776</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 4 (AMC).InfoData.DcInputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12744</BitOffs>
+					<BitOffs>12808</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 5 (EK1100).InfoData.State</Name>
@@ -7605,7 +8464,7 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>12776</BitOffs>
+					<BitOffs>12840</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 6 (EL3154).InfoData.State</Name>
@@ -7629,26 +8488,26 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>12792</BitOffs>
+					<BitOffs>12856</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 6 (EL3154).InfoData.AdsAddr</Name>
 					<Comment><![CDATA[Complete ADS address to access the slave (mailbox)]]></Comment>
 					<DataType>AMSADDR</DataType>
 					<BitSize>64</BitSize>
-					<BitOffs>12808</BitOffs>
+					<BitOffs>12872</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 6 (EL3154).InfoData.DcOutputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12872</BitOffs>
+					<BitOffs>12936</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 6 (EL3154).InfoData.DcInputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>12904</BitOffs>
+					<BitOffs>12968</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 7 (EL3692).InfoData.State</Name>
@@ -7672,14 +8531,14 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>12936</BitOffs>
+					<BitOffs>13000</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Term 7 (EL3692).InfoData.AdsAddr</Name>
 					<Comment><![CDATA[Complete ADS address to access the slave (mailbox)]]></Comment>
 					<DataType>AMSADDR</DataType>
 					<BitSize>64</BitSize>
-					<BitOffs>12952</BitOffs>
+					<BitOffs>13016</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 8 (AMC).InfoData.State</Name>
@@ -7703,39 +8562,39 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13016</BitOffs>
+					<BitOffs>13080</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 8 (AMC).InfoData.AdsAddr</Name>
 					<Comment><![CDATA[Complete ADS address to access the slave (mailbox)]]></Comment>
 					<DataType>AMSADDR</DataType>
 					<BitSize>64</BitSize>
-					<BitOffs>13032</BitOffs>
+					<BitOffs>13096</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 8 (AMC).InfoData.Chn0</Name>
 					<Comment><![CDATA[Slave has a channel]]></Comment>
 					<DataType>USINT</DataType>
 					<BitSize>8</BitSize>
-					<BitOffs>13096</BitOffs>
+					<BitOffs>13160</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 8 (AMC).InfoData.DcOutputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>13104</BitOffs>
+					<BitOffs>13168</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>Drive 8 (AMC).InfoData.DcInputShift</Name>
 					<DataType>DINT</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>13136</BitOffs>
+					<BitOffs>13200</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.&lt;unreferenced&gt;.InfoData.ObjectId</Name>
 					<DataType>OTCID</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>13168</BitOffs>
+					<BitOffs>13232</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.&lt;unreferenced&gt;.InfoData.State</Name>
@@ -7755,20 +8614,20 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13200</BitOffs>
+					<BitOffs>13264</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.&lt;unreferenced&gt;.InfoData.SlaveCount</Name>
 					<Comment><![CDATA[Info data slave counter]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13216</BitOffs>
+					<BitOffs>13280</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.Task 2.InfoData.ObjectId</Name>
 					<DataType>OTCID</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>13232</BitOffs>
+					<BitOffs>13296</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.Task 2.InfoData.State</Name>
@@ -7788,20 +8647,20 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13264</BitOffs>
+					<BitOffs>13328</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.&lt;default&gt;.Task 2.InfoData.SlaveCount</Name>
 					<Comment><![CDATA[Info data slave counter]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13280</BitOffs>
+					<BitOffs>13344</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.SyncUnit1.&lt;unreferenced&gt;.InfoData.ObjectId</Name>
 					<DataType>OTCID</DataType>
 					<BitSize>32</BitSize>
-					<BitOffs>13296</BitOffs>
+					<BitOffs>13360</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.SyncUnit1.&lt;unreferenced&gt;.InfoData.State</Name>
@@ -7821,14 +8680,14 @@ Bit1: Value smaller than Limit2</Comment>
 ]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13328</BitOffs>
+					<BitOffs>13392</BitOffs>
 				</Variable>
 				<Variable>
 					<Name>SyncUnits.SyncUnit1.&lt;unreferenced&gt;.InfoData.SlaveCount</Name>
 					<Comment><![CDATA[Info data slave counter]]></Comment>
 					<DataType>UINT</DataType>
 					<BitSize>16</BitSize>
-					<BitOffs>13344</BitOffs>
+					<BitOffs>13408</BitOffs>
 				</Variable>
 			</Inputs>
 			<Outputs>
