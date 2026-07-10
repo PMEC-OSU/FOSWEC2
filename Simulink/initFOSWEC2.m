@@ -31,7 +31,7 @@ buildDir = fullfile('C:','simulink_code');
 tgName = 'performance4';
 
 %% === load excel gains =======================================
-excelFile = ['Z:\projects\2026\NAVFACOSWECS\docs\setup\ExcelGains\dampPer',num2str(wavePeriod),'.xlsx'];
+excelFile = ['Z:\projects\2026\NAVFACOSWECS\docs\setup\ExcelGains\dampPer',num2str(wavePeriod),'_20260701.xlsx'];
 ExcelGains = table2array(readtable(excelFile));  % read from excel spreadsheet gain values
 gainTstep = wavePeriod*10; % time between change in gains (s) (Represents the wave period times 20 waves)
 

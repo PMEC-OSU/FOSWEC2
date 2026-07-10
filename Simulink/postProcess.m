@@ -21,8 +21,8 @@ if(~exist('app','var'))
     % mdlName = 'LUPA';
     tgName = 'performance4';
     projectName = 'NAVFACOSWECS';
-    expname = 'DryRamps';
-    trialNumber = 1;
+    expname = '20260701_RandDampMan';
+    trialNumber = 2;
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     app = [];
 else
