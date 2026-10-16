@@ -51,7 +51,7 @@ set_param(mdlName,'LoadExternalInput','on');
 set_param(mdlName,'StopTime','Inf');
 tg = slrealtime();
 load_system(mdlName)
-eniPath = fullfile(pwd,'../TwinCAT/NAVFACOSWECSxml.xml');
+eniPath = fullfile(pwd,'EtherCAT/WECAUV5xml.xml');
 set_param([mdlName,'/Initialization/EtherCAT Init'],'config_file',eniPath);
 set_param(mdlName,'RTWVerbose','off')
 
