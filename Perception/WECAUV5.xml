@@ -294,325 +294,325 @@
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6659</Index>
-          <Name>AftFlap.out.Cycle_interval</Name>
+          <Name>Aft.out.Cycle_interval</Name>
           <Entry>
             <Index>8195</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftFlap.out.Cycle_interval_S</Name>
+            <Name>Aft.out.Cycle_interval_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8195</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftFlap.out.Cycle_interval_V</Name>
+            <Name>Aft.out.Cycle_interval_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6660</Index>
-          <Name>AftFlap.out.Cycle_Check</Name>
+          <Name>Aft.out.Cycle_Check</Name>
           <Entry>
             <Index>8196</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftFlap.out.Cycle_Check_S</Name>
+            <Name>Aft.out.Cycle_Check_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8196</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftFlap.out.Cycle_Check_V</Name>
+            <Name>Aft.out.Cycle_Check_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6661</Index>
-          <Name>AftFlap.out.Frequency</Name>
+          <Name>Aft.out.Frequency</Name>
           <Entry>
             <Index>8197</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftFlap.out.Frequency_S</Name>
+            <Name>Aft.out.Frequency_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8197</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftFlap.out.Frequency_V</Name>
+            <Name>Aft.out.Frequency_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6662</Index>
-          <Name>AftFlap.out.I</Name>
+          <Name>Aft.out.I</Name>
           <Entry>
             <Index>8198</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftFlap.out.I_S</Name>
+            <Name>Aft.out.I_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8198</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftFlap.out.I_V</Name>
+            <Name>Aft.out.I_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6663</Index>
-          <Name>AftFlap.out.U</Name>
+          <Name>Aft.out.U</Name>
           <Entry>
             <Index>8199</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftFlap.out.U_S</Name>
+            <Name>Aft.out.U_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8199</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftFlap.out.U_V</Name>
+            <Name>Aft.out.U_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6664</Index>
-          <Name>AftFlap.out.i_mean</Name>
+          <Name>Aft.out.i_mean</Name>
           <Entry>
             <Index>8200</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftFlap.out.i_mean_S</Name>
+            <Name>Aft.out.i_mean_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8200</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftFlap.out.i_mean_V</Name>
+            <Name>Aft.out.i_mean_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6665</Index>
-          <Name>AftFlap.out.u_mean</Name>
+          <Name>Aft.out.u_mean</Name>
           <Entry>
             <Index>8201</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftFlap.out.u_mean_S</Name>
+            <Name>Aft.out.u_mean_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8201</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftFlap.out.u_mean_V</Name>
+            <Name>Aft.out.u_mean_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6666</Index>
-          <Name>AftFlap.out.P</Name>
+          <Name>Aft.out.P</Name>
           <Entry>
             <Index>8202</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>AftFlap.out.P_S</Name>
+            <Name>Aft.out.P_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8202</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>AftFlap.out.P_V</Name>
+            <Name>Aft.out.P_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
           <Index>6667</Index>
-          <Name>BowFlap.out1.Cycle_interval</Name>
+          <Name>Bow.out.Cycle_interval</Name>
           <Entry>
             <Index>8203</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowFlap.out1.Cycle_interval_S</Name>
+            <Name>Bow.out.Cycle_interval_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
             <Index>8203</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowFlap.out1.Cycle_interval_V</Name>
+            <Name>Bow.out.Cycle_interval_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6676</Index>
-          <Name>BowFlap.out1.Cycle_Check</Name>
+          <Index>6668</Index>
+          <Name>Bow.out.Cycle_Check</Name>
           <Entry>
-            <Index>8212</Index>
+            <Index>8204</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowFlap.out1.Cycle_Check_S</Name>
+            <Name>Bow.out.Cycle_Check_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
-            <Index>8212</Index>
+            <Index>8204</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowFlap.out1.Cycle_Check_V</Name>
+            <Name>Bow.out.Cycle_Check_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6677</Index>
-          <Name>BowFlap.out1.Frequency</Name>
+          <Index>6669</Index>
+          <Name>Bow.out.Frequency</Name>
           <Entry>
-            <Index>8213</Index>
+            <Index>8205</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowFlap.out1.Frequency_S</Name>
+            <Name>Bow.out.Frequency_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
-            <Index>8213</Index>
+            <Index>8205</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowFlap.out1.Frequency_V</Name>
+            <Name>Bow.out.Frequency_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6678</Index>
-          <Name>BowFlap.out1.I</Name>
+          <Index>6670</Index>
+          <Name>Bow.out.I</Name>
           <Entry>
-            <Index>8214</Index>
+            <Index>8206</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowFlap.out1.I_S</Name>
+            <Name>Bow.out.I_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
-            <Index>8214</Index>
+            <Index>8206</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowFlap.out1.I_V</Name>
+            <Name>Bow.out.I_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6679</Index>
-          <Name>BowFlap.out1.U</Name>
+          <Index>6671</Index>
+          <Name>Bow.out.U</Name>
           <Entry>
-            <Index>8215</Index>
+            <Index>8207</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowFlap.out1.U_S</Name>
+            <Name>Bow.out.U_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
-            <Index>8215</Index>
+            <Index>8207</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowFlap.out1.U_V</Name>
+            <Name>Bow.out.U_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6680</Index>
-          <Name>BowFlap.out1.i_mean</Name>
+          <Index>6672</Index>
+          <Name>Bow.out.i_mean</Name>
           <Entry>
-            <Index>8216</Index>
+            <Index>8208</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowFlap.out1.i_mean_S</Name>
+            <Name>Bow.out.i_mean_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
-            <Index>8216</Index>
+            <Index>8208</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowFlap.out1.i_mean_V</Name>
+            <Name>Bow.out.i_mean_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6681</Index>
-          <Name>BowFlap.out1.u_mean</Name>
+          <Index>6673</Index>
+          <Name>Bow.out.u_mean</Name>
           <Entry>
-            <Index>8217</Index>
+            <Index>8209</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowFlap.out1.u_mean_S</Name>
+            <Name>Bow.out.u_mean_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
-            <Index>8217</Index>
+            <Index>8209</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowFlap.out1.u_mean_V</Name>
+            <Name>Bow.out.u_mean_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6682</Index>
-          <Name>BowFlap.out1.P</Name>
+          <Index>6674</Index>
+          <Name>Bow.out.P</Name>
           <Entry>
-            <Index>8218</Index>
+            <Index>8210</Index>
             <SubIndex>1</SubIndex>
             <BitLen>8</BitLen>
-            <Name>BowFlap.out1.P_S</Name>
+            <Name>Bow.out.P_S</Name>
             <DataType>USINT</DataType>
           </Entry>
           <Entry>
-            <Index>8218</Index>
+            <Index>8210</Index>
             <SubIndex>2</SubIndex>
             <BitLen>32</BitLen>
-            <Name>BowFlap.out1.P_V</Name>
+            <Name>Bow.out.P_V</Name>
             <DataType>REAL</DataType>
           </Entry>
         </TxPdo>
         <TxPdo Sm="3" Mandatory="true" Fixed="true">
-          <Index>6683</Index>
+          <Index>6675</Index>
           <Name>Remote Control (Tx)</Name>
           <Entry>
-            <Index>8219</Index>
+            <Index>8211</Index>
             <SubIndex>1</SubIndex>
             <BitLen>16</BitLen>
             <Name>Command</Name>
             <DataType>UINT</DataType>
           </Entry>
           <Entry>
-            <Index>8219</Index>
+            <Index>8211</Index>
             <SubIndex>2</SubIndex>
             <BitLen>16</BitLen>
             <Name>Recorder</Name>
             <DataType>UINT</DataType>
           </Entry>
           <Entry>
-            <Index>8219</Index>
+            <Index>8211</Index>
             <SubIndex>3</SubIndex>
             <BitLen>16</BitLen>
             <Name>Channel</Name>
             <DataType>UINT</DataType>
           </Entry>
           <Entry>
-            <Index>8219</Index>
+            <Index>8211</Index>
             <SubIndex>4</SubIndex>
             <BitLen>16</BitLen>
             <Name>Value</Name>
             <DataType>UINT</DataType>
           </Entry>
           <Entry>
-            <Index>8219</Index>
+            <Index>8211</Index>
             <SubIndex>5</SubIndex>
             <BitLen>16</BitLen>
             <Name>ReturnCode</Name>
